@@ -20,8 +20,8 @@ You don't need to be a shadowy super coder to help. Here are some ways in which 
 
 ### How to get involved
 
-- **Non-technical users** - Create a simple GitHub [issue](). *Please provide as much detail as possible about the change or update required*.
-- **Technical users** - Fork the project and complete the update via a [Pull Request](). *This is the preferred option as it takes far less of my own resources*.
+- **Non-technical users** - Create a simple GitHub [issue](https://github.com/BitcoinQnA/Bitcoiner.Guide/issues). *Please provide as much detail as possible about the change or update required*.
+- **Technical users** - Fork the project and complete the update via a [Pull Request](https://github.com/BitcoinQnA/Bitcoiner.Guide/pulls). *This is the preferred option as it takes far less of my own resources*.
 
 
 
