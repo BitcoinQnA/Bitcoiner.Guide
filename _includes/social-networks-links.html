@@ -72,6 +72,18 @@
   </li>
 {%- endif -%}
 
+{%- if site.social-network-links.nostr -%}
+  <li class="list-inline-item">
+    <a href="https://iris.to/{{ site.social-network-links.nostr }}" title="Nostr">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-sticky-note fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Nostr</span>
+   </a>
+  </li>
+{%- endif -%}
+
 {%- if site.social-network-links.twitter -%}
   <li class="list-inline-item">
     <a href="https://twitter.com/{{ site.social-network-links.twitter }}" title="Twitter">
@@ -335,5 +347,7 @@
    </a>
   </li>
 {%- endif -%}
+
+
 
 </ul>

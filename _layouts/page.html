@@ -17,6 +17,19 @@ layout: base
 
       {{ content }}
 
+      <script
+	src="/bundle.js"
+	// YOUR PUBKEY IN HEX FORMAT
+	data-website-owner-pubkey="a60e79e0edad5100d7543b669e513dbc1c2170e8e9b74fdb8e971afd1e0e6813"
+	// THE TYPE OF CHAT YOU WANT: GLOBAL or DMs
+	data-chat-type="DM" 
+	// If you use GLOBAL you can choose set a comma-separated list of hashtags
+	data-chat-tags="nostrica,bitcoin"
+	// Relays you'd like to use, change this this as you wish
+	data-relays="wss://relay.f7z.io,wss://nos.lol,wss://relay.nostr.info,wss://nostr-pub.wellorder.net,wss://relay.current.fyi,wss://relay.nostr.band"
+></script>
+<link rel="stylesheet" href="/bundle.css">
+
       {% if page.after-content %}
         <div class="after-content">
           {% for file in page.after-content %}

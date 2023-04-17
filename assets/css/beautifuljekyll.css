@@ -64,7 +64,7 @@ hr.small {
   max-width: 6.25rem;
   margin: 1rem auto;
   border-width: 0.25rem;
-  border-color: inherit;
+  border-color: #a0a0a0;
   border-radius: 0.1875rem;
 }
 
@@ -643,7 +643,7 @@ footer .footer-custom-content {
   background-size: cover;
   -o-background-size: cover;
   margin-top: 3.1875rem; /* The small navbar is 50px tall + 1px border */
-  margin-bottom: 2.1875rem;
+  margin-bottom: 0.5rem;
 }
 nav.top-nav-short-permanent ~ header > .intro-header {
   margin-top: 5rem;
@@ -672,11 +672,11 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header.big-img .post-heading {
   padding: 6.25rem 0;
   color: #FFF;
-  text-shadow: 1px 1px 3px #000;
+  text-shadow: 3px 3px 3px #000;
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 3.125rem;
+  font-size: 2.6rem;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
@@ -684,7 +684,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.6875rem;
+  font-size: 1.1875rem;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -696,7 +696,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
-  font-weight: 400;
+  font-weight: 800;
 }
 .intro-header.big-img .page-heading hr {
   box-shadow: 1px 1px 3px #000;
@@ -833,12 +833,12 @@ table {
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: #202226;
   margin: 0;
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #202226;
 }
 table tr th {
   font-weight: bold;
@@ -1047,13 +1047,13 @@ pre {
 }
 #nav-search-input {
   text-align: center;
-  background: #e7edee;
+  background: #23262a;
   margin: auto;
   display: block;
   font-size: 2rem;
   width: 50%;
   transition: width 300ms ease;
-  color: #222;
+  color: #a0a0a0;
   border-radius: 5rem;
   outline: none;
   border: none;
@@ -1076,13 +1076,13 @@ pre {
   }
 }
 #nav-search-input:focus {
-  background: #f3f8fe;
-  box-shadow: 0px 0.15rem 1rem #e7f4ff;
+  background: #23262a;
+  box-shadow: 0px 0.15rem 1rem #a0a0a0;
   outline: none;
 }
 
 #nav-search-input::placeholder {
-  color: #777;
+  color: #fff;
 }
 
 #search-results-container {
@@ -1117,4 +1117,82 @@ pre {
   #nav-search-text {
     display: inline-block;
   }
+}
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+.btn-primary {
+  color: #a0a0a0 !important;
+  font-weight: 600;
+  background-color: #26262a;
+  border-color: #a0a0a0 !important;
+}
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #f99925 !important;
+  border-color: #a0a0a0 !important;
+}
+.btn-primary:focus {
+  color: #fff !important;
+  background-color: #f99925 !important;
+  border-color: #a0a0a0 !important;
+}
+.btn-primary:active {
+  color: #fff !important;
+  background-color: #f99925 !important;
+  border-color: #a0a0a0 !important;
+}
+.btn-group-lg > .btn, .btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.5rem !important;
+  line-height: 1.5;
+  border-radius: 2rem;
+  border-color: #a0a0a0 !important;
+}
+@media (max-width: 450px) {
+  .btn-group-lg > .btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 0.9rem !important;
+    line-height: 1.5;
+    border-radius: 3rem;
+  }
+}
+.centered {
+  text-align: center;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+  border-top: 1px solid #23262a;
+}
+pre {
+  display: block;
+  font-size: 87.5%;
+  color: #a0a0a0 !important;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 99.9%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.p-5 {
+  padding: 1rem !important;
+}
+@media (max-width: 450px) {
+.intro-header .page-heading .page-subheading,
+.intro-header .post-heading .post-subheading {
+  font-size: 1.0875rem;
+  line-height: 1.1;
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0.625rem 0 0;
+ }
 }
