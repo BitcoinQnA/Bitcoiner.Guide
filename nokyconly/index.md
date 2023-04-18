@@ -111,7 +111,7 @@ We personally take this approach and have never waited for more than a day for s
 
 If you ever sell KYC bitcoin, depending on your jurisdiction, you will likely pay around 20% of your gain in Capital Gains Tax (or equivalent VAT/GST obligations). If you buy a 1 BTC at $10,000 and sell at $20,000, you are liable to pay around $2000 in taxes. 
 
-If you bought that same 1 BTC with a 4% premium over the $10,000 spot price you would have paid $10,400 for the same amount of sats and the only person who knows you own them is your trade counterparty. 
+If you bought that same 1 BTC with a 4% premium over the $10,000 spot price you would have paid $10,400 for the same amount of sats and the only person who knows you own them is your trade counterparty. You are still required to pay Capital Gains Tax (or equivalent), but it's highly unlikely that your trade counterparty is subject to KYC information obligations.
 
 
 ***
