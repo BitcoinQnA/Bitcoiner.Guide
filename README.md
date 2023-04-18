@@ -1,5 +1,7 @@
 ## Repository for all content found on Bitcoiner.Guide 
 
+![Bitcoiner.Guide](/assets/img/share50.png)
+
 I do my best to keep this site current and up to date, but Bitcoin moves pretty fast! Help to ensure the site is as accurate and informative as possible is hugely appreciated! 
 
 You don't need to be a shadowy super coder to help. Here are some ways in which you can get involved:
