@@ -10,7 +10,9 @@ tags: [books, test]
 
 I do my best to keep this site current and up to date, but Bitcoin moves pretty fast! Help to ensure the site is as accurate and informative as possible is hugely appreciated! 
 
-You don't need to be a shadowy super coder to help. Here are some ways in which you can get involved:
+The easiest way to get involved is to [cast your vote](/vote) on the next guide to be written for the site. The project or topic with the most sats backing them at the deadline wins! 
+
+Outside of that, you don't need to be a shadowy super coder to help. Here are some ways in which you can get involved:
 
 - Request a guide or topic that you think others might find useful
 - Passionate about a certain Bitcoin tool/topic but don't have your own site? I'd be happy to host your writing if it's appropriate
