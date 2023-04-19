@@ -25867,7 +25867,7 @@ zoo`.split('\n');
     	return {
     		c() {
     			h1 = element("h1");
-    			h1.textContent = "How would you like to connect?";
+    			h1.textContent = "How would you like to connect? If you don't have a Nostr account, choose Anonymous.";
     			t1 = space();
     			t2 = space();
     			if (if_block1) if_block1.c();

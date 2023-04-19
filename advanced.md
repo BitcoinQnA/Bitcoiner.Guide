@@ -20,6 +20,12 @@ share-img: https://bitcoiner.guide/assets/img/share.png
   </a>
 </p>
 
+[Your first Desktop Coinjoin](https://www.youtube.com/watch?v=6TcUY2yU41w) - Coinjoin your Bitcoin using Whirlpool in Sparrow Wallet. Video by BTCSessions.
+
+<p align="center">
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/6TcUY2yU41w" class=responsive title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 ## Run your own Node
 
 [Node Guide](/node) - Running a Bitcoin node is one of the most sovereign tasks a Bitcoiner can complete. Weigh up your options here.

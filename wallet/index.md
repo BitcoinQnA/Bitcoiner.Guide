@@ -37,9 +37,9 @@ There goes a famous saying amongst Bitcoiners, ***'not your keys, not your coins
 For feature consideration in this guide, a wallet must meet these base criteria.
 
   1.  Be non custodial
-  2.  Be open source
+  2.  Be source viewable (Open Source preferred of course)
   3.  Be actively maintained
-  4.  Be Bitcoin only or offer Bitcoin only firmware (*Hardware wallets*)
+  4.  Offer a Bitcoin focused option or firmware version (*Hardware wallets*)
   
 ***
 

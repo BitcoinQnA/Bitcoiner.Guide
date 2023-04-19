@@ -42,7 +42,7 @@ share-img: https://bitcoiner.guide/assets/img/share.png
 
 ## Listen to this podcast
 
-[Citadel Dispatch Ep.2](https://www.podpage.com/citadeldispatch/citadel-dispatch-e43-bitcoin-for-beginners-with-bitcoinq_a/) - Here I spend over 2 hours walking through practical tips for Bitcoin beginners.
+[Citadel Dispatch Ep.43](https://www.podpage.com/citadeldispatch/citadel-dispatch-e43-bitcoin-for-beginners-with-bitcoinq_a/) - Here I spend over 2 hours walking through practical tips for Bitcoin beginners.
 
 <p align="center">
   <a href="https://www.podpage.com/citadeldispatch/citadel-dispatch-e43-bitcoin-for-beginners-with-bitcoinq_a/" title="Citadel Dispatch Ep.43">

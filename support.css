@@ -67,7 +67,7 @@ body {
   line-height: 1.5;
   color: #aaa;
   text-align: left;
-  background-color: #00151a;
+  background-color: #24262a;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2568,13 +2568,13 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
   color: #fff;
   background-color: #282c2f;
-  border-color: #232628;
+  border-color: #f99925 !important;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
   background-color: #282c2f;
-  border-color: #232628;
+  border-color: #f99925 !important;
   box-shadow: 0 0 0 0.2rem rgba(88, 92, 96, 0.5);
 }
 
@@ -2588,7 +2588,7 @@ fieldset:disabled a.btn {
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #232628;
-  border-color: #1d1f22;
+  border-color: #f99925 !important;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -10389,7 +10389,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn {
-  border-color: rgba(0, 0, 0, 0.6);
+  border-color: #f99925;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
@@ -10802,4 +10802,12 @@ legend {
 
 .list-group-item-action:hover {
   background-color: #1c1e22;
+}
+.perk-zoom-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.95 !important;
 }
