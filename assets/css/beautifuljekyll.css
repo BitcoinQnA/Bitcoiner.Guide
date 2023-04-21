@@ -1145,7 +1145,7 @@ table {
 }
 .btn-group-lg > .btn, .btn-lg {
   padding: .5rem 1rem;
-  font-size: 1.3rem !important; 
+  font-size: 1.1rem !important; 
   line-height: 1.5;
   border-radius: 2rem;
   border-color: #a0a0a0 !important;
@@ -1183,7 +1183,7 @@ pre {
   margin-left: auto;
 }
 .p-5 {
-  padding: 1rem !important;
+  padding: 0.6rem !important;
 }
 @media (max-width: 450px) {
 .intro-header .page-heading .page-subheading,
