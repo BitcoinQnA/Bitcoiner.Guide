@@ -46,10 +46,9 @@ share-img: https://bitcoiner.guide/assets/img/share.png
 [Watchman Privacy Ep.58](https://watchmanprivacy.com/2023/03/22/58-bitcoin-privacy-returns-seth-for-privacy-bitcoinqna/) - A deep dive into Bitcoin privacy best practices.
 
 <p align="center">
-  <a href="https://watchmanprivacy.com/2023/03/22/58-bitcoin-privacy-returns-seth-for-privacy-bitcoinqna/" title="Watchman Privacy Podcast">
-    <img src="/assets/img/podcast.png" alt="Watchman Privacy Podcast" class=responsive width="250" height="280" maxheight="280" />
-  </a>
+<iframe width="100%" height="415" src="https://odysee.com/$/embed/@WatchmanPrivacy:1/BitcoinPrivacyReturns:7?r=517iNaDW7kPh9GgBrwTwphRni9vcZaHV" class=responsive title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
+
 
 ## Check out the Lightning Network
 

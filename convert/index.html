@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+
+    <title>Sat Converter</title>
+    <meta name="description" content="Convert satoshis to bitcoin, us dollar, euro, pound" />
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Sats Converter">
+    <meta itemprop="description" content="Convert satoshis to bitcoin, us dollar, euro, pound">
+    <meta itemprop="image" content="https://satsconverter.io/satsconverter.png">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="Sats Converter">
+    <meta name="twitter:description" content="Convert satoshis to bitcoin, us dollar, euro, pound">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:image:src" content="https://satsconverter.io/satsconverter.png">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Sats Converter" />
+    <meta property="og:type" content="page" />
+    <meta property="og:url" content="https://satsconverter.io/" />
+    <meta property="og:image" content="https://satsconverter.io/satsconverter.png" />
+    <meta property="og:description" content="Convert satoshis to bitcoin, us dollar, euro, pound" />
+    <meta http-equiv="onion-location" content="http://lq2thd4kcnqvbm6k47qkt2ctzrfd567ewqeowehgqbekesgvn4npcmid.onion/convert"
+    <meta property="og:site_name" content="Sats Converter" />
+
+    <link rel="icon" type="image/png" href="https://satsconverter.io/fav.png">
+    <link rel="stylesheet" href="css/politespace.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="satsconverter.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="satsconverter.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="satsconverter.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="satsconverter.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="satsconverter.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="satsconverter.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="satsconverter.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="satsconverter.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="satsconverter.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="satsconverter.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="satsconverter.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="satsconverter.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="satsconverter.ico/favicon-16x16.png">
+    <link rel="manifest" href="satsconverter.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="satsconverter.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+  </head>
+
+
+  <body>
+
+    <div id="container">
+      <img src="satsconverter-logo.svg" id="logo" alt="Sats Converter" />
+
+      <input class="value-input" id="input_sat" data-currency="sat"  data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'digits': 0, 'digitsOptional': false"  inputmode="decimal">
+      <label for="input_sat" class="value-label" id="sats-label">sat</label>
+
+      <input class="value-input bitcoin" id="input_btc" data-currency="btc"  data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'digits': 8, 'digitsOptional': true" value="1.00000000" inputmode="decimal">
+      <label for="input_btc" class="value-label">Bitcoin</label>
+
+      <input class="value-input" id="input_usd" data-currency="usd" data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'digits': 2, 'digitsOptional': false" inputmode="decimal">
+      <label for="input_btc" class="value-label">US Dollar</label>
+
+      <input class="value-input" id="input_eur" data-currency="eur" data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'digits': 2, 'digitsOptional': false" inputmode="decimal">
+      <label for="input_btc" class="value-label">Euro</label>
+
+      <input class="value-input" id="input_bgp" data-currency="gbp" data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'digits': 2, 'digitsOptional': false" inputmode="decimal">
+      <label for="input_btc" class="value-label">GB&nbsp;Pound</label>
+      
+      <input class="value-input" id="input_cad" data-currency="cad" data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'digits': 2, 'digitsOptional': false" inputmode="decimal">
+      <label for="input_btc" class="value-label">Canadian&nbsp;Dollar</label>
+      
+      <input class="value-input" id="input_rub" data-currency="rub" data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'digits': 2, 'digitsOptional': false" inputmode="decimal">
+      <label for="input_btc" class="value-label">Russian&nbsp;Rubble</label>
+      
+      <input class="value-input" id="input_chf" data-currency="chf" data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'digits': 2, 'digitsOptional': false" inputmode="decimal">
+      <label for="input_btc" class="value-label">Swiss&nbsp;Franc</label>
+      
+      <input class="value-input" id="input_cny" data-currency="cny" data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'digits': 2, 'digitsOptional': false" inputmode="decimal">
+      <label for="input_btc" class="value-label">Chinese&nbsp;Yuan</label>
+
+      <div class="footer">
+
+
+
+
+                    <script>if(!window.btcpay){    var head = document.getElementsByTagName('head')[0];   var script = document.createElement('script');   script.src='https://btcpay989117.lndyn.com/modal/btcpay.js';   script.type = 'text/javascript';   head.append(script);}function onBTCPayFormSubmit(event){    var xhttp = new XMLHttpRequest();    xhttp.onreadystatechange = function() {        if (this.readyState == 4 && this.status == 200) {            if(this.status == 200 && this.responseText){                var response = JSON.parse(this.responseText);                window.btcpay.showInvoice(response.invoiceId);            }        }    };    xhttp.open("POST", event.target.getAttribute('action'), true);    xhttp.send(new FormData( event.target ));}</script><style type="text/css"> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; } #btcpay-input-price::-webkit-outer-spin-button, #btcpay-input-price::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } </style>
+                    <form method="POST"  onsubmit="onBTCPayFormSubmit(event);return false"  action="https://btcpay989117.lndyn.com/api/v1/invoices" class="btcpay-form btcpay-form--block">
+                      <input type="hidden" name="storeId" value="ERVAn9xx7uhcPyEFSBdDazaNMwXQEYyshSyUdw1iiGtv" />
+                      <input type="hidden" name="jsonResponse" value="true" />
+                      <input type="hidden" name="price" value="10" />
+                      <input type="hidden" name="currency" value="USD" />
+                    <button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #fff;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#00151a">Support Pedro</span>
+                    </button></form>
+
+
+          <div id="satsfiats">
+            <span id="satsusd" class="satsfiat"></span> sats / USD
+            <br>
+            <span id="satseur" class="satsfiat"></span> sats / EUR
+            <br>
+            <span id="satsgbp" class="satsfiat"></span> sats / GBP
+            <br>
+            <span id="satscad" class="satsfiat"></span> sats per 1 CAD
+            <br>
+          <span id="satsrub" class="satsfiat"></span> sats per 1 RUB
+            <br>
+          <span id="satschf" class="satsfiat"></span> sats per 1 CHF
+            <br>
+          <span id="satscny" class="satsfiat"></span> sats per 1 CNY
+            <div>
+            <br>
+
+          Tool created by <a href="https://twitter.com/pedromvpg" target="_blank">Pedro</a> | Price source <a href="https://www.coingecko.com/en/api/documentation" target="_blank">coingecko.com/en/api</a>
+          <br>
+          <div>
+
+
+
+
+
+          </div>
+
+      </div>
+
+      <script src="js/jquery-3.5.1.min.js"></script>
+      <script src="js/inputmask.min.js"></script>
+      <script src="js/script.js"></script>
+
+    </div>
+
+  </body>
+</html>

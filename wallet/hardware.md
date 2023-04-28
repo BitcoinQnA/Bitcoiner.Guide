@@ -24,12 +24,11 @@ This type of set-up does come with additional hurdles that may be more difficult
 ### Table of Contents
 
 1.  [BitBox02](#bitbox02)
-2.  [Cobo Vault](#cobo-vault)
-3.  [Coldcard](#coldcard)
-4.  [Passport](#passport)
-5.  [Seed Signer](#seed-signer)
-6.  [Specter DIY](#specter-diy)
-7.  [Trezor](#trezor)
+2.  [Coldcard](#coldcard)
+3.  [Passport](#passport)
+4.  [Seed Signer](#seed-signer)
+5.  [Specter DIY](#specter-diy)
+6.  [Trezor](#trezor)
 
 ***
 
@@ -55,31 +54,6 @@ This type of set-up does come with additional hurdles that may be more difficult
 * [Documentation](https://guides.shiftcrypto.ch/bitbox02/)
 * [Telegram](https://t.me/bitboxwallet)
 * [Video](https://youtu.be/6D4FgJo3j64)
-
-***
-
-## Cobo Vault
-
-[Cobo Vault](https://cobo.com/hardware-wallet) offers three distinct options. The [Essential](https://shop.cobo.com/products/cobo-vault-essential), the [Pro](https://shop.cobo.com/products/cobo-vault) and the [Ultimate](https://shop.cobo.com/products/cobo-vault-ultimate). Their core functionality is the same but you can compare the differences [here](https://cobo.com/hardware-wallet/hardware-wallet-comparison). The Cobo Vault uses a true air gap operation, doing all transaction signing via QR codes and all firmware updates via SD card. The device works with most major desktop applications and allows the user to provide additional entropy when generating a seed which can then be saved via [Shamir](https://medium.com/cobo-vault/why-cobo-vault-implemented-shamir-backups-4665ae379396) backups. Users should ensure they install the Bitcoin only [firmware](https://cobo.com/hardware-wallet/downloads).
-
-<p align="center">
-<img src="/assets/img/Cobo%20Vault.png" class=responsive width="250" height="400" maxheight="300">
-</p>
-
-### Notable Features
-* Completely airgapped operation
-* Large touchscreen
-* PSBT
-* Good range of options for all types of user
-
-### Notable Limitations
-* Companion app (not required for use) cannot connect to own node 
-
-### Other Resources
-* [Codebase](https://github.com/CoboVault)
-* [Documentation](https://support.cobo.com/hc/en-us/articles/360045490014-Getting-started-in-5-steps)
-* [Telegram](https://t.me/CoboVault)
-* [Video](https://youtu.be/JnRjvZKulrA)
 
 ***
 
@@ -113,7 +87,7 @@ This type of set-up does come with additional hurdles that may be more difficult
 [Passport](https://foundationdevices.com/passport/details/) offers the perfect balance of security and usability. Passport comes with a simple user interface packaged in a beautifully designed and premium feeling body. Passport is another completely air-gapped device that enables the user to complete PSBTs using QR codes via its on-board camera or by the same SD card method Coldcard uses. Passport offers encrypted SD card backups, guided wallet connection and easy address verification. Passport is compatible with all major desktop wallet integrations.
 
 <p align="center">
-<img src="/assets/img/pp1.png" class=responsive width="250" height="350" maxheight="350">
+<img src="/assets/img/ppfrontback.png" class=responsive width="625" height="370" maxheight="370">
 </p>
 
 ### Notable Features
@@ -123,13 +97,13 @@ This type of set-up does come with additional hurdles that may be more difficult
 * Simple to operate
 
 ### Notable Limitations
-* Lacks the more advanced features of Coldcard
+* Lacks some features very advanced users may want
 
 ### Other Resources
-* [Codebase](https://github.com/Foundation-Devices/passport-firmware)
-* [Documentation](https://support.foundationdevices.com/)
+* [Codebase](https://github.com/Foundation-Devices/passport2/)
+* [Documentation](https://docs.foundationdevices.com/)
 * [Telegram](https://t.me/foundationdevices)
-* [Video](https://www.youtube.com/watch?v=bYeoCBAUDYs)
+* [Video](https://www.youtube.com/watch?v=rUGTWWUlCgU&list=PLacNs-EplMhZ7PCqpzUmX3oNxJwjaL0Kn&index=1)
 
 ***
 
