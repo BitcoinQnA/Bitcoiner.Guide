@@ -1,7 +1,7 @@
 body{
   font-family: 'Inter', sans-serif;
   color: #f99925;
-  background-color: #00151a;
+  background-color: #23262a;
   text-align: center;
   margin: 0px;
   min-height: 100vh;
@@ -37,7 +37,7 @@ a:link, a:visited, a:hover, a:active {
   margin-top: 1rem;
   padding: 0rem 0 0 0;
   padding-top: 0em;
-  background: #00151a;
+  background: #23262a;
   border: none;
   border-top: #111 0px solid;
   color: #f99925;
@@ -94,7 +94,7 @@ input[type=number] {
   margin-top: 1rem;
   padding: 37.5rem 0 0 0;
   padding-top: 3em;
-  background: #00151a;
+  background: #23262a;
   border: none;
   border-top: #111 0px solid;
   line-height: 1.2rem;
