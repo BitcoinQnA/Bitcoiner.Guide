@@ -308,7 +308,7 @@ Comes pre built with a Raspberry PI with a selection of 2,4 or 8GB ram, 1TB SSD 
 ## Start9 Server
 
 
-The [Start9 Personal Servers](https://store.start9labs.com/collections/embassy) is a Raspberry Pi or Purism Intel node with a focus on making setup and interaction a frictionless as possible. By running one of these as your own personal server, you can do more than just be a Bitcoin node. 
+A [Start9 Personal Server](https://store.start9labs.com/collections/embassy) is a Raspberry Pi or Purism Intel node with a focus on making setup and interaction a frictionless as possible. By running one of these as your own personal server, you can do more than just be a Bitcoin node. 
 
 <p align="center">
 <img src="/assets/img/Embassy-Evolution_360x.png" class=responsive width="300" height="250" maxheight="250">
