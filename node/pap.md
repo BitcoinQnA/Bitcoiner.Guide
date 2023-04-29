@@ -26,7 +26,7 @@ Plug and Play node boxes offer a convenient way to run your own node. Most run o
 2.  [Nodl One](#nodl-one)
 3.  [Nodl Dojo](#nodl-dojo)
 4.  [RaspiBlitz](#raspiblitz)
-5.  [Start9 Embassy](#start9-embassy)
+5.  [Start9 Server](#start9)
 6.  [Build-A-Node](#build-a-node)
 7.  [The Bitcoin Machine](#the-bitcoin-machine)
 8.  [BTC Cube](#btc-cube)
@@ -48,7 +48,7 @@ Plug and Play node boxes offer a convenient way to run your own node. Most run o
 |                                     | 299€ (4GB)                         |
 |                                     | 369€ (8GB)                         |
 |                                     | 379€ (4GB) w/ terminal style case  |
-| [Start9 Embassy](#start9-embassy)   | $239                               |
+| [Start9](#start9)                   | $499 (8GB Pi), $1799 Pro (x86)     |
 | [Build-A-Node](#build-a-node)       | From $410                          |
 | [The Bitcoin Machine](#the-bitcoin-machine)       | From $199            |
 | [BTC Cube](#btc-cube)       | From $679.95            |
@@ -305,10 +305,10 @@ Comes pre built with a Raspberry PI with a selection of 2,4 or 8GB ram, 1TB SSD 
 ***
 
 
-## Start9 Embassy
+## Start9 Server
 
 
-The [Embassy One](https://store.start9labs.com/collections/embassy/products/embassy-one) is a new node implementation with a focus on making setup and interaction a frictionless as possible. The Embassy is limited in features but is working towards becoming your own personal server that does more than just be a Bitcoin node. 
+The [Start9 Personal Servers](https://store.start9labs.com/collections/embassy) is a Raspberry Pi or Purism Intel node with a focus on making setup and interaction a frictionless as possible. By running one of these as your own personal server, you can do more than just be a Bitcoin node. 
 
 <p align="center">
 <img src="/assets/img/Embassy-Evolution_360x.png" class=responsive width="300" height="250" maxheight="250">
@@ -317,9 +317,11 @@ The [Embassy One](https://store.start9labs.com/collections/embassy/products/emba
 
 ### Features
 
-* Cups encrypted messaging
+* Bitcoin
+* Lighting: CLN, LND, RTL and much more
 * Bitwarden password manager
-* File browser
+* NextCloud
+* NOSTR
 * Remote Tor access
 * Web based UI
 * Matrix chat
@@ -327,15 +329,17 @@ The [Embassy One](https://store.start9labs.com/collections/embassy/products/emba
 
 ### Ease of setup
 
-Once you receive the device, connect the hardware and power it on. Inside the setup app, enter your product key and then create your password. You can now log in and start installing and using the available services.
+Once you receive the device, connect the hardware and power it on. Visit the web-UI in a browser and create your password. You can now log in and start installing and using the available services.
 
 ### Limitations
 
-No hard drive, all storage is done via an SD card which can be unstable. Runs in 'pruned' mode so importing existing wallets is not possible.
+Backups are currently manually performed via the web-UI.  
 
 ### Cost
 
-* $364
+* $499 for Raspi 8GB w/ 1TB SSD
+* $1799 for Purism Intel i7 with IME-stripped firmware
+* [DIY](https://docs.start9.com/latest/diy/index) is free
 
 ### Recommended Hardware
 
@@ -346,7 +350,7 @@ Comes pre built with a Raspberry Pi 4GB.
 * [Codebase](https://github.com/Start9Labs)
 * [Telegram](https://t.me/start9_labs)
 * [Guide Page](https://docs.start9labs.com/)
-* [Setup Video](https://www.youtube.com/watch?v=YMStLevc034)
+* [Setup Video](https://www.youtube.com/watch?v=HI9WDq0tWm4)
 
 ***
 
