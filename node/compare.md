@@ -30,7 +30,7 @@ tags: [books, test]
 | [RoninDojo](h/node/diy/#ronindojo)             | Odroid N2, RockPro 64 and RPi    | Electrs         | None      | Whirlpool  | Yes            | Yes             | Yes  |
 | [RaspiBlitz](/node/pap/#raspiblitz)            | RPi 4                            | Electrs         | LND       | JoinMarket | Yes            | Yes            | No   |
 | [RaspiBlitz DIY](/node/diy/#raspiblitz)        | RPi 3 and RPi 4                  | Electrs         | LND       | JoinMarket | Yes            | Yes            | No   |
-| [Start9 Labs Embassy](/node/pap/#start9-embassy)   | RPi 4                            | None            | LND+C-Lightning      | None       | No            | No             | No   |
+| [Start9](/node/pap/#start9)                    | RPi 4, x86_64, VM                | Electrs         | LND+CLN   | JoinMarket | Yes            | No             | No   |
 | [Umbrel](/node/diy/#umbrel)                | RPi 4 and VM                     | Electrs         | LND       | Whirlpool       | Yes            | Yes             | Yes   |
 
 ***
