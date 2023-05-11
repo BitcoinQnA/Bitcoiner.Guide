@@ -9,7 +9,7 @@ share-img: https://bitcoiner.guide/assets/img/stack-duo.png
   <a href="#features">Highlights</a> |
   <a href="#download-stack-duo">Installation</a> |
   <a href="#initial-set-up">Initial setup</a> |
-  <a href="#automatic-back-up-and-restore">Feature Showcase</a> |
+  <a href="#backup-your-wallets">Features Showcase</a> |
   <a href="#learn-more-about-stack-duo">Relevant Links</a> |
   <br><br>
 </p>
@@ -35,6 +35,7 @@ Highlights include:
 - SegWit support
 - Custom address book
 - Easy backup and restore feature
+- Themes
 - Open source software
 
 ## Download Stack Duo 
@@ -42,7 +43,7 @@ Highlights include:
 Download Stack Duo for your chosen operating system
 - [iOS](https://apps.apple.com/us/app/stack-duo-by-cypher-stack/id6446602017)
 - [Google Playstore](https://play.google.com/store/search?q=Stack%20Duo&c=apps) 
-- [APK](https://github.com/cypherstack/stack_wallet/releases) 
+- [APK](https://github.com/cypherstack/stack_duo/releases) 
 - [F-Droid](https://fdroid.stackwallet.com/) 
 - [M1 Mac](https://apps.apple.com/gb/app/stack-duo-by-cypher-stack/id6446602017)
 
@@ -57,19 +58,19 @@ Easy Crypto will enable a third party app called CoinGecko to track prices. On t
 CoinGecko is a popular cryptocurrency market data platform that provides information on thousands of digital assets. While the platform itself is not inherently malicious, having it run in the background could potentially expose users to privacy risks depending on the app's implementation and data management practices. 
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-25.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-initial-setup-01.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 You will now create a pin code to access your Stack Duo. This password is specific to Stack Duo and has nothing to do with the underlying wallet seeds.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-03.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-initial-setup-02.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 Welcome to Stack Duo!
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-04.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-initial-setup-03.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 ## Connect to your Node – *Optional Step* 
@@ -79,14 +80,14 @@ Stack Duo enables you to connect to your own node, if possible it is highly reco
 - In the top-right corner press `Settings` > `Manage Nodes` > `Bitcoin Nodes` > `+`.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-44.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-node-01.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 - Insert the local IP of your node. 
-*Note that if you have a RoninDojo, you cannot connect locally as such and will have to connect over Tor.*
+*Note that if you have a RoninDojo, you cannot connect locally as such and will have to connect over Tor. However, Tor is not yet available natively on Stack Duo.*
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-45.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-node-02.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 
@@ -97,19 +98,19 @@ Once Stack Duo is connected to your node, go back to the home page and add your 
 `Home` > `Add Wallet` > `Bitcoin` > `Create new Wallet`.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-26.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-wallet-01.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
-You are asked to name our wallet because Stack Duo allows more than one wallet per cryptocurrency. For instance, you could have different wallets such as non-KYC, daily spending or Hodl. You can also roll the dice for a random name.
+You are asked to name your wallet because Stack Duo allows more than one wallet per cryptocurrency. For instance, you could have different wallets such as non-KYC, daily spending and Hodl. You can also roll the dice for a random name.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-13.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-wallet-02.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 You will be shown a warning page before Stack Duo reveals your 24 recovery words. Tick the white box on the bottom left of your screen after reading the instructions.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-14.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-wallet-03.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 Take note of your recovery/seed phrase in the correct order. This is the key to your funds, do not show it to anyone else and keep it safe. 
@@ -117,24 +118,23 @@ Take note of your recovery/seed phrase in the correct order. This is the key to 
 In the next page, you will be asked to select one random word from the list. Select the correct word associated with the number on your screen.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-24.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-wallet-04.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
-That's it! You have created a brand new (or restored) Bitcoin wallet in Stack duo! 
+That's it! You have created a brand new Bitcoin wallet in Stack duo! You will notice that your home page is now different and displays your favourite and active wallets.
 
 ## Receive a transaction
-
-- Back to your home page, select the wallet you wish to receive sats to. 
+- Back to your new home page, select the wallet you wish to receive sats to. 
 - Click `receive` on the bottom left corner.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-23.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-receive-01.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 - Like any great wallets, you can generate a new address each time you receive a transaction. You can share the address or QR code with whoever is sending you bitcoin.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-22.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-receive-02.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 ## Send a transaction 
@@ -145,46 +145,70 @@ That's it! You have created a brand new (or restored) Bitcoin wallet in Stack du
 - On the bottom of the screen, click `Send`. 
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-33.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-send-01.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 - You can paste the address, scan a QR code or select an address in your address book (more on that later).
+- Insert the amount of sats you wish to send.
 - Give the transaction a note.
 - Select the transaction fee.
 - Preview and confirm your transaction.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-32.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-send-02.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 
-## Automatic back up and restore 
+## Backup your wallets
 
-Stack Duo Backup is a convenience feature that makes it simple and easy to restore all of your wallets at once. You can decide to either back up automatically your wallet locally into an encrypted file or manually back your wallet up. 
+Stack Duo Backup is a convenience feature that makes it simple and easy to restore all of your wallets at once. You can decide to either back up automatically your wallets locally into an encrypted file or manually back your wallets up. 
 
-**If you are on iOS, it is important to store this file locally and not on iCloud!** 
+**If you are on iOS, it is necessary to store this file locally and not on iCloud!** 
 - Go out of Stack duo and navigate to `Settings`, scroll down until you find Stack Duo in the list of apps on your iPhone.
 - Click on `Document Storage`
 - Select `On my iPhone`
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-43.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-backup-01.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 
-- Back to Stack Duo, navigate to your `Settings` > `Stack backup & Restore` > `Enter your Pin` > `Auto Backup`.
+- Back to Stack Duo, navigate to your `Settings` > `Stack backup & restore` > `Enter your pin` > `Auto backup`.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-41.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-backup-02.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
-- Toggle on Auto Back
-- Click on the folder icon and select the place where you would like to store the encrypted file
-- Enter a secure passphrase – **THIS MUST BE INSERTED WHEN YOU RESTORE YOUR WALLET, KEEP IT SAFE**
-- Select the frequency of the auto back up
+- Toggle on Auto Backup.
+- Click on the folder icon and select the place where you would like to store the encrypted files.
+- Enter a secure passphrase – **THIS MUST BE INSERTED WHEN YOU RESTORE YOUR WALLET, KEEP IT SAFE.**
+- Select the frequency of the auto back up: every 10 minutes, every app start or after closing a wallet.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-40.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-backup-03.png" class="responsive" style="max-width: 100%; height: auto;" />
+</p>
+
+## Restore your wallets
+
+If you followed the previous step, you will now have the possibility to restore all your wallets (if you backed them up) in one convenient process. Note that this backup only works in Stack Duo/Wallet!
+
+- Go to your `Settings`
+- `Stack backup & restore`
+- `Restore backup`
+- Select the latest auto backup file or latest manual backup file. The file should be named: `stackautobackup.swb` or `stackbackup.swb`.
+- Enter the same passphrase you had entered when setting up the backup file.
+
+<p align="center">
+  <img src="/assets/img/stack-duo-restore-01.png" class="responsive" style="max-width: 100%; height: auto;" />
+</p>
+
+- Let Stack Duo decrypt the file.
+- You should see all the wallets that were backed up appearing at the bottom of your screen.
+- Click `OK` 
+- Go back to the home screen, you might have to refresh or close the app to see your wallets re-appear.
+
+<p align="center">
+  <img src="/assets/img/stack-duo-restore-02.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 ## UTXO Management 
@@ -195,13 +219,13 @@ Within the Bitcoin network, transactions are comprised of inputs and outputs. In
 Go to the `Settings` > `Advanced` and toggle on `Coin control`. 
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-46.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-utxo-01.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 Furtermore, Stack Duo allows you to freeze certain UTXOs that might compromise your privacy. By freezing certain UTXOs, users can better control which addresses are linked to their transactions, making it more difficult for third parties to trace their transaction history or associate addresses with a single user.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-47.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-utxo-02.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 Stack Duo wrote an extensive guide on Coin Control, learn more [here.](https://stackwallet.com/2023/04/28/coin-control-guide-for-stack-wallet.html)
@@ -211,16 +235,17 @@ A PayNym, sometimes referred to as a payment code, serves as a method to enhance
 
 As a result, even if someone is closely observing the blockchain, associating transactions with a particular user becomes significantly more challenging due to each transaction possessing a unique address.
 
-- Select your wallet 
-- Click on `More`> `PayNym`
+- Select your wallet. 
+- On the bottom right, click on `More` > `PayNym.`
+- This will ask you to generate a new PayNym.
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-48.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-paynym-01.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 You can now share this PayNym, QR code or address to other people and not have to manual generate new addresses. This is a big step forward for your privacy! 
 
-What's more, you can follow PayNym in Stack Duo to simplify transactions to PayNym friends, family or[here’s mine](https://paynym.is/+BQA), feel free to connect…
+What's more, you can follow other PayNyms in Stack Duo to simplify transactions to friends, family or [here’s mine](https://paynym.is/+BQA), feel free to connect…
 
 <p align="center">
 <img src="/assets/img/BQA.png" class=responsive width="300" height="300" maxheight="300" />
@@ -229,17 +254,19 @@ What's more, you can follow PayNym in Stack Duo to simplify transactions to PayN
 ## Address Book 
 An address book is a feature that allows users to store and organize Bitcoin addresses, usually by associating them with names or labels. This makes it easier for users to manage their transactions and identify recipients without having to memorize or manually track the long alphanumeric Bitcoin addresses.
 
-However, address books encourage users to reuse the same Bitcoin addresses for multiple transactions, which can compromise privacy. It is **highly** recommended to use a new address for each transaction to make it harder for third parties to link transactions to a specific user. It will soon be possible to add PayNym addresses to the address book, which is a big leap in convenience and privacy. Stay tuned!
+However, address books encourage users to reuse the same Bitcoin addresses for multiple transactions, which can compromise privacy. It is **highly** recommended to use a new address for each transaction to make it harder for third parties to link transactions to a specific user. 
+
+*It will soon be possible to add PayNym addresses to the address book, which is a big leap in convenience and privacy. Stay tuned!*
 
 <p align="center">
-  <img src="/assets/img/stack-duo-initial-setup-49.png" class="responsive" style="max-width: 100%; height: auto;" />
+  <img src="/assets/img/stack-duo-address-book-01.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
 ## Multi Wallet Support
 
 With Stack Duo, users can generate both Bitcoin and Monero seeds in one convenient location. There's no need to stick to just one wallet per cryptocurrency - Stack Duo allows for multiple wallets for each type. Just make sure to back up each recovery key individually for added security.
 
-On the home page, click the `Add New` symbol and either add a Bitcoin or Monero wallet.
+On the home page, click on `Add New` and either add a Bitcoin or Monero wallet.
 
 <p align="center">
   <img src="/assets/img/stack-duo-multi-wallet.png" class="responsive" style="max-width: 100%; height: auto;" />
@@ -251,13 +278,17 @@ Stack Duo collaborates with third-party exchange providers, such as [Majestic ba
 
 Stack Duo charges a small fee along with their third-party exchange providers for using the integrated exchange service. However, for regular Bitcoin and Monero transactions, all fees are paid to the blockchain miners.
 
+<p align="center">
+  <img src="/assets/img/stack-duo-swap.png" class="responsive" style="max-width: 100%; height: auto;" />
+</p>
+
 ### Learn more about Stack Duo
 
 #### The team
 
 The team behind Stack Wallet/Duo are UI/UX designers who believe that access to efficient tools should be intuitive for people to adopt them. Scrappy user-interfaces are an obstacle to Bitcoin onboarding and adoption for the vast majority of people.
 
-> "What people don't realize about design is when we make bad design that forces people to struggle with how to use things and how this thing works and how they can accomplish their goals, we are stealing human life with our bad design decisions." – Diego from Stack Duo
+> "What people don't realize about design is when we make bad design that forces people to struggle with how to use things ... we are stealing human life." – Diego from Stack Duo
 
 #### Podcast appereance
 Ungovernable Misfits had the chance to discuss with Diego from Stack Wallet. In this conversation, Diego talks about the possibility of Stack Wallet Duo enabling Whirlpool usage for users in the near future. He also shares the difficulties faced in integrating privacy features such as Tor on Apple devices. Find the episode [here](https://www.youtube.com/watch?v=51V391htvRg&pp=ygUQU3RhY2sgV2FsbGV0IER1bw%3D%3D).
