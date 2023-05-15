@@ -75,7 +75,7 @@ Welcome to Stack Duo!
 
 ## Connect to your Node – *Optional Step* 
 
-Stack Duo enables you to connect to your own node, if possible it is highly recommended to do so. If you don't have a node, then skip this step. 
+Stack Duo allows local connections to Electrum servers, if possible it is highly recommended to do so. If you don't have a node, then skip this step. 
 
 - In the top-right corner press `Settings` > `Manage Nodes` > `Bitcoin Nodes` > `+`.
 
