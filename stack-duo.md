@@ -3,14 +3,14 @@ layout: page
 title: Stack Duo
 subtitle: User-friendly mobile wallet with PayNyms
 #cover-img: /assets/img/path.jpg
-share-img: https://bitcoiner.guide/assets/img/stack-duo.png
+share-img: /assets/img/sharestackduo.png
 ---
 <p align="center">
   <a href="#features">Highlights</a> |
   <a href="#download-stack-duo">Installation</a> |
   <a href="#initial-set-up">Initial setup</a> |
   <a href="#backup-your-wallets">Features</a> |
-  <a href="#learn-more-about-stack-duo">Links</a> |
+  <a href="#learn-more-about-stack-duo">Links</a> 
   <br><br>
 </p>
 
