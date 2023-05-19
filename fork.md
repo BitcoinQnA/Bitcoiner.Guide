@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modify Open-Source Projects
-subtitle: Beginner friendly guide to open-source projects
+subtitle: Beginner friendly guide to Open Source projects
 #cover-img: /assets/img/path.jpg
 share-img: https://bitcoiner.guide/assets/img/SHARE_IMAGE_BY_QNA.png
 ---
@@ -12,7 +12,7 @@ share-img: https://bitcoiner.guide/assets/img/SHARE_IMAGE_BY_QNA.png
 
 # How to Fork an Open Source Project
 
-Diving into open-source software might feel like jumping into the deep end if you're new to it. But don't worry, we've got you covered! With this guide, we will break down the each aspect of the process. Using Bitcoiner.Guide as our playground, we will walk you through the process of writing an article and pitching changes to be added into the main project.
+Diving into Open Source software might feel like jumping into the deep end if you're new to it. But don't worry, we've got you covered! With this guide, we will break down each aspect of the process. Using Bitcoiner.Guide as our playground, we will walk you through the process of writing an article and pitching changes to be added into the main project.
 
 ## Step 1: Setting Up a GitHub Account and Installing Necessary Tools
 
@@ -21,7 +21,7 @@ Let's ensure you have all the necessary tools installed on your computer.
 
 1. **A GitHub Account**: An account on GitHub is needed to fork the project and submit your changes. If you don't have one yet, create an account on [https://github.com](https://github.com).
 
-2. **Git**: Git is a version control system that lets developers track and manage changes to their code. It's essential for working with GitHub. Download and install it from [https://git-scm.com](https://git-scm.com).
+2. **Git**: Git is a version control system that lets developers track and manage changes to their code. It's essential for working with GitHub. Git is pre-installed on lots of machines. To check, open your terminal and type `git -v`. If it's installed, then this will return the Git version. If not visit this [guide](https://github.com/git-guides/install-git).
 
 3. **Visual Studio Code**: This is a versatile text editor with built-in features that make working with Git easier. Download it from [https://code.visualstudio.com](https://code.visualstudio.com).
 
@@ -74,6 +74,7 @@ Now, we need to get a copy of the project on your computer, or "clone" it.
   <img src="/assets/img/fork-step-03-00.jpg" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
+{:start="3"}
 3. Open Visual Studio Code.
 4. Click on the "Source Control" button on the left panel.
 5. Click on "Clone Repository".
@@ -83,6 +84,7 @@ Now, we need to get a copy of the project on your computer, or "clone" it.
   <img src="/assets/img/fork-step-03-01.jpg" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
+{:start="7"}
 7. When asked to select a directory, navigate to your desktop and click "Select Repository Location".
 
 <p align="center">
@@ -91,7 +93,7 @@ Now, we need to get a copy of the project on your computer, or "clone" it.
 
 ## Step 4: Creating a New Branch
 
-Creating a new branch for your changes is a good practice in collaborative projects, including open-source. Working on a different branch allows you to isolate your changes from the main project (often called the "main" or "master" branch).
+Creating a new branch for your changes is a good practice in collaborative projects, including Open Source. Working on a different branch allows you to isolate your changes from the main project (often called the "main" or "master" branch).
 
 1. Click on the branch name at the bottom left of the screen (it should be `master` or `main`).
 2. In the dialog box that pops up, select `Create new branch`.
@@ -113,6 +115,7 @@ Let's run Bitcoiner.Guide on your computer.
   <img src="/assets/img/fork-step-05-01.jpg" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
+{:start="2"}
 2. Run `bundle install` to install the necessary Ruby gems for the project.
 3. Run `bundle exec jekyll serve` to start a local server. 
 4. You can now view the site at [http://localhost:4000](http://localhost:4000).
@@ -133,6 +136,7 @@ It's time to modify the project. We will add a new article called "Foundation De
   <img src="/assets/img/fork-step-06-01.jpg" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
+{:start="2"}
 2. At the top of the file, add the following metadata:
 
 ```yaml
@@ -143,9 +147,12 @@ subtitle: Sovereign computing company
 ---
 ```
 
-- Start writing your article below the metadata. For example: 
+{:start="3"}
+3. Start writing your article below the metadata. For example: 
 
-> Foundation Devices is a hardware company that builds Bitcoin-centric tools that empower you to reclaim your digital sovereignty. They aimed to build a different kind of hardware company with an emphasis on open source and local manufacturing. This starts with Passport and Envoy – but they are just getting started!
+> Foundation Devices is a hardware company that builds Bitcoin-centric tools that empower you to reclaim your digital sovereignty. They aimed to build a different kind of hardware company with an emphasis on Open Source and local manufacturing. This starts with Passport and Envoy – but they are just getting started!
+
+Articles on Bitcoiner.Guide use **Markdown Formatting**. Markdown is a lightweight markup language for creating formatted text. If you want to learn how to bold text, create lists and more, here is an excellent [guide](https://www.markdownguide.org/basic-syntax).
 
 To include images in your article:
 1. First, upload the image to the `assets > img`  directory in your project.
@@ -154,6 +161,7 @@ To include images in your article:
   <img src="/assets/img/fork-step-06-02.jpg" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
+{:start="2"}
 2. You can then use the following syntax to include images:
 
 ```
@@ -162,6 +170,7 @@ To include images in your article:
 </p>
 ```
 
+{:start="3"}
 3. Replace `your-image-file-name.jpg` with the name of your image file. 
 4. Save the file with `CMD+S` or `CTRL+S`. 
 5. Back to your browser, navigate to `http://localhost:4000/foundation-devices` 
@@ -174,7 +183,7 @@ layout: page
 title: Foundation Devices
 subtitle: Sovereign computing company
 ---
-Foundation Devices is a hardware company that builds Bitcoin-centric tools that empower you to reclaim your digital sovereignty. They aimed to build a different kind of hardware company with an emphasis on open source and local manufacturing. This starts with Passport and Envoy – but they are just getting started!
+Foundation Devices is a hardware company that builds Bitcoin-centric tools that empower you to reclaim your digital sovereignty. They aimed to build a different kind of hardware company with an emphasis on Open Source and local manufacturing. This starts with Passport and Envoy – but they are just getting started!
 
 <p align="center">
   <img src="/assets/img/foundation-devices-images.jpg" class="responsive" style="max-width: 100%; height: auto;" />
@@ -200,6 +209,7 @@ Let's save your changes and upload them to GitHub.
   <img src="/assets/img/fork-step-07-01.jpg" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
+{:start="3"}
 3. Enter a commit message in the text box at the top, such as "Added Foundation Devices article", and press `Ctrl+Enter` or `Cmd+Enter` on a Mac.
 4. Click on the three dots at the top of the Source Control view and select "Push" to upload your changes to GitHub.
 
@@ -223,6 +233,7 @@ Finally, let's propose your changes to be incorporated into the original project
   <img src="/assets/img/fork-step-08-01.jpg" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
+{:start="4"}
 4. Ensure the "base repository" is BitcoinQnA/Bitcoiner.Guide and the "head repository" is YOUR_GITHUB_USERNAME/Bitcoiner.Guide
 5. Click "Create pull request".
 6. Enter a title and description for your changes.
@@ -232,7 +243,7 @@ Finally, let's propose your changes to be incorporated into the original project
   <img src="/assets/img/fork-step-08-02.jpg" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
-Congratulations! You have successfully forked Bitcoiner.Guide, made a contribution, and opened a pull request. The project's maintainer, in this case BitcoinQnA, will review your changes. He may accept them as they are, request changes, or discuss them with you. 
+Congratulations! You have successfully forked Bitcoiner.Guide, made a contribution, and opened a pull request. The project's maintainer, in this case QnA, will review your changes. He may accept them as they are, request changes, or discuss them with you. 
 
 # Optional Steps 
 ## Step 9: Making Additional Changes After Creating a Pull Request
@@ -269,6 +280,9 @@ When you fork a project, you create a snapshot of that project at a specific poi
 
 # Conclusion
 
-Contributing to open-source projects like Bitcoiner.Guide can seem intimidating, especially for beginners. However, this comprehensive guide provides all the necessary steps and tools you'll need to confidently fork a project, make changes, and submit a pull request.
+Contributing to Open Source projects like Bitcoiner.Guide can seem intimidating, especially for beginners. However, this comprehensive guide provides all the necessary steps and tools you'll need to confidently fork a project, make changes, and submit a pull request.
 
-Remember, open-source contribution is not just about coding; it's about collaboration, learning, sharing, and improving. So don't be deterred if things don't go perfectly the first time. With practice, you'll become more comfortable with the process. Every contribution, no matter how small, is valuable.
+Remember, Open Source contribution is not just about coding; it's about collaboration, learning, sharing, and improving. So don't be deterred if things don't go perfectly the first time. With practice, you'll become more comfortable with the process. Every contribution, no matter how small, is valuable.
+
+#### About the writer
+Hi, I'm Bitlevi! I crystallise what I learn on my journey to sovereignty by writing about Bitcoin and FOSS tools. Feel free to message me on [Twitter](https://twitter.com/Bit_levi) or visit my [website](https://www.bitlevi.com/). If you enjoyed this guide and would like to donate, here is my [PayNym](https://paynym.is/+shinyfrost520)!
