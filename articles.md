@@ -73,6 +73,7 @@ tags: [node, wallet, security, privacy, nokyc]
 
 | Name                             | Category | Description                                                     |  Published                             |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
+| [RoboSats Lightning P2P Exchange](/robosats)   | no-KYC  | Guide for purchasing P2P sats via Lightning using RoboSats  |  22 May 2023            |
 | [Creating A Buy Offer On  Hodl Hodl](/hodlhodloffer)  | no-KYC  |  Guide for creating a buy offer using Hodl Hodl | 11 Sep 2020               |
 | [10 Steps To Your First no-KYC Bitcoin (Hodl Hodl)](/hodlhodl)    | Getting Bitcoin  | Guide for purchasing bitcoin on Hodl Hodl | 04 Aug 2020         |
 | [10 Steps To Your First no-KYC Bitcoin](/bisq) | Getting Bitcoin  | Guide for purchasing bitcoin on Bisq      | 08 Jun 2020                            |
