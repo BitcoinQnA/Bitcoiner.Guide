@@ -71,7 +71,7 @@ Given these risks it seems logical that step 1 of your Bitcoin privacy journey s
 
 - **Vouchers**
   - [Azteco](https://azte.co/index.php#intro)
-  - [Bull Bitcoin](https://azte.co/index.php#intro](https://www.bullbitcoin.com/blog/bull-bitcoin-launches-no-kyc-bitcoin-purchases-with-cash-or-debit)
+  - [Bull Bitcoin](https://www.bullbitcoin.com/blog/bull-bitcoin-launches-no-kyc-bitcoin-purchases-with-cash-or-debit)
   
 - **Misc**
   - [Earn it](https://www.lopp.net/bitcoin-information/buying-earning.html#earning)
