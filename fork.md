@@ -3,7 +3,7 @@ layout: page
 title: Modify Open-Source Projects
 subtitle: Beginner friendly guide to Open Source projects
 #cover-img: /assets/img/path.jpg
-share-img: https://bitcoiner.guide/assets/img/SHARE_IMAGE_BY_QNA.png
+share-img: https://bitcoiner.guide/assets/img/shareopensource.png
 ---
 
 <p align="center">

@@ -22,7 +22,7 @@ Outside of that, you don't need to be a shadowy super coder to help. Here are so
 
 ### How to get involved
 
-Contributing to open-source projects like Bitcoiner.Guide can seem intimidating, especially for beginners but it doesn't have to be. This [comprehensive guide](/fork) provides all the necessary steps and tools you will need to confidently fork a project, make changes and submit these. 
+Contributing to open-source projects like Bitcoiner.Guide can seem intimidating, especially for beginners but it doesn't have to be. This [comprehensive guide](/fork) by Bitlevi provides all the necessary steps and tools you will need to confidently fork a project, make changes and submit these. 
 
 **Every contribution, no matter how small, is valuable.**
 

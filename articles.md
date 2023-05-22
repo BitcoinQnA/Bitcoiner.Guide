@@ -12,7 +12,8 @@ tags: [node, wallet, security, privacy, nokyc]
   <a href="#nodes">Nodes</a> |
   <a href="#security">Security</a> |
   <a href="#privacy">Privacy</a> |
-  <a href="#no-kyc">no-KYC</a>
+  <a href="#no-kyc">no-KYC</a> |
+  <a href="#misc">Misc</a>
   <br><br>
 </p>
 
@@ -78,3 +79,10 @@ tags: [node, wallet, security, privacy, nokyc]
 | [10 Steps To Your First no-KYC Bitcoin (Hodl Hodl)](/hodlhodl)    |  Guide for purchasing bitcoin on Hodl Hodl | 04 Aug 2020         |
 | [10 Steps To Your First no-KYC Bitcoin](/bisq) |  Guide for purchasing bitcoin on Bisq      | 08 Jun 2020                            |
 
+<br/>
+
+# Misc 
+
+| Name                             |  Description                                                     |  Published                             |
+|----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
+| [How To Fork an Open Source Project](/fork)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on contributing to FOSS projects  | 23 May 2023 |
