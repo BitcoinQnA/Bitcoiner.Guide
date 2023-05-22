@@ -22,12 +22,9 @@ Outside of that, you don't need to be a shadowy super coder to help. Here are so
 
 ### How to get involved
 
+Contributing to open-source projects like Bitcoiner.Guide can seem intimidating, especially for beginners but it doesn't have to be. This [comprehensive guide](/fork) provides all the necessary steps and tools you will need to confidently fork a project, make changes and submit these. 
+
+**Every contribution, no matter how small, is valuable.**
+
 - **Non-technical users** - Create a simple GitHub [issue](https://github.com/BitcoinQnA/Bitcoiner.Guide/issues). *Please provide as much detail as possible about the change or update required*.
 - **Technical users** - Fork the project and complete the update via a [Pull Request](https://github.com/BitcoinQnA/Bitcoiner.Guide/pulls). *This is the preferred option as it takes far less of my own resources*.
-
-
-
-
-
-
-
