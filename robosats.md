@@ -3,7 +3,7 @@ layout: page
 title: RoboSats
 subtitle: A simple and private Lightning based P2P exchange
 #cover-img: /assets/img/path.jpg
-share-img: https://bitcoiner.guide/assets/img/sharerobosats.png
+share-img: https://bitcoiner.guide/assets/img/sharerobosats1.png
 ---
 <p align="center">
   <a href="#what-is-robosats">Intro</a> |
