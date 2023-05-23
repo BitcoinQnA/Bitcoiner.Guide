@@ -267,7 +267,7 @@ There are no restrictions on payment methods in RoboSats. If you don't see any o
 #### What does RoboSats learn about me when I use it?
 Providing you use RoboSats via Tor or the Android app, nothing at all! Learn more [here.](https://learn.robosats.com/docs/private/)
 
-- Tor prevents your network privacy.
+- Tor protects your network privacy.
 - PGP encryption keeps your trade chat private.
 - No accounts means one Robot per trade. This means RoboSats can't correlate multiple trades to a single entity.
 
