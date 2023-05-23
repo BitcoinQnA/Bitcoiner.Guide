@@ -308,12 +308,6 @@ See RoboSats in action with these awesome video guides by [BTC Sessions](https:/
 
 RoboSats is completely Open-Source. You can find the code source [here](https://github.com/RoboSats/robosats) and their extensive documentation [here](https://learn.robosats.com/)
 
-Use RoboSats by any of the following methods: 
-- [Tor](http://robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion/)
-- [Clearnet](https://unsafe.robosats.com/) (*Not recommended!*)
-- [Android APK](https://github.com/RoboSats/robosats/releases/latest)
-- [Your own client](#run-your-own-robosats-client)
-
 If you have any questions or feedback, get involved via these options:
 - [Telegram](https://t.me/robosats)
 - [Reddit](https://reddit.com/r/robosats)
