@@ -1,5 +1,5 @@
 ---
-layout: contributor
+layout: page
 title: Stack Duo
 subtitle: User-friendly mobile wallet with PayNyms
 #cover-img: /assets/img/path.jpg
