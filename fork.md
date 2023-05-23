@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contributor
 title: Modify Open-Source Projects
 subtitle: Beginner friendly guide to Open Source projects
 #cover-img: /assets/img/path.jpg
@@ -286,3 +286,15 @@ Remember, Open Source contribution is not just about coding; it's about collabor
 
 #### About the writer
 Hi, I'm Bitlevi! I crystallise what I learn on my journey to sovereignty by writing about Bitcoin and FOSS tools. Feel free to message me on [Twitter](https://twitter.com/Bit_levi) or visit my [website](https://www.bitlevi.com/). If you enjoyed this guide and would like to donate, here is my [PayNym](https://paynym.is/+shinyfrost520)!
+
+***
+
+<div class="centered">
+       <button
+      id="nostr-zap-target"
+      data-npub="npub1mthuwux9lg5u654vhdzyukhnlj2tt0mhtm5kqupl6rca53qgtwcqq4jrx5"
+      data-relays=""
+    >
+      Tip Contributor ⚡️
+    </button>
+  </div>
