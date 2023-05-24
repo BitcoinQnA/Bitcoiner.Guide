@@ -29,14 +29,14 @@ Additionally, your personal information is now stored on the exchange's server, 
 ## So what's the alternative?
 Buying Bitcoin [noKYConly!](/nokyconly) 
 
-There are many ways to obtain Bitcoin without providing all of your details to a company that may or may not know how to secure data properly. I have guides on using peer-to-peer markets like [Bisq](/bisq) and [HodlHodl](/hodlhodl), but one of the new kids on the European noKYC block is Peach Bitcoin.
+There are many ways to obtain Bitcoin without providing all of your details to a company that may or may not know how to secure data properly. I have guides on using peer-to-peer markets like [Bisq](/bisq), [HodlHodl](/hodlhodl) and [Robosats](/robosats), but one of the new kids on the European noKYC block is Peach Bitcoin.
 
 <p align="center">
 <img src="/assets/img/NKYC2.png" class=responsive width="300" height="230" maxheight="300" />
 </p>
 
 ## What is Peach Bitcoin?
-Peach Bitcoin is a novel mobile application that facilitates peer-to-peer transactions, allowing users to buy and sell Bitcoin directly without intermediaries. With its focus on user privacy and security, Peach stands out from other platforms as it does not require to Know Your Customer (KYC) compliance.
+Peach Bitcoin is a novel closed source mobile application that facilitates peer-to-peer transactions, allowing users to buy and sell Bitcoin directly without intermediaries. With its focus on user privacy and security, Peach stands out from major KYC exchanges such as Coinbase or Binance as it does not require to Know Your Customer (KYC) compliance.
 
 The need for a platform like Peach Bitcoin stems from a growing demand for privacy in Bitcoin. Traditional exchanges often require extensive KYC procedures, which deter individuals who value their privacy. Furthermore, the process can be time-consuming and complex, creating a barrier to entry for many newcomers. By eliminating the need for KYC, Peach Bitcoin offers a more accessible and user-friendly alternative.
 
@@ -47,11 +47,11 @@ Here is an overview of how Peach operates:
 
 1. **Buying and Selling Bitcoin**: Users can list their Bitcoin for sale or browse listings to buy Bitcoin directly from other users. Once they agree on a price, the transaction begins without delay.
 
-2. **Escrow System**: Peach employs a secure 2 of 2 multi-signature escrow transaction system that assures the safety of all transactions. When a seller agrees to sell, the Bitcoin is moved into an escrow account, and both the seller and Peach must sign to transfer the Bitcoin, ensuring the highest level of security during the transaction process.
+2. **Escrow System**: Peach employs a secure 2 of 2 multi-signature escrow transaction system that assures the safety of all transactions for all parties. When making a sell offer, the seller sends the bitcoin to an address controlled by them and Peach: the bitcoin can only be moved from here if they and Peach both sign off on it. 
 
 3. **Payment and Release of Bitcoin**: The buyer sends the agreed fiat currency payment directly to the seller through the agreed-upon payment method. Once the seller confirms receipt of the payment, sats are released and moved to the buyer's wallet in self-custody.
 
-4. **Dispute Resolution**: Peach can step in as a mediator if a dispute arises between the buyer and seller. If the parties cannot resolve the dispute, Peach staff will intervene and likely release the sats stored in escrow to settle the matter after verification.
+4. **Dispute Resolution**: Peach can step in as a mediator if a dispute arises between the buyer and seller. If the parties cannot resolve the dispute, Peach's staff will intervene and try settling the issue. The process involves asking for proof of payment on the buyer side to ensure that everyone has done their part of the agreement.
 
 *At the time of writing this, 23rd May 2023, Peach Bitcoin is still in beta testing.*
 
@@ -93,30 +93,30 @@ After creating your account on Peach, a new wallet will be automatically generat
   <img src="/assets/img/peach-buy-bitcoin-02.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
-{:start="6"}
-6. Peach will notify you of available matches. Navigate to the "Trades" window to see them.
-8. Browse offers and match with your favourites. Be sure to take note of the premium.
+{:start="5"}
+5. Peach will notify you of available matches. Navigate to the "Trades" window to see them.
+6. Browse offers and match with your favourites. Be sure to take note of the premium.
 - You can match as many offers as you want.
 - A trade will be created with the first seller that matches you back.
 - You can unmatch an offer before the seller accepts.
 - You can check the seller's reputation by clicking on their PeachID.
 - You can look at the escrow and see that the sats are ready to be released.
-9. If someone matches you back, you will land on the trade page.
-10. Copy the payment details of your counterparty. Make the payment on your end. Come back to Peach and scroll right "I made the payment".
+7. If someone matches you back, you will land on the trade page.
+8. Copy the payment details of your counterparty. Make the payment on your end. Come back to Peach and scroll right "I made the payment".
 
 <p align="center">
   <img src="/assets/img/peach-buy-bitcoin-03.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
-{:start="13"}
-13. As soon as the seller presses "Payment Received" on their end, you will receive your sats. You can rate your counterparty for the trade and see the breakdown of the fees.
+{:start="9"}
+9. As soon as the seller presses "Payment Received" on their end, you will receive your sats. You can rate your counterparty for the trade and see the breakdown of the fees.
 
 <p align="center">
   <img src="/assets/img/peach-buy-bitcoin-04.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
-{:start="15"}
-15. You have successfully stacked non-KYC sats. Congratulations!
+{:start="10"}
+10. You have successfully stacked non-KYC sats. Congratulations!
 
 <p align="center">
   <img src="/assets/img/peach-wallet-after-buy.png" class="responsive" style="max-width: 40%; height: auto;" />
@@ -136,30 +136,30 @@ After creating your account on Peach, a new wallet will be automatically generat
 {:start="5"}
 5. Select the payment methods you would like to be paid with.
 6. Review your sell offer summary and press "Publish Offer".
-8. Fund the escrow with the amount noted at the top.
+7. Fund the escrow with the amount noted at the top.
 
 <p align="center">
   <img src="/assets/img/peach-sell-bitcoin-02.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
-{:start="9"}
-9. The "transaction pending" screen means that the network is validating your transaction.
-10. Peach will notify you when you have a match. Browse the various matches and accept your favourite.
+{:start="8"}
+8. The "transaction pending" screen means that the network is validating your transaction.
+9. Peach will notify you when you have a match. Browse the various matches and accept your favourite.
 
 <p align="center">
   <img src="/assets/img/peach-sell-bitcoin-03.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
-{:start="11"}
-11. Wait for the counterparty to send the fiat payment. 
-12. Once the payment is made, press "Go to trade".
+{:start="10"}
+10. Wait for the counterparty to send the fiat payment. 
+11. Once the payment is made, press "Go to trade".
 
 <p align="center">
   <img src="/assets/img/peach-sell-bitcoin-04.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
-{:start="13"}
-13. Confirm payment and rate your counterparty for the trade.
+{:start="12"}
+12. Confirm payment and rate your counterparty for the trade.
 
 <p align="center">
   <img src="/assets/img/peach-sell-bitcoin-05.png" class="responsive" style="max-width: 80%; height: auto;" />
@@ -182,7 +182,7 @@ To create a backup:
 *If you forgot your password but are still logged in to Peach, no need to panic. You can simply create a new backup with a new password with the same process.*
 
 ### Wallet backup
-As mentioned, Peach automatically creates a new wallet, and you only own the associated keys. It is **vital** to take note of the 12 words related to your wallet in case you still have funds in it but don't use Peach anymore. You can restore this wallet on Sparrow Wallet or your favourite Bitcoin wallet software.
+Peach automatically creates a new wallet, and you only own the associated keys. It is **vital** to take note of the 12 words related to your wallet in case you still have funds in it but don't use Peach anymore. You can restore this wallet on Sparrow Wallet or your favourite Bitcoin wallet software.
 
 To see your seed phrase:
 - Navigate to "Settings".
@@ -206,21 +206,21 @@ If you deleted the Peach app or want to switch to another device, you will need 
 </p>
 
 ## Peach's Regulations
-Peach is a Swiss-based company that adheres to Swiss regulations. To comply with the law, trades without KYC are limited to CHF 1000 per day and CHF 100,000 per year.
+Peach is a Swiss-based company that adheres to Swiss regulations. To comply with the law, trades without KYC are limited to CHF 1000 per day and CHF 100,000 per year. 
 
-Your payment information is kept on your phone, preventing Peach from accessing it. Peach only sees a hashed version of your phone's ID and payment details to prevent any trades exceeding the personal limit mentioned earlier.
+Your payment information is kept on your phone, preventing Peach from accessing it. Peach only sees a hashed version of your phone's ID and payment details to prevent any trades exceeding the personal limit mentioned earlier. However, Peach is currently closed source, which means that you must trust them on how the info is stored, shared and secured.
 
 Per Swiss regulations, you must sign a message that you're in control of the wallet you use when trading sats with sellers. More on that in the FAQ section.
 
 ## Peach Score 
 Each user has a Peach score associated with their profile. It is a reflection of their reputation on the platform. It considers the rating given to them by other users and their actions, such as resolving disputes and prompt payment. 
 
-Peach users can see how many trades their matches have done and their reputation. Finally, Peach has three badges that incentivise users to be good actors! When browsing for matches, press the small `i` to learn more about your match's reputation. You can check your own rating in your `settings` > `proflile`.
+Peach users can see how many trades their matches have done and their reputation. Finally, Peach has three badges that incentivise users to be good actors! When browsing for matches, press the small `i` to learn more about your match's reputation. You can check your own rating in your `settings` > `profile`.
 
 The current badges are:
-- Supertrader: user with at least 20 trades
-- Fast Trader: user who accepts matches and makes or confirms payments almost instantly
-- Early Adopter: user who has tried the Alpha/Beta version of Peach
+- **Supertrader**: user with at least 20 trades
+- **Fast Trader**: user who accepts matches and makes or confirms payments almost instantly
+- **Early Adopter**: user who has tried the Alpha/Beta version of Peach
 
 <p align="center">
   <img src="/assets/img/peach-score-01.png" class="responsive" style="max-width: 40%; height: auto;" />
@@ -261,7 +261,7 @@ Peach includes anonymous cash trades where people can trade cash for sats. Peach
 
 You can browse the various meetups during the payment selection of your trade offer. 
 
-If you are an organiser of a meetup and would like to add your location to Peach, contact them on the following page: [https://peachbitcoin.com/for-meetups/](https://peachbitcoin.com/for-meetups/)
+If you are an organiser of a meetup and would like to add your location to Peach, contact them on the following page: [Peach x Meetups](https://peachbitcoin.com/for-meetups/)
 
 ### Can I avoid sending sats to the in-app wallet?
 You can send sats directly to your wallet, such as Samourai Wallet or Sparrow Wallet. However, it will add complexity as you must sign each transaction. The benefit is that you don't need to pay twice the network fees if you plan on sending sats to your wallet anyway.
@@ -276,6 +276,8 @@ You can send sats directly to your wallet, such as Samourai Wallet or Sparrow Wa
 
 ### Why do I need to sign each transaction? 
 Per Swiss regulations, signing a message is mandatory to confirm wallet ownership when engaging in a trade. This measure ensures that the user has complete control over the transaction and is in compliance with regulatory requirements.
+
+**Signing a message does NOT link your personal identity to the trade.** 
 
 ### What does the referral code do?
 You will receive a referral code when you sign up for a Peach account. If others use this code when they sign up, you will earn one Peach point for every 10,000 sats they trade on the platform. Currently the rewards offer:
@@ -297,8 +299,8 @@ As Peach's co-founder, Steph, said in a recent interview with Foundation Devices
 
 ## Useful Links
 Podcast appearances:
-- [EP #10 - Make Bitcoin P2P again w/ Peach Bitcoin](https://www.youtube.com/watch?v=w_dh6nusghk) 
-- [KYC free Bitcoin P2P with @proofofsteph](https://fountain.fm/episode/o3LrkXy5ZYQfV4ve0swa)
+- **Journey to Sovereignty**: [EP #10 - Make Bitcoin P2P again w/ Peach Bitcoin](https://www.youtube.com/watch?v=w_dh6nusghk) 
+- **BIT BUY BIT**: [KYC free Bitcoin P2P with @proofofsteph](https://fountain.fm/episode/o3LrkXy5ZYQfV4ve0swa)
 
 Download Peach:
 - [iOS](https://testflight.apple.com/join/wfSPFEWG)
