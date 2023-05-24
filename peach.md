@@ -36,7 +36,7 @@ There are many ways to obtain Bitcoin without providing all of your details to a
 </p>
 
 ## What is Peach Bitcoin?
-Peach Bitcoin is a novel closed source mobile application that facilitates peer-to-peer transactions, allowing users to buy and sell Bitcoin directly without intermediaries. With its focus on user privacy and security, Peach stands out from major KYC exchanges such as Coinbase or Binance as it does not require to Know Your Customer (KYC) compliance.
+Peach Bitcoin is a novel mobile application that facilitates peer-to-peer transactions, allowing users to buy and sell Bitcoin directly without intermediaries. With its focus on user privacy and security, Peach stands out from major KYC exchanges such as Coinbase or Binance as it does not require to Know Your Customer (KYC) compliance.
 
 The need for a platform like Peach Bitcoin stems from a growing demand for privacy in Bitcoin. Traditional exchanges often require extensive KYC procedures, which deter individuals who value their privacy. Furthermore, the process can be time-consuming and complex, creating a barrier to entry for many newcomers. By eliminating the need for KYC, Peach Bitcoin offers a more accessible and user-friendly alternative.
 
