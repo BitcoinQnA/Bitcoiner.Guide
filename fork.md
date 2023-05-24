@@ -295,6 +295,6 @@ Hi, I'm Bitlevi! I crystallise what I learn on my journey to sovereignty by writ
       data-npub="npub1mthuwux9lg5u654vhdzyukhnlj2tt0mhtm5kqupl6rca53qgtwcqq4jrx5"
       data-relays=""
     >
-      Tip Contributor ⚡️
+      Donate to Contributor ⚡️
     </button>
   </div>
