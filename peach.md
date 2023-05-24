@@ -104,6 +104,8 @@ After creating your account on Peach, a new wallet will be automatically generat
 7. If someone matches you back, you will land on the trade page.
 8. Copy the payment details of your counterparty. Make the payment on your end. Come back to Peach and scroll right "I made the payment".
 
+**Important note:** you can initiate an encrypted chat with your trading partner that Peach cannot read or access unless you invite Peach's staff to resolve a dispute, in which case they will have access to the history of the chat.
+
 <p align="center">
   <img src="/assets/img/peach-buy-bitcoin-03.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
@@ -121,7 +123,6 @@ After creating your account on Peach, a new wallet will be automatically generat
 <p align="center">
   <img src="/assets/img/peach-wallet-after-buy.png" class="responsive" style="max-width: 40%; height: auto;" />
 </p>
-
 
 ## Selling Bitcoin
 1. Press "Sell" on the bottom left corner of your screen.
