@@ -5,6 +5,14 @@ subtitle: Simple P2P European Exchange for Mobile
 #cover-img: /assets/img/path.jpg
 share-img: https://bitcoiner.guide/assets/img/SHARE_IMAGE_BY_QNA.png
 ---
+<p align="center">
+  <a href="#introduction">Intro</a> |
+  <a href="#buying-bitcoin">Buy Sats</a> |
+  <a href="#create-backups">Extra Features</a> |
+  <a href="#faq-section">FAQ</a> |
+  <a href="#useful-links">Links</a> 
+  <br><br>
+</p>
 
 <p align="center">
   <img src="/assets/img/peach-logo.png" class="responsive" style="max-width: 60%; height: auto;" />
