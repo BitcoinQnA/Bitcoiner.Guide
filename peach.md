@@ -3,7 +3,7 @@ layout: page
 title: Peach Bitcoin
 subtitle: Simple P2P European Exchange for Mobile 
 #cover-img: /assets/img/path.jpg
-share-img: https://bitcoiner.guide/assets/img/SHARE_IMAGE_BY_QNA.png
+share-img: https://bitcoiner.guide/assets/img/sharepeach.png
 ---
 <p align="center">
   <a href="#introduction">Intro</a> |
