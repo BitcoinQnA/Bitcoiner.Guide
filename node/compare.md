@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Node.Guide 
+title: Node.Guide
 subtitle: Compare node options
 #thumbnail-img: /assets/img/thumb.png
 share-img: https://bitcoiner.guide/assets/img/sharenode.png
@@ -16,24 +16,23 @@ tags: [books, test]
   <br><br>
 </p>
 
+| Node                                          | Supported Hardware               | Electrum Server        | Lightning | CoinJoin       | Block Explorer | Mempool Viewer | Dojo |
+| --------------------------------------------- | -------------------------------- | ---------------------- | --------- | -------------- | -------------- | -------------- | ---- |
+| [Bitcoin Core](/node/core/)                   | Any computer or laptop           | No                     | No        | None           | No             | No             | No   |
+| [eznode](/node/other/#eznode)                 | Any computer, laptop or SBC      | Bitcoin Wallet Tracker | None      | None           | Yes            | Yes            | No   |
+| [myNode One](/node/pap/#mynode-one)           | RPi 4                            | Electrs                | LND       | Whirlpool + JM | Yes            | Yes            | Yes  |
+| [myNode DIY Community](/node/diy/#mynode)     | Rock64, RockPro 64, RPi 4 and VM | Electrs                | LND       | Whirlpool + JM | Yes            | No             | Yes  |
+| [myNode DIY Premium](/node/diy/#mynode)       | Rock64, RockPro 64, RPi 4 and VM | Electrs                | LND       | Whirlpool + JM | Yes            | Yes            | Yes  |
+| [Nodl One](/node/pap/#nodl-one)               | RockPi 4                         | Electrs                | LND       | Whirlpool      | Yes            | No             | Yes  |
+| [Nodl Dojo](/node/pap/#nodl-dojo)             | RockPi 4                         | Electrs                | LND       | Whirlpool      | Yes            | No             | Yes  |
+| [RoninDojo Tanto](/node/pap/#ronindojo-tanto) | RockPro 64                       | Electrs                | None      | Whirlpool      | Yes            | Yes            | Yes  |
+| [RoninDojo](h/node/diy/#ronindojo)            | Odroid N2, RockPro 64 and RPi    | Electrs                | None      | Whirlpool      | Yes            | Yes            | Yes  |
+| [RaspiBlitz](/node/pap/#raspiblitz)           | RPi 4                            | Electrs                | LND       | JoinMarket     | Yes            | Yes            | No   |
+| [RaspiBlitz DIY](/node/diy/#raspiblitz)       | RPi 3 and RPi 4                  | Electrs                | LND       | JoinMarket     | Yes            | Yes            | No   |
+| [Start9](/node/pap/#start9-server)            | RPi 4, x86_64, VM                | Electrs                | LND+CLN   | JoinMarket     | Yes            | Yes            | No   |
+| [Umbrel](/node/diy/#umbrel)                   | RPi 4 and VM                     | Electrs                | LND       | Whirlpool      | Yes            | Yes            | Yes  |
 
-| Node                  | Supported Hardware               | Electrum Server | Lightning | CoinJoin   | Block Explorer | Mempool Viewer | Dojo |
-|-----------------------|----------------------------------|-----------------|-----------|------------|----------------|----------------|------|
-| [Bitcoin Core](/node/core/)        | Any computer or laptop           | No              | No        | None       | No             | No             | No   |
-| [eznode](/node/other/#eznode)                | Any computer, laptop or SBC | Bitcoin Wallet Tracker | None       | None       | Yes            | Yes            | No   |
-| [myNode One](/node/pap/#mynode-one)            | RPi 4                            | Electrs         | LND       | Whirlpool + JM  | Yes            | Yes            | Yes  |
-| [myNode DIY Community](/node/diy/#mynode)  | Rock64, RockPro 64, RPi 4 and VM | Electrs         | LND       | Whirlpool + JM  | Yes            | No             | Yes  |
-| [myNode DIY Premium](/node/diy/#mynode)    | Rock64, RockPro 64, RPi 4 and VM | Electrs          | LND       | Whirlpool + JM  | Yes            | Yes            | Yes  |
-| [Nodl One](/node/pap/#nodl-one)              | RockPi 4                         | Electrs         | LND       | Whirlpool  | Yes            | No             | Yes  | 
-| [Nodl Dojo](/node/pap/#nodl-dojo)             | RockPi 4                         | Electrs         | LND       | Whirlpool  | Yes            | No             | Yes  |
-| [RoninDojo Tanto](/node/pap/#ronindojo-tanto) | RockPro 64    | Electrs         | None      | Whirlpool  | Yes            | Yes             | Yes  |
-| [RoninDojo](h/node/diy/#ronindojo)             | Odroid N2, RockPro 64 and RPi    | Electrs         | None      | Whirlpool  | Yes            | Yes             | Yes  |
-| [RaspiBlitz](/node/pap/#raspiblitz)            | RPi 4                            | Electrs         | LND       | JoinMarket | Yes            | Yes            | No   |
-| [RaspiBlitz DIY](/node/diy/#raspiblitz)        | RPi 3 and RPi 4                  | Electrs         | LND       | JoinMarket | Yes            | Yes            | No   |
-| [Start9](/node/pap/#start9)                    | RPi 4, x86_64, VM                | Electrs         | LND+CLN   | JoinMarket | Yes            | No             | No   |
-| [Umbrel](/node/diy/#umbrel)                | RPi 4 and VM                     | Electrs         | LND       | Whirlpool       | Yes            | Yes             | Yes   |
-
-***
+---
 
 ### Glossary
 
@@ -49,4 +48,4 @@ A [Mempool Viewer](https://mempool.space) is a website or application that allow
 
 [Dojo](https://samouraiwallet.com/dojo) is the backend server required to use the Samourai Wallet in the most private way. It provides simple wallet connection via a QR scan.
 
-***
+---
