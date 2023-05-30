@@ -135,7 +135,7 @@ Some users report reliability issues when upgrading. Support is limited due to a
   
 - **RockPro 64**
   - [Pine64 Build Kit](https://minefarmbuy.com/product/pine-build/?v=a284e24d5f46) (*Everything included*) - From $325
-  
+
 
 ### Other resources
 

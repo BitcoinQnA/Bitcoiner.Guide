@@ -78,8 +78,7 @@ Is your project missing? Please create an [issue](https://github.com/BitcoinQnA/
 - **Android**
   - [ABCore](https://github.com/greenaddress/abcore)
   - [Nayuta Core](https://nayuta.co/core/)
-
-
+  
 - **Custom**
   - [More](/node/other) options using your own hardware and software specifications
 
