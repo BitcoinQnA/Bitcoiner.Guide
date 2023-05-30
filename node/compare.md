@@ -32,7 +32,7 @@ tags: [books, test]
 | [Start9](/node/pap/#start9-server)            | RPi 4, x86_64, VM                | Electrs                | LND+CLN   | JoinMarket     | Yes            | Yes            | No   |
 | [Umbrel](/node/diy/#umbrel)                   | RPi 4 and VM                     | Electrs                | LND       | Whirlpool      | Yes            | Yes            | Yes  |
 
----
+***
 
 ### Glossary
 
@@ -48,4 +48,4 @@ A [Mempool Viewer](https://mempool.space) is a website or application that allow
 
 [Dojo](https://samouraiwallet.com/dojo) is the backend server required to use the Samourai Wallet in the most private way. It provides simple wallet connection via a QR scan.
 
----
+***
