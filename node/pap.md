@@ -65,6 +65,7 @@ The [RoninDojo Tanto](https://shop.ronindojo.io/shop/ronindojo-tanto/?v=47e5dcee
 <img src="/assets/img/tanto.png" class=responsive width="450" height="320" maxheight="250">
 </p>
 
+
 ### Features
 
 * Full Dojo backend for Samourai Wallet
@@ -248,6 +249,7 @@ Comes pre built with a Rock Pi4 4GB, 16GB eMMC and 2x 1TB SSDs.
 * [Setup Video](https://www.keepitsimplebitcoin.com/setup-nodl/)
 
 ***
+
 
 ## RaspiBlitz
 

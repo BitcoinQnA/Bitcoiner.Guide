@@ -96,7 +96,6 @@ The [myNode](https://mynodebtc.com/download) software has downloadable images fo
 ### Features
 
 **Community Features**
-
 * RTL
 * Electrum Server (*Electrs*)
 * BTC Explorer
@@ -104,7 +103,6 @@ The [myNode](https://mynodebtc.com/download) software has downloadable images fo
 * Runs over Tor
 
 **Premium Features**
-
 * Caravan + Specter Wallet Interfaces
 * Thunderhub + LN Bits
 * BTC Pay Server
@@ -134,10 +132,11 @@ Some users report reliability issues when upgrading. Support is limited due to a
   - [Labists Pi4 Starter Kit](https://www.amazon.com/LABISTS-Raspberry-Complete-Preloaded-Heatsinks/dp/B07YRSYR3M/ref=sr_1_2_sspa?dchild=1&keywords=raspberry+pi+4+kit&qid=1603620426&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVVg4S0JCSlRaU0NHJmVuY3J5cHRlZElkPUEwMDg0NDczMUxMOEdIWUdZRURGNSZlbmNyeXB0ZWRBZElkPUEwODU0MTYzM0xUSDJLT1ZTMU1WWCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) - $100
   - [Samsung 1TB SSD](https://www.amazon.com/SAMSUNG-Portable-SSD-1TB-MU-PC1T0H/dp/B0874YJP92/ref=sr_1_3?dchild=1&keywords=samsung+1tb+ssd+t5&qid=1603620536&sr=8-3) - $170
   - [Passive Cooling Case](https://www.amazon.com/Flirc-Raspberry-Pi-Case-Silver/dp/B07WG4DW52/ref=sr_1_3?dchild=1&keywords=raspberry+pi+4+cooling+case&qid=1603620719&sr=8-3) - $16 (*Optional - No fan noise*)
-
+  
 - **RockPro 64**
   - [Pine64 Build Kit](https://minefarmbuy.com/product/pine-build/?v=a284e24d5f46) (*Everything included*) - From $325
   
+
 ### Other resources
 
 * [Codebase](https://github.com/mynodebtc/mynode)
@@ -171,6 +170,7 @@ The [RaspiBlitz](https://github.com/rootzoll/raspiblitz) is one of the longest s
 * Remote access via Tor
 * Touchscreen display
 
+
 ### Ease of setup
 
 Order and assemble your desired hardware. Download the [latest software](https://github.com/rootzoll/raspiblitz#downloading-the-software) and flash it to your SD card. Connect to power and your router, then power on the device. You should then see the local IP and password address of your RaspiBlitz on the LCD panel. Using an SSH tool, connect through to your RaspiBlitz and finish the setup process.
@@ -181,7 +181,7 @@ Lack of web based user interface may put some users off.
 
 ### Cost
 
-* $279 (_Pi 4 configuration below_)
+* $279 (*Pi 4 configuration below*)
 
 ### Recommended Hardware
 
@@ -223,6 +223,7 @@ The RaspiBlitz team have provided their own recommended [shopping list](https://
 * Boltzmann (*For calculating transaction entropy*)
 * Mempool Viewer
 
+
 ### Ease of setup
 
 Order and assemble your desired hardware. Download the [latest software](https://ronindojo.io/downloads/) and flash it to your SD card. Connect to power and your router, then power on the device. Search your network for the devices IP address using a [network scanner](https://angryip.org/). Connect to your device using an SSH tool and complete the [setup](https://wiki.ronindojo.io/gui-setup/step1) process.  
@@ -233,16 +234,16 @@ Lack of Lightning network integration may put some users off.
 
 ### Cost
 
-* $293 (_Pi 4 configuration below_)
-* $325 (_RockPro 64 configuration below_)
-  
+* $293 (*Pi 4 configuration below*)
+* $325 (*RockPro 64 configuration below*)
+
 ### Recommended Hardware
 
 The RoninDojo team have provided their own recommended [shopping list](https://wiki.ronindojo.io/en/hardware) based on your budget. Be wary using cheaper components or lower powered SBC's as you may run into issues.
 
 - **RockPro 64**
   - [Pine64 Build Kit](https://minefarmbuy.com/product/pine-build/?v=a284e24d5f46) (*Everything included. Use code #ronindojo for a discount*) - From $325
-
+  
 - **Raspberry Pi 4 - Geekworm Kit**  
   - [Raspberry Pi 4 4GB](https://amzn.to/39rYRch) - $56 
   - [X825 Metal Case](https://amzn.to/2Rppc5g) - $29
@@ -252,7 +253,6 @@ The RoninDojo team have provided their own recommended [shopping list](https://w
   - [Industrial SD Card 16GB](https://www.amazon.com/dp/B07CV344WJ/) - $13
   - [Samsung EVO 1TB SSD](https://amzn.to/30lDpoo) - $114
   
-
 ### Other resources
 
 * [Codebase](https://code.samourai.io/ronindojo)
@@ -346,7 +346,7 @@ Still an early project with minimal 'extra' features when compared with some of 
   - [Samsung 1TB SSD](https://www.amazon.com/SAMSUNG-Portable-SSD-1TB-MU-PC1T0H/dp/B0874YJP92/ref=sr_1_3?dchild=1&keywords=samsung+1tb+ssd+t5&qid=1603620536&sr=8-3) - $170
   - [Passive Cooling Case](https://www.amazon.com/Flirc-Raspberry-Pi-Case-Silver/dp/B07WG4DW52/ref=sr_1_3?dchild=1&keywords=raspberry+pi+4+cooling+case&qid=1603620719&sr=8-3) - $16 (*Optional - No fan noise*)
 
-
+  
 ### Other resources
 
 * [Codebase](https://github.com/getumbrel/umbrel)
