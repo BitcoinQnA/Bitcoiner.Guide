@@ -55,7 +55,7 @@ Plug and Play node boxes offer a convenient way to run your own node. Most run o
 | [The Bitcoin Machine](#the-bitcoin-machine) | From $199                         |
 | [BTC Cube](#btc-cube)                       | From $679.95                      |
 
----
+***
 
 ## RoninDojo Tanto
 
@@ -71,15 +71,16 @@ The [RoninDojo Tanto](https://shop.ronindojo.io/shop/ronindojo-tanto/?v=47e5dcee
 * Whirlpool
 * Whirlpool Stat Tool (For calculating anonymity sets)
 * Boltzmann (For calculating transaction entropy)
-* Electrum Server (_Electrs_)
+* Electrum Server (*Electrs*)
 * BTC Explorer
 * Mempool Viewer
 * Specter Web Interface
 * Remote access via Tor
 
+
 ### Ease of setup
 
-Once you receive the device, connect the hardware to power and your router, then visit `http://ronindojo.local/` with your phone, laptop or computer.
+Once you receive the device, connect the hardware to power and your router, then visit `http://ronindojo.local/` with your phone, laptop or computer. 
 
 
 ### Limitations
@@ -88,7 +89,7 @@ Users requiring Lightning Network support will need to look elsewhere.
 
 ### Cost
 
-- $599 
+* $599 
 
 ### Recommended Hardware
 
@@ -103,6 +104,7 @@ Comes pre built with a RockPro64 4GB + 1TB nVME sold state drive
 
 ***
 
+
 ## myNode One
 
 The [myNode One](https://mynodebtc.com/products/one) is a Raspberry Pi4 4GB and comes packaged with their premium software which provides extra features and support. The myNode software comes with a beginner friendly web based user interface and is packed with features. At time of writing myNode currently offers 15 different Bitcoin and Lightning related applications.
@@ -114,7 +116,7 @@ The [myNode One](https://mynodebtc.com/products/one) is a Raspberry Pi4 4GB and 
 ### Features
 
 * RTL, Thunderhub + LN Bits
-* Electrum Server (_Electrs_)
+* Electrum Server (*Electrs*)
 * BTC Pay Server
 * BTC Explorer
 * Samourai Dojo + Whirlpool
@@ -163,7 +165,7 @@ The [Nodl One](https://www.nodl.it/nodl-one.html) is a Rock Pi4 with 4GB ram and
 ### Features
 
 * RTL
-* Electrum Server (_Electrs_)
+* Electrum Server (*Electrs*)
 * BTC Pay Server
 * BTC Explorer
 * Samourai Dojo + Whirlpool
@@ -185,7 +187,7 @@ Documentation is sparse.
 
 * $499 standard
 * $50 extra for kill switch
-* $50 extra for Samourai/Dojo premium support
+* $50 extra for Samourai/Dojo premium support 
 
 ### Recommended Hardware
 
@@ -198,7 +200,7 @@ Comes pre built with a Rock Pi4 4GB, 16GB eMMC and 1TB SSD.
 * [Guide Page](https://docs.lightning-solutions.eu/nodl-box/quick-start/getting-started)
 * [Setup Video](https://www.keepitsimplebitcoin.com/setup-nodl/)
 
----
+***
 
 ## Nodl Dojo
 
@@ -211,7 +213,7 @@ The [Nodl Dojo](https://www.nodl.it/nodl-dojo.html) is similar to the Nodl One a
 ### Features
 
 * RTL
-* Electrum Server (_Electrs_)
+* Electrum Server (*Electrs*)
 * BTC Pay Server
 * BTC Explorer
 * Samourai Dojo + Whirlpool
@@ -245,12 +247,12 @@ Comes pre built with a Rock Pi4 4GB, 16GB eMMC and 2x 1TB SSDs.
 * [Guide Page](https://docs.lightning-solutions.eu/nodl-box/quick-start/getting-started)
 * [Setup Video](https://www.keepitsimplebitcoin.com/setup-nodl/)
 
----
+***
 
 ## RaspiBlitz
 
 
-The [RaspiBlitz](https://shop.fulmo.org/raspiblitz/) is one of the longest standing node projects and comes feature packed with a significant focus on the Lightning network. The RaspiBlitz boasts rock sold uptime and well tested update procedures.
+The [RaspiBlitz](https://shop.fulmo.org/raspiblitz/) is one of the longest standing node projects and comes feature packed with a significant focus on the Lightning network. The RaspiBlitz boasts rock sold uptime and well tested update procedures. 
 
 <p align="center">
 <img src="/assets/img/blitz1.png" class=responsive width="300" height="250" maxheight="250">
@@ -260,7 +262,7 @@ The [RaspiBlitz](https://shop.fulmo.org/raspiblitz/) is one of the longest stand
 
 * RTL
 * Thunderhub
-* Electrum Server (_Electrs_)
+* Electrum Server (*Electrs*)
 * BTC Pay Server
 * BTC Explorer
 * LN Bits
@@ -272,9 +274,11 @@ The [RaspiBlitz](https://shop.fulmo.org/raspiblitz/) is one of the longest stand
 * Remote access via Tor
 * Touchscreen display
 
+
 ### Ease of setup
 
 Once you receive the device, connect the hardware and power it on. You should then see the local IP and password address of your RaspiBlitz on the LCD panel. Using an [SSH tool](https://en.wikipedia.org/wiki/Comparison_of_SSH_clients), connect through to your RaspiBlitz and finish the setup process.
+
 
 ### Limitations
 
@@ -309,7 +313,6 @@ A [Start9 Personal Server](https://store.start9.com/collections/servers) is a sm
 <img src="/assets/img/start9-cryptocloack.png" class=responsive width="300" height="218" maxheight="250">
 </p>
 
-
 ### Features
 
 * Bitcoin
@@ -331,10 +334,10 @@ Backups are currently manually performed via the web-UI.
 
 ### Cost
 
-- $199 for Raspi (Server Lite)
-- $499 for Intel NUC (Server One)
-- $1546 for Purism Intel i7 with IME-stripped firmware (Server Pro)
-- [DIY](https://docs.start9.com/latest/diy) is free
+* $199 for Raspi (Server Lite)
+* $499 for Intel NUC (Server One)
+* $1546 for Purism Intel i7 with IME-stripped firmware (Server Pro)
+* [DIY](https://docs.start9.com/latest/diy) is free
 
 ### Recommended Hardware
 
@@ -369,11 +372,10 @@ Comes packaged with this base hardware but upgrades are available.
 * Pimoroni Fan Shim
 * 32GB SD Card
 * 1TB SSD
-* 3.5″ LCD (_RaspiBlitz only_)
+* 3.5″ LCD (*RaspiBlitz only*)
 * Custom case
 
 ***
-
 ## The Bitcoin Machine
 
 [The Bitcoin Machine](https://thebitcoinmachines.com/) team offer four different pre built node options based on the Raspberry Pi 4B. The package is designed with a customised case and unique 'machine face' which acts as a Bitcoin ticker that can display the price, block height, total supply and network hash power. The case can also be personalised the case with a choice of colours. The Bitcoin Machine does not come pre-installed with any node software, and is designed to allow the user to pick from any Raspberry Pi compatibile implementation by falshing their own software onto the provided SD card.
@@ -423,5 +425,6 @@ Comes packaged with this base hardware but upgrades are available.
 * Unique case design
 
 ***
+
 
 Want to build your own node? Check out the [DIY](/node/diy) page.

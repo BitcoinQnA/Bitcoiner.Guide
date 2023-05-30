@@ -55,8 +55,8 @@ Bitcoin nodes can come in many forms. Below are the four main categories they fi
 
 Is your project missing? Please create an [issue](https://github.com/BitcoinQnA/node-guide) and we will check you out.
 
-- **Bitcoin Core** - Running the Bitcoin core software on a computer
-  - [Bitcoin Core](https://bitcoincore.org/en/download/)
+-  **Bitcoin Core** - Running the Bitcoin core software on a computer
+   - [Bitcoin Core](https://bitcoincore.org/en/download/)
 
 -  **Plug + Play** - Pre built dedicated node boxes that are ready to roll
     - [RoninDojo Tanto](https://shop.ronindojo.io/product-category/nodes/?v=47e5dceea252)
@@ -79,8 +79,9 @@ Is your project missing? Please create an [issue](https://github.com/BitcoinQnA/
   - [ABCore](https://github.com/greenaddress/abcore)
   - [Nayuta Core](https://nayuta.co/core/)
 
+
 - **Custom**
   - [More](/node/other) options using your own hardware and software specifications
-  
-  
-  
+
+
+

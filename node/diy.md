@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Node.Guide
+title: Node.Guide 
 subtitle: DIY node options
 #thumbnail-img: /assets/img/thumb.png
 share-img: https://bitcoiner.guide/assets/img/sharenode.png
@@ -20,14 +20,15 @@ DIY node implementations require you to purchase and build your own hardware, th
 
 Once you have your chosen hardware you will typically download your chosen project's free and open source software, [flash](https://www.youtube.com/watch?v=Ew9-J70yxAo) it onto an SD card which then goes into your SBC. To mitigate the risk of installing malicious software onto your device, always download from the project's recommended location and [verify](https://www.youtube.com/watch?v=lCG3c8a7HZI) its signature.  
 
+
 ### Table of Contents
 
 1.  [ezNode](#eznode)
-2.  [myNode](#mynode)
-3.  [RaspiBlitz](#raspiblitz)
-4.  [RoninDojo](#ronindojo)
-5.  [Start9](#start9)
-6.  [Umbrel](#umbrel)
+1.  [myNode](#mynode)
+1.  [RaspiBlitz](#raspiblitz)
+1.  [RoninDojo](#ronindojo)
+1.  [Start9](#start9)
+1.  [Umbrel](#umbrel)
 
 ***
 
@@ -97,7 +98,7 @@ The [myNode](https://mynodebtc.com/download) software has downloadable images fo
 **Community Features**
 
 * RTL
-* Electrum Server (_Electrs_)
+* Electrum Server (*Electrs*)
 * BTC Explorer
 * Samourai Dojo + Whirlpool
 * Runs over Tor
@@ -111,6 +112,7 @@ The [myNode](https://mynodebtc.com/download) software has downloadable images fo
 * Remote access via Tor or VPN
 * One click upgrades
 
+
 ### Ease of setup
 
 Order and assemble your desired hardware. Connect to power and your router, then power on the device. Visit `http://mynode.local/` with your phone, laptop or computer. If you bought the premium package, enter the product key that was supplied with the device otherwise choose the community option. Your initial block download will then commence.
@@ -122,8 +124,9 @@ Some users report reliability issues when upgrading. Support is limited due to a
 
 ### Cost
 
-* $286 (_Pi4 + Optional passive cooling case_)
-* $325 (_RockPro 64 Pine Build Kit_)
+* $286 (*Pi4 + Optional passive cooling case*)
+* $325 (*RockPro 64 Pine Build Kit*)
+
 
 ### Recommended Hardware
 
@@ -134,7 +137,7 @@ Some users report reliability issues when upgrading. Support is limited due to a
 
 - **RockPro 64**
   - [Pine64 Build Kit](https://minefarmbuy.com/product/pine-build/?v=a284e24d5f46) (*Everything included*) - From $325
-
+  
 ### Other resources
 
 * [Codebase](https://github.com/mynodebtc/mynode)
@@ -156,7 +159,7 @@ The [RaspiBlitz](https://github.com/rootzoll/raspiblitz) is one of the longest s
 
 * RTL
 * Thunderhub
-* Electrum Server (_Electrs_)
+* Electrum Server (*Electrs*)
 * BTC Pay Server
 * BTC Explorer
 * LN Bits
@@ -199,11 +202,11 @@ The RaspiBlitz team have provided their own recommended [shopping list](https://
 * [Guide Page](https://github.com/rootzoll/raspiblitz)
 * [Deep Dive Video](https://www.youtube.com/watch?v=_cjGxjze8PM)
 
----
+***
 
 ## RoninDojo
 
-[RoninDojo](https://ronindojo.io/) is the node for privacy focused Samourai Wallet enthusiasts. They provide support for the Raspberry Pi 4, Rock64, RockPro 64, RockPi 4 and Odroid N2. The RoninDojo team keep Samourai Wallet as the main focus of their development, but also provide support for almost all other wallets via an Electrum Server. After setup users can choose to interact with a command line interface or the graphical UI shown below. It's worth noting that the [setup](https://wiki.ronindojo.io/en/gui-setup/start) procedure requires a small amount of command line.  
+[RoninDojo](https://ronindojo.io/) is the node for privacy focused Samourai Wallet enthusiasts. They provide support for the Raspberry Pi 4, Rock64, RockPro 64, RockPi 4 and Odroid N2. The RoninDojo team keep Samourai Wallet as the main focus of their development, but also provide support for almost all other wallets via an Electrum Server. After setup users can choose to interact with a command line interface or the graphical UI shown below. It's worth noting that the [setup](https://wiki.ronindojo.io/en/gui-setup/start) procedure requires a small amount of command line.   
 
 <p align="center">
 <img src="/assets/img/RoninDojoGUI-product.png" class=responsive width="600" height="350" maxheight="350">
@@ -214,10 +217,10 @@ The RaspiBlitz team have provided their own recommended [shopping list](https://
 * Samourai Dojo
 * Samourai Whirlpool
 * BTC Explorer
-* Electrum Server (_Electrs_)
+* Electrum Server (*Electrs*)
 * Runs over Tor
-* Whirlpool Stat Tool (_For calculating anonymity sets_)
-* Boltzmann (_For calculating transaction entropy_)
+* Whirlpool Stat Tool (*For calculating anonymity sets*)
+* Boltzmann (*For calculating transaction entropy*)
 * Mempool Viewer
 
 ### Ease of setup
@@ -232,7 +235,7 @@ Lack of Lightning network integration may put some users off.
 
 * $293 (_Pi 4 configuration below_)
 * $325 (_RockPro 64 configuration below_)
-
+  
 ### Recommended Hardware
 
 The RoninDojo team have provided their own recommended [shopping list](https://wiki.ronindojo.io/en/hardware) based on your budget. Be wary using cheaper components or lower powered SBC's as you may run into issues.
@@ -319,9 +322,10 @@ StartOS runs on a Raspberry Pi or any x86_64.
 * Simple setup
 * Ability to use the node before IBD is completed
 * Automatic backups
-* Electrum Server (_Electrs_)
+* Electrum Server (*Electrs*)
 * Remote Tor access
 * Wallet connection screen
+
 
 ### Ease of setup
 
@@ -333,7 +337,7 @@ Still an early project with minimal 'extra' features when compared with some of 
 
 ### Cost
 
-* $286 (_Pi4 + Optional passive cooling case_)
+* $286 (*Pi4 + Optional passive cooling case*)
 
 ### Recommended Hardware
 
@@ -341,6 +345,7 @@ Still an early project with minimal 'extra' features when compared with some of 
   - [Labists Pi4 Starter Kit](https://www.amazon.com/LABISTS-Raspberry-Complete-Preloaded-Heatsinks/dp/B07YRSYR3M/ref=sr_1_2_sspa?dchild=1&keywords=raspberry+pi+4+kit&qid=1603620426&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVVg4S0JCSlRaU0NHJmVuY3J5cHRlZElkPUEwMDg0NDczMUxMOEdIWUdZRURGNSZlbmNyeXB0ZWRBZElkPUEwODU0MTYzM0xUSDJLT1ZTMU1WWCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) - $100
   - [Samsung 1TB SSD](https://www.amazon.com/SAMSUNG-Portable-SSD-1TB-MU-PC1T0H/dp/B0874YJP92/ref=sr_1_3?dchild=1&keywords=samsung+1tb+ssd+t5&qid=1603620536&sr=8-3) - $170
   - [Passive Cooling Case](https://www.amazon.com/Flirc-Raspberry-Pi-Case-Silver/dp/B07WG4DW52/ref=sr_1_3?dchild=1&keywords=raspberry+pi+4+cooling+case&qid=1603620719&sr=8-3) - $16 (*Optional - No fan noise*)
+
 
 ### Other resources
 

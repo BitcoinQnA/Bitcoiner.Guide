@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Node.Guide
+title: Node.Guide 
 subtitle: Compare node options
 #thumbnail-img: /assets/img/thumb.png
 share-img: https://bitcoiner.guide/assets/img/sharenode.png
