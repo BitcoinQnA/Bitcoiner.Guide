@@ -312,7 +312,7 @@ Comes pre built with a Raspberry PI with a selection of 2,4 or 8GB ram, 1TB SSD 
 A [Start9 Personal Server](https://store.start9.com/collections/servers) is a small server with 8, 16, or 32 GB of RAM, and 1, 2 or 4 TB SSD, with a focus on making setup and interaction as frictionless as possible. By running one of these as your own personal server, you can run a Bitcoin node and much more.
 
 <p align="center">
-<img src="/assets/img/start9-cryptocloack.png" class=responsive width="300" height="218" maxheight="250">
+<img src="/assets/img/start9-cryptocloak.png" class=responsive width="300" height="218" maxheight="250">
 </p>
 
 ### Features
