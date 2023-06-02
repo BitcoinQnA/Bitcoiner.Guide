@@ -76,6 +76,7 @@ tags: [node, wallet, security, privacy, nokyc]
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
 | [Peach Bitcoin Mobile P2P Exchange](/peach)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Peach Bitcoin  |  29 May 2023         |
 | [RoboSats Lightning P2P Exchange](/robosats)   |  Guide for purchasing P2P sats via Lightning using RoboSats  |  22 May 2023            |
+| [How To Buy Bitcoin On Bisq](https://www.athena-alpha.com/how-to-buy-bitcoin-on-bisq/)   |  Guide for purchasing KYC bitcoins using Bisq  |  12 May 2023            |
 | [Creating A Buy Offer On  Hodl Hodl](/hodlhodloffer)  |   Guide for creating a buy offer using Hodl Hodl | 11 Sep 2020               |
 | [10 Steps To Your First no-KYC Bitcoin (Hodl Hodl)](/hodlhodl)    |  Guide for purchasing bitcoin on Hodl Hodl | 04 Aug 2020         |
 | [10 Steps To Your First no-KYC Bitcoin](/bisq) |  Guide for purchasing bitcoin on Bisq      | 08 Jun 2020                            |
