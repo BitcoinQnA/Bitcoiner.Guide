@@ -23,35 +23,37 @@ Plug and Play node boxes offer a convenient way to run your own node. Most run o
 
 1.  [RoninDojo Tanto](#ronindojo-tanto)
 1.  [myNode One](#mynode-one)
-2.  [Nodl One](#nodl-one)
-3.  [Nodl Dojo](#nodl-dojo)
-4.  [RaspiBlitz](#raspiblitz)
-5.  [Start9 Server](#start9)
-6.  [Build-A-Node](#build-a-node)
-7.  [The Bitcoin Machine](#the-bitcoin-machine)
-8.  [BTC Cube](#btc-cube)
+1.  [Nodl One](#nodl-one)
+1.  [Nodl Dojo](#nodl-dojo)
+1.  [RaspiBlitz](#raspiblitz)
+1.  [Start9 Server](#start9)
+1.  [Build-A-Node](#build-a-node)
+1.  [The Bitcoin Machine](#the-bitcoin-machine)
+1.  [BTC Cube](#btc-cube)
 
 ***
 
 ### Cost Comparison
 
-| Node                                | Cost                               |
-|-------------------------------------|------------------------------------|
-| [RoninDojo Tanto](#ronindojo-tanto) | $599 (nVME SSD)                    |
-| [myNode One](#mynode-one)           | $339 (HDD)                         |
-|                                     | $419 (SSD)                         |
-| [Nodl One](#nodl-one)               | $499                               |
-|                                     | +$50 w/ kill switch                |
-|                                     | +$50 w/ Dojo support               |
-| [Nodl Dojo](#nodl-dojo)             | $849                               |
-| [RaspiBlitz](#raspiblitz)           | 269€ (2GB)                         |
-|                                     | 299€ (4GB)                         |
-|                                     | 369€ (8GB)                         |
-|                                     | 379€ (4GB) w/ terminal style case  |
-| [Start9](#start9)                   | $499 (8GB Pi), $1799 Pro (x86)     |
-| [Build-A-Node](#build-a-node)       | From $410                          |
-| [The Bitcoin Machine](#the-bitcoin-machine)       | From $199            |
-| [BTC Cube](#btc-cube)       | From $679.95            |
+| Node                                        | Cost                              |
+| ------------------------------------------- | --------------------------------- |
+| [RoninDojo Tanto](#ronindojo-tanto)         | $599 (nVME SSD)                   |
+| [myNode One](#mynode-one)                   | $339 (HDD)                        |
+|                                             | $419 (SSD)                        |
+| [Nodl One](#nodl-one)                       | $499                              |
+|                                             | +$50 w/ kill switch               |
+|                                             | +$50 w/ Dojo support              |
+| [Nodl Dojo](#nodl-dojo)                     | $849                              |
+| [RaspiBlitz](#raspiblitz)                   | 269€ (2GB)                        |
+|                                             | 299€ (4GB)                        |
+|                                             | 369€ (8GB)                        |
+|                                             | 379€ (4GB) w/ terminal style case |
+| [Start9](#start9-server)                    | $199 Lite (8GB Pi)                |
+|                                             | $499 One (16GB Intel NUC)         |
+|                                             | $1546 Pro (x86_64 Intel w/o IME)  |
+| [Build-A-Node](#build-a-node)               | From $410                         |
+| [The Bitcoin Machine](#the-bitcoin-machine) | From $199                         |
+| [BTC Cube](#btc-cube)                       | From $679.95                      |
 
 ***
 
@@ -307,13 +309,11 @@ Comes pre built with a Raspberry PI with a selection of 2,4 or 8GB ram, 1TB SSD 
 
 ## Start9 Server
 
-
-A [Start9 Personal Server](https://store.start9labs.com/collections/embassy) is a Raspberry Pi or Purism Intel node with a focus on making setup and interaction as frictionless as possible. By running one of these as your own personal server, you can do more than just be a Bitcoin node.
+A [Start9 Personal Server](https://store.start9.com/collections/servers) is a small server with 8, 16, or 32 GB of RAM, and 1, 2 or 4 TB SSD, with a focus on making setup and interaction as frictionless as possible. By running one of these as your own personal server, you can run a Bitcoin node and much more.
 
 <p align="center">
-<img src="/assets/img/Embassy-Evolution_360x.png" class=responsive width="300" height="250" maxheight="250">
+<img src="/assets/img/start9-cryptocloack.png" class=responsive width="300" height="218" maxheight="250">
 </p>
-
 
 ### Features
 
@@ -326,31 +326,31 @@ A [Start9 Personal Server](https://store.start9labs.com/collections/embassy) is 
 * Web based UI
 * Matrix chat
 
-
 ### Ease of setup
 
 Once you receive the device, connect the hardware and power it on. Visit the web-UI in a browser and create your password. You can now log in and start installing and using the available services.
 
 ### Limitations
 
-Backups are currently manually performed via the web-UI.  
+Backups are currently manually performed via the web-UI.
 
 ### Cost
 
-* $499 for Raspi 8GB w/ 1TB SSD
-* $1799 for Purism Intel i7 with IME-stripped firmware
-* [DIY](https://docs.start9.com/latest/diy/index) is free
+* $199 for Raspi (Server Lite)
+* $499 for Intel NUC (Server One)
+* $1546 for Purism Intel i7 with IME-stripped firmware (Server Pro)
+* [DIY](https://docs.start9.com/latest/diy) is free
 
 ### Recommended Hardware
 
-Comes pre built with a Raspberry Pi 4GB.
+Comes pre built with a Raspberry Pi w/ 8GB RAM, Intel N4505 w/ 16GB RAM, or Intel i7-10510U w/ 32GB RAM.
 
 ### Other resources
 
 * [Codebase](https://github.com/Start9Labs)
 * [Telegram](https://t.me/start9_labs)
-* [Guide Page](https://docs.start9labs.com/)
-* [Setup Video](https://www.youtube.com/watch?v=HI9WDq0tWm4)
+* [Docs](https://docs.start9labs.com/)
+* [Setup Guide](https://docs.start9.com/latest/user-manual/initial-setup)
 
 ***
 

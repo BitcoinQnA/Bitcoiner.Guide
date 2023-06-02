@@ -25,9 +25,10 @@ Once you have your chosen hardware you will typically download your chosen proje
 
 1.  [ezNode](#eznode)
 1.  [myNode](#mynode)
-2.  [RaspiBlitz](#raspiblitz)
-3.  [RoninDojo](#ronindojo)
-4.  [Umbrel](#umbrel)
+1.  [RaspiBlitz](#raspiblitz)
+1.  [RoninDojo](#ronindojo)
+1.  [Start9](#start9)
+1.  [Umbrel](#umbrel)
 
 ***
 
@@ -260,6 +261,53 @@ The RoninDojo team have provided their own recommended [shopping list](https://w
 * [Setup Video](https://youtu.be/5CxjRXixg4s)
 
 ***
+
+## Start9
+
+A [Start9](https://start9.com) server can be a Raspberry Pi or any x86_64 cpu (Intel or AMD). Free and open source, you can begin you sovereign computing journey for free and setup a DIY server.
+
+<p align="center">
+<img src="/assets/img/start9-cryptocloak.png" class=responsive width="300" height="218" maxheight="250">
+</p>
+
+### Features
+
+* Bitcoin
+* Lighting: CLN, LND, RTL and much more
+* Bitwarden password manager
+* NextCloud
+* NOSTR
+* Remote Tor access
+* Web based UI
+* Matrix chat
+
+### Ease of setup
+
+Once your hardware is setup follow the [DIY guide](https://docs.start9.com/latest/diy/). Visit the web-UI in a browser and create your password. You can now log in and start installing and using the available services.
+
+### Limitations
+
+Backups are not currently automated and must be manually performed via the web-UI.
+
+### Cost
+
+* $199 for Raspi (Server Lite)
+* $499 for Intel NUC (Server One)
+* $1546 for Purism Intel i7 with IME-stripped firmware (Server Pro)
+* [DIY](https://docs.start9.com/latest/diy) is free
+
+### Recommended Hardware
+
+StartOS runs on a Raspberry Pi or any x86_64.
+
+### Other resources
+
+* [Codebase](https://github.com/Start9Labs)
+* [Telegram](https://t.me/start9_labs)
+* [Docs](https://docs.start9labs.com/)
+* [Setup Guide](https://docs.start9.com/latest/user-manual/initial-setup)
+
+---
 
 ## Umbrel
 

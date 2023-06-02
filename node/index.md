@@ -63,13 +63,14 @@ Is your project missing? Please create an [issue](https://github.com/BitcoinQnA/
     - [myNode One](https://mynodebtc.com/products/one)
     - [Nodl One](https://shop.nodl.it/en/) + [Nodl Dojo](https://shop.nodl.it/en/)
     - [RaspiBlitz](https://shop.fulmo.org/product-category/raspiblitz/)
-    - [Start9 Embassy](https://store.start9labs.com/collections/embassy)
+    - [Start9 Server](https://store.start9.com/collections/servers)
 
 -  **DIY** - Build your own node using specified hardware + software
     - [eznode](https://ezno.de)
     - [myNode](https://mynodebtc.com/products/community_edition)
     - [RaspiBlitz](https://github.com/rootzoll/raspiblitz)
     - [RoninDojo](https://wiki.ronindojo.io/)
+    - [Start9](https://docs.start9.com/latest/diy)
     - [Umbrel](https://getumbrel.com/#start)
 
 ### Other Options
