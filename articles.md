@@ -52,6 +52,7 @@ tags: [node, wallet, security, privacy, nokyc]
 | Name                             |  Description                                                     |  Published                             |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
 | [Verifying Software 101](/verifysoftware) |   Guide to help users verify the software they download | 10 Jan 2021                            |
+| [Beginners Guide To Bitcoin Security](https://www.athena-alpha.com/bitcoin-security/) |   Security guide for true Bitcoin Beginners | 22 Mar 2023                            |
 | [10 ways to lose your bitcoin](/lostbitcoin) |  Tips for newcomers to avoid losing their bitcoin    | 12 Dec 2020                            |
 
 <br/>
@@ -64,6 +65,7 @@ tags: [node, wallet, security, privacy, nokyc]
 | [PayNyms 101](/paynym) |  Explainer on BIP47 PayNyms          | 02 Mar 2021                            |
 | [Whirlpool + Postmix FAQ](/whirlpool) |  Whirlpool explainer and FAQ          | 08 Aug 2020                            |
 | [Bitcoin Privacy Tips](/privacytips) |  Privacy tips for interacting with Bitcoin | 26 Jun 2020         |
+| [Beginners Guide To Bitcoin Privacy](https://www.athena-alpha.com/bitcoin-privacy/) |  Privacy guide for true Bitcoin Beginners | 25 Jan 2023         |
 | [Your First Mobile Coinjoin](/mobilecoinjoin) |  Learn to use Whirlpool on mobile             | 20 Jun 2020                            |
 | [Deal With Coinjoin Change Outputs](/doxxic) |  Dealing with toxic change | 15 Jun 2020                   |
 | [Coinjoin to Cold Implications](/csimplications) |  Considerations when spending to cold storage | 03 May 2020 |
