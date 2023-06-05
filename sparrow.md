@@ -81,6 +81,8 @@ Sparrow Wallet comes with everything you'd expect from a desktop based wallet, a
 <img src="/assets/img/sp5.png" class=responsive width="600" height="90" maxheight="400" />
 </p>
 
+If you're using Windows, there's a guide for [installation and verification of Sparrow here](https://www.athena-alpha.com/install-sparrow-wallet-on-windows/).
+
 <br/>
 
 ## Initial Set up
@@ -119,7 +121,8 @@ After reading through the initial welcome screens, click 'Configure Server'. Spa
 </p>
 
 > If connection is unsuccessful try changing the top right box to `50002` and toggling `Use SSL` to on.
- 
+
+For those with an Umbrel node, you can follow this guide by [Athena Alpha](https://www.athena-alpha.com/connect-sparrow-wallet-to-umbrel/) that outlines how to connect Sparrow to your own Umbrel node using the Electrs app. They also have a guide showing how to [connect Sparrow to Bitcoin Core](https://www.athena-alpha.com/connect-sparrow-wallet-to-bitcoin-core/) as well.
 
 ## Importing your Coldcard
 The following assumes that you have already initiated your Coldcard. If you have yet to do so, you can follow [this](/coldcard) guide.
