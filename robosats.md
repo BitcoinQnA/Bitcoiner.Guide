@@ -289,6 +289,10 @@ The RoboSats team realise this and have started work on a [federated model](http
 
 ## Learn More
 
+### Written Guides
+
+Check out [Athena Alpha](https://www.athena-alpha.com/how-to-buy-bitcoins-using-robosats/) for their guide on how to buy bitcoins with RoboSats or their full reivew [here](https://www.athena-alpha.com/robosats-review/).
+
 ### Video Guides
 
 See RoboSats in action with these awesome video guides by [BTC Sessions](https://www.youtube.com/@BTCSessions) and [Ian Major](https://www.youtube.com/@IanMajor). 
