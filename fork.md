@@ -19,21 +19,22 @@ Diving into Open Source software might feel like jumping into the deep end if yo
 ### Necessary steps
 Let's ensure you have all the necessary tools installed on your computer.
 
-1. **A GitHub Account**: An account on GitHub is needed to fork the project and submit your changes. If you don't have one yet, create an account on [https://github.com](https://github.com).
+1. **A GitHub Account**: An account on GitHub is needed to fork the project and submit your changes. If you don't have one yet, create an account on [GitHub](https://github.com).
 
 2. **Git**: Git is a version control system that lets developers track and manage changes to their code. It's essential for working with GitHub. Git is pre-installed on lots of machines. To check, open your terminal and type `git -v`. If it's installed, then this will return the Git version. If not visit this [guide](https://github.com/git-guides/install-git).
 
-3. **Visual Studio Code**: This is a versatile text editor with built-in features that make working with Git easier. Download it from [https://code.visualstudio.com](https://code.visualstudio.com).
+3. **Visual Studio Code**: This is a versatile text editor with built-in features that make working with Git easier. Download it [here](https://code.visualstudio.com).
 
-4. **Ruby and Bundler**: Bitcoiner.Guide uses Jekyll, a static site generator built in Ruby. As such, you need Ruby to run the project locally. Bundler is a Ruby gem that manages other Ruby gems in a project. To install these:
+4. **Ruby and Bundler**: Bitcoiner.Guide uses Beautiful Jekyll, a static site generator built in Ruby. As such, you need Ruby to run the project locally. Bundler is a Ruby gem that manages other Ruby gems in a project. To install these:
    
    - **For macOS and Linux users**: 
-      - Ruby usually comes pre-installed. To check, open your terminal and type `ruby -v`. If it's installed, this will return the Ruby version. If not, you can install Ruby using a version manager like rbenv or RVM. 
-      - Once Ruby is installed, install Bundler by typing gem `install bundler` in your terminal.
+      - Ruby usually comes pre-installed. To check, open your terminal and type `ruby -v`. If it's installed, this will return the Ruby version. 
+      - If not, you can install Ruby using a version manager like rbenv or RVM. Here is a [detailed video](https://www.youtube.com/watch?v=wnZzWIKS0tY) on how to download rbenv and Ruby using Homebrew.
+      - Once Ruby is installed, install Bundler by typing `sudo gem install jekyll bundler` in your terminal. This command will install two Ruby "gems" - small packages of Ruby code - that provide the Jekyll and Bundler functionality.
       
    - **For Windows users**:
       - You can download Ruby from [RubyInstaller](https://rubyinstaller.org/). After installation, it will also allow you to install MSYS2, which you should do.
-      - Install Bundler by opening "Start Command Prompt with Ruby" from your start menu, then type `gem install bundler`.
+      - Install Bundler by opening "Start Command Prompt with Ruby" from your start menu, then type `sudo gem install jekyll bundler`.
 
 ### Additional information
 Opening a terminal depends on the operating system you're using. Here's how to do it on the three most common desktop operating systems:
@@ -109,7 +110,7 @@ You can switch back to the main branch at any time by clicking on the branch nam
 
 Let's run Bitcoiner.Guide on your computer.
 
-1. Open the terminal in Visual Studio Code (View -> Terminal).
+1. Open the terminal in **Visual Studio Code** (View -> Terminal).
 
 <p align="center">
   <img src="/assets/img/fork-step-05-01.jpg" class="responsive" style="max-width: 100%; height: auto;" />
