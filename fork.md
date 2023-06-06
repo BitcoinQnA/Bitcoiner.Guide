@@ -34,7 +34,7 @@ Let's ensure you have all the necessary tools installed on your computer.
       
    - **For Windows users**:
       - You can download Ruby from [RubyInstaller](https://rubyinstaller.org/). After installation, it will also allow you to install MSYS2, which you should do.
-      - Install Bundler by opening "Start Command Prompt with Ruby" from your start menu, then type `sudo gem install jekyll bundler`.
+      - Install Bundler by opening "Command Prompt as Admin" from your start menu, then type  `gem install jekyll bundler`.
 
 ### Additional information
 Opening a terminal depends on the operating system you're using. Here's how to do it on the three most common desktop operating systems:
