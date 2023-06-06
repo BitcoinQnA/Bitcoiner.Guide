@@ -1130,18 +1130,18 @@ table {
 }
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #f99925 !important;
-  border-color: #a0a0a0 !important;
+  background-color: #26262a !important;
+  border-color: #f99925 !important;
 }
 .btn-primary:focus {
   color: #fff !important;
-  background-color: #f99925 !important;
-  border-color: #a0a0a0 !important;
+  background-color: #26262a !important;
+  border-color: #f99925 !important;
 }
 .btn-primary:active {
   color: #fff !important;
-  background-color: #f99925 !important;
-  border-color: #a0a0a0 !important;
+  background-color: #26262a !important;
+  border-color: #f99925 !important;
 }
 .btn-group-lg > .btn, .btn-lg {
   padding: .5rem 1rem;
