@@ -246,7 +246,7 @@ Many Bitcoiners prioritise Free and Open Source Software (FOSS) when selecting t
 ### Will Peach integrate Tor?
 At the moment, Tor integration is parked in their pipeline but not a priority.
 
-Because of that, a user is well advised to be on a [VPN](https://en.wikipedia.org/wiki/VPN_service) connection while interacting with the Peach app. Using a VPN is generally good practice on mobile phones and desktop devices. This way, the actual network IP of your device will not be visible to the services you connect to, thus gaining you network privacy, beneficial for all sorts of reasons. Fortunately, with providers like Mullvad VPN, for example, it's becoming more and more easy to use a good VPN even on mobile. It's not free though, it's a fiver a month – but it's worth it as soon as you learn to value your privacy, especially while making sensitive financial transactions. Big privacy bonus: you can even pay Mullvad via cash by mail (yes it works!) or in BTC.
+Because of that, a user is well advised to be on a [VPN](https://en.wikipedia.org/wiki/VPN_service) connection while interacting with the Peach app. Using a VPN service like [Mullvad](https://mullvad.net) is generally good practice on mobile phones and desktop devices.
 
 ### Can I adjust the network fees?
 You have control over the fees you pay to the network when transferring your sats from the in-app wallet.
