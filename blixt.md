@@ -1,126 +1,117 @@
-  # Blixt Wallet
+---
+layout: page
+title: Blixt Wallet
+subtitle: Cross platform Non-custodial Lightning Wallet
+#cover-img: /assets/img/path.jpg
+share-img: https://bitcoiner.guide/assets/img/shareblixt.png
+---
+
+<p align="center">
+  <a href="#what-is-blixt-wallet">Intro</a> |
+  <a href="#how-to-get-started">Get Started</a> |
+  <a href="#backups">Backups</a> |
+  <a href="#features">Features</a> |
+  <a href="#troubleshooting">Troubleshooting</a> 
+  <br><br>
+</p>
+
+<p align="center">
+  <img src="/assets/img/blixtlogo.png" class="responsive" style="max-width: 60%; height: auto;" />
+</p>
 
 
-# What is Blixt wallet?
+## What is Blixt Wallet?
 
 *Blixt is a non-custodial open-source Bitcoin Lightning Wallet for Android and iOS with a focus on usability and user experience.*
 
-In this world of Bitcoin there are three types of people: NGU maximalists, security maximalists, & privacy maximalists.
-  
-NGU maxis make custiodial solutions to pave the way for mass adoption. But there are a select few who develop non-custodial solutions for interacting with Bitcoin. 
+Blixt wallet is a mobile app that helps you use the Lightning Network for fast, low fee Bitcoin transactions. Blixt is quite unique in the fact that it actually runs a light weight Lightning node on your phone using LND and Neutrino. This means **you** have full control over your funds and your private keys. Blixt also allows you to manage your own channels and liquidity on the Lightning Network.
 
-Blixt wallet is a mobile app that lets you use the Lightning Network for fast and cheap Bitcoin transactions. You run your own Lightning node on your phone, using lnd and Neutrino, so you don’t have to trust any custodial solutions or third-party servers. You have full control over your funds and your private keys. You can also manage your own channels and liquidity on the Lightning Network.
-
-Blixt wallet supports many advanced features, such as keysend, Lightning Address, LNURL, WebLN, Tor, and more. You can send and receive payments in Bitcoin using Lightning Network with ease and convenience. You can also interact with other Blixt wallet users on the telegram group, where you can find memes, support, and updates.
-
-Blixt wallet is developed by Hampus Sjöberg, a Swedish Bitcoin enthusiast who named the app after the Swedish word for lightning. He is constantly working on improving the app and adding new features.
-
-## Pros
-
-Blixt wallet has many advantages over other Lightning wallets, such as:
-
-- It's open-source and non-custodial, which means that you have full control over your funds and your private keys.
-- It's built with lnd and Neutrino, which are well-known and reputable Lightning and Bitcoin implementations.
-- It does not use any centralized servers for doing transactions, which means that you don't have to trust any third-party intermediaries.
-- It supports many cutting-edge features and developments in the Lightning community, such as keysend, Lightning Address, LNURL, WebLN, Tor, and more.
-- It has a responsive and helpful developer who is active on Twitter and Telegram.
-
-# How to Get Started
-
-## Download
-To get started with Blixt wallet, you need to download it from [Google Play](https://play.google.com/store/apps/details?id=com.blixtwallet&hl=en_US&gl=US) or [App Store](https://apps.apple.com/us/app/blixt-wallet/id1492822055). You can also visit their [website](https://blixtwallet.github.io/) or [GitHub](https://github.com/blixttech/blixt-wallet) for more information.
-
-## Create a New Wallet or Import an Existing One
-
-When you first launch Blixt, you will be greeted with a welcome screen that gives you two options: create a new wallet or import an existing one.
-
-If you choose to create a new wallet, Blixt will generate a 24-word seed phrase for you. This seed phrase is very important, as it is the only way to restore your wallet in case you lose your phone or uninstall the app. You should write down this seed phrase on a piece of paper and store it in a safe place. Do not share it with anyone or store it online, as anyone who has access to it can steal your funds.
-
-After you confirm that you have written down your seed phrase, Blixt will ask you to set a PIN code for your wallet. This PIN code will be used to unlock your wallet every time you open the app. You can also enable biometric authentication (such as fingerprint or face ID) if your device supports it.
-
-If you choose to import an existing wallet, Blixt will ask you to enter your 24-word seed phrase that you have previously generated with Blixt or another compatible wallet. Blixt will then scan the blockchain and restore your on-chain and off-chain funds.
-
-## Syncing
-After creating or restoring your wallet, you need to sync the Bitcoin blockchain headers and filters with Neutrino. This may take a few minutes depending on your network connection. You can see the progress on the top right corner of the screen.
-
-## How to fund your wallet with on-chain or off-chain transactions
-
-Once the sync is complete, you can see your on-chain and off-chain balances on the main screen. The on-chain balance is the amount of Bitcoin that you have in your regular Bitcoin addresses. The off-chain balance is the amount of Bitcoin that you have in your Lightning channels. Generally speaking your Lightning balance is what is immediately visible when you open the app.
-
-To use Blixt, you need to have some funds in your wallet. There are two types of funds: on-chain funds and off-chain funds.
-
-On-chain funds are regular Bitcoin transactions that are recorded on the blockchain. They are slow, expensive and public, but they are also more secure and widely accepted.
-
-Off-chain funds are Lightning Network transactions that are not recorded on the blockchain but on LN channels between nodes. They are fast, cheap and private, but they are also less secure and less compatible.
-
-To use LN payments, you need to have some off-chain funds in your LN channels. To get some off-chain funds, you need to have some on-chain funds first. So how do you get some on-chain funds?
-
-There are two ways:
-
-- You can send funds from another Bitcoin wallet (such as Coinbase or Cash App) or buy them with fiat using a service like Moonpay or Ramp.
-- You can receive funds from another LN wallet using Dunder LSP or submarine swaps.
-
-- **Send on-chain funds to Blixt wallet**: You can send Bitcoin from another wallet or exchange to your Blixt wallet address. You can find your address by tapping on the receive button at the bottom of the screen. By default, when you send on-chain funds to Blixt wallet, it will automatically open a channel for you with those funds using autopilot. Autopilot is a feature that selects the best nodes to connect with based on various criteria. You can disable autopilot in settings if you want to manually open channels.
-
-- **Receive Lightning payments from another node**: You can receive Bitcoin over Lightning Network from another node that has a channel with you. You can find your Lightning invoice by tapping on the receive button at the bottom of the screen and switching to the Lightning tab. You can also use your Lightning Address, which is a human-readable identifier that maps to your node. For example, you can receive sats from me@blixtwallet.com. If you don't have any channels yet, you can use Dunder LSP, which is a Lightning Service Provider that offers inbound liquidity for free. This means that you can receive payments over Lightning without needing to open channels yourself. You just need to receive a payment from Dunder LSP and they will open a channel with you automatically.
+Blixt supports many advanced features, such as Keysend, Lightning Address, LNURL, WebLN, Tor, and much more. Blixt is developed by [Hampus Sjöberg](https://twitter.com/hampus_s), a Swedish Bitcoin enthusiast who named the app after the Swedish word for lightning.
 
 
-### Sending funds from another Bitcoin wallet or buying them with fiat
+## How to Get Started
 
-To send funds from another Bitcoin wallet or buy them with fiat, you need an on-chain address from Blixt. To get an on-chain address, go to Settings > On-Chain Wallet > Receive Bitcoin. Blixt will generate a QR code and an alphanumeric string that represents your address. You can copy this address or scan the QR code with another wallet or service and send some funds to it.
+### Download
+To get started with Blixt, you need to download it from [Google Play](https://play.google.com/store/apps/details?id=com.blixtwallet&hl=en_US&gl=US) or [App Store](https://apps.apple.com/us/app/blixt-wallet/id1492822055) (*Test Flight only for now*) . You can also visit their [website](https://blixtwallet.github.io/) or [GitHub](https://github.com/blixttech/blixt-wallet) for more information.
 
-You will see the incoming transaction in your transaction log as soon as it is broadcasted to the network, but it will take some time (usually around 10 minutes) for it to be confirmed on the blockchain. You can check the confirmation status by tapping on the transaction.
+### Create a New Wallet
 
-Once confirmed, you can use these funds to open LN channels or send them back on-chain.
+When you first launch Blixt, you'll be greeted with a welcome screen that gives you two options: create a new wallet or import an existing one.
 
-### Receiving funds from another LN wallet using Dunder LSP or submarine swaps
+After choosing Create Wallet, Blixt will generate a 24-word seed phrase for you. To access this seed phrase, tap the cog icon in the top right corner of the screen, then tap Show Mnemonic.
 
-To receive funds from another LN wallet using Dunder LSP or submarine swaps, you need a LN invoice from Blixt. To create a LN invoice, go to Receive > Lightning Invoice. Blixt will ask you to enter an amount (in satoshis) and an optional description for the payment. Then it will generate a QR code and an alphanumeric string that represents your invoice. You can copy this invoice or scan the QR code with another LN wallet and pay it.
+This seed phrase is very important, as it is the only way to restore your wallet in case you lose your phone or uninstall the app. You should write down this seed phrase on a piece of paper and store it in a safe place. Do not share it with anyone or store it online, as anyone who has access to it can steal your funds.
 
-There are two ways that Blixt can receive these payments:
 
-- If you have enabled Dunder LSP in Settings > Enable Dunder LSP , Blixt will automatically open a channel with Dunder LSP node for the same amount that you receive (up to 400k sats per channel). This way, you can receive off-chain funds without having any on-chain funds first.
-- If you have disabled Dunder LSP or if the amount is larger than 500k sats per channel , Blixt will use submarine swaps  , which means that it will swap the off-chain payment for an on-chain payment using a third-party service called Boltz . This way, you can receive off-chain funds directly into your on-chain wallet without opening any channels.
+### Funding Blixt
+
+There are three main ways to fund your Blixt Wallet and get started with Lightning:
+
+
+- **Send on-chain funds to Blixt**: You can send Bitcoin from another wallet to the address shown on the Blixt home screen. By default, when you send on-chain funds to Blixt, it will automatically open a channel for you between the node on your phone and the Blixt LSP node. This method of getting started means that you'll have a Lightning spend capacity roughly equal to the amount deposited on-chain to Blixt. The downside of this method is that you are not able to receive via Lightning, since all of the funds are on your side of the channel. To be able to receive you'll either need to spend down some of your balance or carry out a submarine swap to 'drain off' some of your balance back to an on-chain wallet. 
+
+- **Receive immediately via Lightning**: To achieve this you'll need to head to the settings and enable 'Dunder LSP'. Dunder is a service that allows you to start accepting Lightning payments immediately. No need to first deposit funds on-chain to open a Lightning channel! Dunder supports 'on demand channel openings', meaning if your Blixt Lightning wallet gets an inbound payment while not having any open channels, Dunder will open a channel to the wallet with push amount equal to the inbound payment minus the on-chain fee. The current cap for this service is 400k sats.
+
+- **Manually open a channel**: Advanced users might choose to open channels to specific peers on the Lightning Network. To achieve this, first you'll need to disable 'Automatically Open Channels' from the settings. Once you've done that, send some on chain funds to the address shown and wait for them to confirm. Next, open the side drawer with the icon in the top left of the screen and tap Lightning Channels. From here you can tap the + icon and the enter the required information to open the channel to the desired peer.
+
+***
+
+## Sending via Lightning
+
+Now that you're set up and ready, here are the ways to send sats via Lightning:
+
+- **Via an invoice** - This is a QR code or an alphanumeric string that contains information about the payment, such as amount, description and expiry date.
+- **Via a Lightning Address** - A Lightning Address is an easy to remember and share identifier that allows Lightning users to pay to.
+- **Via a Keysend payment** - Keysend is a spontaneous payment that does not require an invoice. Keysend pays direct to a node ID.
+
+### Using an invoice
+To send over Lightning with an invoice , go to Send > Lightning Invoice . Blixt will ask you to scan a QR code or paste an alphanumeric string that represents an invoice from another LN wallet or service. Blixt will show you the details of the payment, such as amount, description, expiry date, etc.
+
+If you agree, tap on **Send** and wait for Blixt to find a route and send the payment through your channel(s). You will then see the outgoing payment in your transaction log as soon as it is sent by Blixt.
+
+### Using a Lightning Address
+Lightning addresses look like email, mine is `qna@tips.bitcoiner.guide`. Any wallet able to pay will using this standard will use this ID as a method to communicate directly with your node to generate and pay an invoice. 
+
+To pay to a Lightning Address in Blixt, tap Send, followed by the `@` symbol in the top right corner of the screen.
+
+After typing in your recipients' Lightning address, Blixt will ask you for the amount to be sent. After you populate the amount just tap **Send**. 
+
+
+### Using Keysend
+To use a Keysend payment, tap the hamburger icon in the top left of the home screen. Open the advanced drop down menu, then tap Keysend Experiement. 
+
+Blixt will ask for the public key of the node to be paid as well as the amount to be sent. Here you can also add an optional message to be sent with the payment. This can be useful as the recipient will not be able to tell exactly where this payment originated. 
+
+When you're happy, tap on **Send** and wait for Blixt to find a route and send the payment through your channel(s). You'll see the outgoing payment in your transaction log as soon as it is sent by Blixt.
+
+***
+
+
+## Receiving via Lightning
+
+Receiving sats over the Lightning Network requires 'inbound liquidity'. This essentially means that you need an open channel with enough 'space' on your side of the channel for sats to be pushed your way. If you aren't sure what your inbound liquidity is, tap the hamburger icon to open the side menu, then tap Lightning Channels. 
+
+Under each channel you will see a line that says 'Can receive'. Generally speaking, your inbound liquidity is the sum of all channel 'Can receive' balances. With every Lightning spend or receive you make, this amount will change. 
+
+### Using an invoice
+
+To create a LN invoice, go to Receive > Lightning Invoice. Blixt will ask you to enter an amount (in satoshis) and an optional description for the payment. Then it will generate a QR code and an alphanumeric string that represents your invoice. You can copy this invoice or show the QR code to another LN wallet or service and request a payment.
 
 You will see the incoming payment in your transaction log as soon as it is received by Blixt.
 
-## How to send and receive LN payments
+### Using Keysend
 
-To use Lightning Network, you need to have some funds in your off-chain balance. There are two ways to do this:
-
-LN payments are fast, cheap and private transactions that are not recorded on the blockchain but on LN channels between nodes. To use LN payments, you need to have some off-chain funds in your LN channels.
-
-There are two ways to send and receive LN payments:
-
-- You can use a LN invoice , which is a QR code or an alphanumeric string that contains information about the payment, such as amount, description, expiry date, etc.
-- You can use a keysend payment , which is a spontaneous payment that does not require an invoice, but only a public key or an alias of another node.
-
-### Using a LN invoice
-
-To use a LN invoice , go to Send > Lightning Invoice . Blixt will ask you to scan a QR code or paste an alphanumeric string that represents an invoice from another LN wallet or service. Blixt will show you the details of the payment, such as amount, description, expiry date, etc.
-
-If you agree, tap on **Pay** and wait for Blixt to find a route and send the payment through your channels.
-
-You will see the outgoing payment in your transaction log as soon as it is sent by Blixt.
-
-To create a LN invoice , go to Receive > Lightning Invoice . Blixt will ask you to enter an amount (in satoshis) and an optional description for the payment. Then it will generate a QR code and an alphanumeric string that represents your invoice. You can copy this invoice or show the QR code to another LN wallet or service and request a payment.
-
-You will see the incoming payment in your transaction log as soon as it is received by Blixt.
-
-### Using a keysend payment
-
-To use a keysend payment , go to Send > Keysend . Blixt will ask you to enter a public key or an alias of another node that you want to send a payment to. You can also scan a QR code that contains a public key or an alias of another node. Blixt will show you the details of the node, such as its name, public key, etc.
-Then, enter an amount (in satoshis) and an optional description for the payment.
-If you agree, tap on **Pay** and wait for Blixt to find a route and send the payment through your channels.
-You will see the outgoing payment in your transaction log as soon as it is sent by Blixt.
 To receive a keysend payment, you don't need to do anything, as Blixt will accept any keysend payment that is sent to your node's public key or alias.
 You will see the incoming payment in your transaction log as soon as it is received by Blixt.
 
-## Receiving your first Lightning sats
+<br/>
+
+Draft #1 text based edits are complete up to here. 
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 
-## Sending your first Lightning sats
-Once you have some funds in your off-chain balance, you can start sending and receiving payments over the Lightning Network. To send a payment, you can tap on the send button at the bottom of the screen and scan a QR code or enter an invoice or an address. You can also use keysend, which allows you to send payments without needing an invoice. You just need to enter the node ID or alias of the recipient. You can also use keysend to send messages or tips to other Blixt users or services that support it.
+
 
 ## How to open and close LN channels
 To manage your channels, you can tap on the menu button at the top left corner of the screen and select Lightning Channels. Here you can see all your channels and their details, such as capacity, balance, fees, status, etc. You can also open new channels with any node you want by tapping on the plus button at the bottom right corner of the screen.
@@ -169,7 +160,7 @@ You will see the closing transaction in your transaction log as soon as it is br
 
 Once confirmed, you will see the channel disappear from your channel list and the on-chain funds appear in your on-chain wallet.
 
-## How to backup and restore your wallet
+## Backups
 
 As mentioned before, your 24-word seed phrase is the most important thing to backup your wallet. However, it is not enough to backup your LN channels, as they are not stored on the blockchain but on your device. If you lose your device or uninstall the app without backing up your channels, you may lose some or all of your LN funds.
 
