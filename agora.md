@@ -260,7 +260,7 @@ To turn off Javascript, you can toggle the JS icon located on the top left side 
 
 ## Learn More
 
-#### Podcast Appearences
+#### Podcast Appearances
 - [StackCast Episode 5: Alex from LocalMonero & AgoraDesk](https://www.youtube.com/watch?v=_zwHj2lBV7c) 
 - [ Alex on LocalMonero & AgoraDesk, a peer-to-peer OTC Crypto trading service!](https://www.youtube.com/watch?v=VuCdBIZcHiE)
 
