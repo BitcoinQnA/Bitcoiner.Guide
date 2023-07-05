@@ -6,7 +6,7 @@ subtitle: Peer-to-peer cryptocurrency marketplace
 share-img: https://bitcoiner.guide/assets/img/QNA_SHARE_IMG.png
 ---
 <p align="center">
-  <a href="#what-is-agora-desk">Intro</a> |
+  <a href="#what-is-agoradesk">Intro</a> |
   <a href="#before-you-start">Preparation</a> |
   <a href="#buying-bitcoin">Buy Sats</a> |
   <a href="#faq">FAQ</a> |
