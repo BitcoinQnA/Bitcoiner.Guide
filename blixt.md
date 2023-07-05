@@ -55,11 +55,11 @@ After creating your wallet and noting down your seed words, you'll be met with t
 There are three main ways to fund your Blixt Wallet and get started with Lightning:
 
 
-- **Send on-chain funds to Blixt**: You can send Bitcoin from another wallet to the address shown on the Blixt home screen. By default, when you send on-chain funds to Blixt, it will automatically open a channel for you between the node on your phone and the Blixt LSP node. This method of getting started means that you'll have a Lightning spend capacity roughly equal to the amount deposited on-chain to Blixt. The downside of this method is that you are not able to receive via Lightning, since all of the funds are on your side of the channel. To be able to receive you'll either need to spend down some of your balance or carry out a [Submarine Swap](https://darthcoin.substack.com/p/lightning-network-submarine-swaps_) to 'drain off' some of your balance back to an on-chain wallet. 
+- **Send on-chain funds to Blixt**: You can send Bitcoin from another wallet to the address shown on the Blixt home screen. By default, when you send on-chain funds to Blixt, it will automatically open a channel for you between the node on your phone and the Blixt LSP node. This method of getting started means that you'll have a Lightning spend capacity roughly equal to the amount deposited on-chain to Blixt. The downside of this method is that you are not able to receive via Lightning, since all of the funds are on your side of the channel. To be able to receive you'll either need to spend down some of your balance or carry out a [Submarine Swap](https://darthcoin.substack.com/p/lightning-network-submarine-swaps) to 'drain off' some of your balance back to an on-chain wallet. 
 
 - **Receive immediately via Lightning**: To achieve this you'll need to head to the settings and enable the experimental '[Dunder LSP](#other-features)'. Dunder is a service that allows you to start accepting Lightning payments immediately. No need to first deposit funds on-chain to open a Lightning channel! Dunder supports 'on demand channel openings', meaning if your Blixt Lightning wallet gets an inbound payment while not having any open channels, Dunder will open a channel to the wallet with push amount equal to the inbound payment minus the on-chain fee. The current limit for this service is 400k sats.
 
-- **Manually open a channel**: Advanced users might choose to open channels to specific peers on the Lightning Network. To achieve this, first you'll need to disable 'Automatically Open Channels' from the settings. Once you've done that, send some on chain funds to the address shown and wait for them to confirm. Next, open the side drawer with the icon in the top left of the screen and tap Lightning Channels. From here you can tap the + icon and the enter the required information to open the channel to the desired peer.
+- **Manually open a channel**: Advanced users might choose to open channels to specific peers on the Lightning Network. To achieve this, first you'll need to disable 'Automatically Open Channels' from the settings. Once you've done that, send some on chain funds to the address shown and wait for them to confirm. Next, open the side drawer with the hamburger icon in the top left of the screen and tap Lightning Channels. From here you can tap the + icon and the enter the required information to open the channel to the desired peer.
 
 ***
 
@@ -115,7 +115,7 @@ If you agree, tap on **Send** and wait for Blixt to find a route and send the pa
 ### Using a Lightning Address
 Lightning addresses look like email, mine is `qna@tips.bitcoiner.guide`. Any wallet able to pay will using this standard will use this ID as a method to communicate directly with your node to generate and pay an invoice. 
 
-To pay to a Lightning Address in Blixt, tap Send, followed by the `@` symbol in the top right corner of the screen.
+To pay to a Lightning Address in Blixt, tap the hamburger icon, then 'Send to Lightning Address'.
 
 After typing in your recipients' Lightning address, Blixt will ask you for the amount to be sent. After you populate the amount just tap **Send**. 
 
@@ -158,18 +158,15 @@ You will see then incoming payment in your transaction log as soon as it is rece
   <img src="/assets/img/blixt10.png" class="responsive" style="max-width: 100%; height: auto;" />
 </p>
 
-### Using Keysend
-
-To receive a Keysend payment, you don't need to do anything, as Blixt will accept any Keysend payment that is sent to your node's public key or alias.
-You will see the incoming payment in your transaction log as soon as it is received by Blixt.
-
 ***
 
 ## Backups
 
 Your 24-word seed phrase is the most important thing to backup your wallet. However, the seed alone isn't enough to backup your Lightning channels. Lightning channel states aren't stored on the blockchain, they are kept on your device. If you lose your device or uninstall the app without backing up your channels, you put yourself more at risk of loss of funds.
 
-To prevent this from happening, Blixt offers two ways to backup your channels: Google Drive or iCloud backup and Static Channel Backup (SCB) file.
+To prevent this from happening, Blixt offers two ways to backup your channels: Google Drive or iCloud backup and Static Channel Backup (SCB) file. 
+
+**Note** - Restoring channels always results in a force closure and is best used as a final measure, for example in a scenario where you have lost access to your phone.
 
 ### Google Drive / iCloud Backups
 
@@ -200,14 +197,14 @@ Blixt has lots of additional features and settings. Here is a snapshot of some o
 ### Dunder LSP
 [Dunder](https://blixtwallet.github.io/guides#guide-lsp) provides a low friction way to get on boarded directly to Lightning without needing to interact directly with an on-chain wallet. Dunder is a Lightning Service Provider that supports "on demand channel openings". Once enabled from the settings, when your Blixt wallet gets an inbound Lightning payment while not having any inbound capacity, Dunder will open a channel to the wallet with a push amount equal to the inbound payment minus the on-chain fee. 
 
-You don't need to use the pre-configured Dunder LSP either. Once enabled, an additional menu item will surface that allows you to choose your own LSP provider. [Here](https://github.com/hsjoberg/blixt-wallet/issues/1033) is a list of community ran services. 
+You don't need to use the pre-configured Dunder LSP either. Once enabled, an additional menu item will surface that allows you to choose your own LSP provider. At the time of writing there is only a single [alternative](https://github.com/hsjoberg/blixt-wallet/issues/1033#issuecomment-1322576624), but more may be added in the future. 
 
 Here's a quick primer on getting stared with a Dunder channel:
 
 1. Enable Dunder LSP from the app settings.
 2. Click receive from the main screen and specify an amount no greater than 400k sats. For this example let's assume an invoice of 200k sats.
 3. Share the resulting Lightning invoice with whoever wants to pay you via Lightning.
-4. Once the invoice is paid, the Dunder LSP will create a channel of maximum 400k sats and push the amount specified in the invoice (200k sats) to your side of the channel.
+4. Once the invoice is paid, the Dunder LSP will create a channel 400k sats in size and push the amount specified in the invoice (200k sats) to your side of the channel.
 5. You can now send **and** receive 200k sats over Lightning without needing any additional channels.
 6. If you then choose to receive an amount larger than your 'Can receive' balance, the Dunder LSP will repeat the process again and open a new additional channel to you.
 
@@ -228,7 +225,7 @@ To enable or disable Tor, go to Settings > Enable Tor . Blixt will restart and r
 
 ### Lightning Browser
 
-Blixt has a built-in web browser that supports WebLN, a protocol that allows websites to interact with your Lightning wallet. To access the Lightning Browser, tap the hamburger icon, then tap Lightning Browser. You'll then be met with a list of websites and services that you can interact with using your Blixt lightning node/wallet.
+Blixt has a built-in web browser that supports WebLN, a protocol that allows websites to interact with your Lightning wallet. It also conveniently fetches any BOLT11 invoices and LNURL codes it finds and prompts the user. To access the Lightning Browser, tap the hamburger icon, then tap Lightning Browser. You'll then be met with a list of websites and services that you can interact with using your Blixt lightning node/wallet.
 
 <p align="center">
   <img src="/assets/img/blixt13.png" class="responsive" style="max-width: 100%; height: auto;" />
@@ -246,7 +243,7 @@ Although Blixt focuses on Lightning, it does allow users to interact with a trad
 
 ### Contacts & Services
 
-Here you can and manage your contacts using their Lightning Address or node ID. Having a list of contacts that you frequently pay can be useful so that you don't need to re-enter their Lightning Address or request an invoice each time you want to pay them. To access the contact list, tap the hamburger icon, then tap Contacts & Services. 
+Here you can and manage your contacts using their Lightning Address, LNURL-pay and LNURL-withdraw codes. Having a list of contacts that you frequently pay can be useful so that you don't need to re-enter their Lightning Address or request an invoice each time you want to pay them. To access the contact list, tap the hamburger icon, then tap Contacts & Services. 
 
 <p align="center">
   <img src="/assets/img/blixt15.png" class="responsive" style="max-width: 100%; height: auto;" />
@@ -282,13 +279,31 @@ Blixt is still a work in progress and may encounter some issues or bugs from tim
 
 If you encounter any other issue or bug that is not listed here, or if you have any questions, suggestions or feedback about Blixt, the best way to get involved is via the very active Blixt Community [Telegram](https://t.me/blixtwallet) group. 
 
-Otherwise the project leader and main developer behind Blixt, Hampus, can be reached via email at [hampus@blixtwallet.com](mailto:hampus@blixtwallet.com) or on Twitter [@hampus_s](https://twitter.com/@hampus_s).
+Otherwise the project leader and main developer behind Blixt, Hampus, can be reached via email at [hampus.sjoberg@protonmail.com](mailto:hampus.sjoberg@protonmail.com) or on Twitter [@hampus_s](https://twitter.com/@hampus_s).
+
+***
+
+## Coming Soon
+
+Blixt is still under very active development to continue pushing the boundaries of Lightning. You can read more about their plans [here](https://grant.blixtwallet.com/). Here are two stand out items worth mentioning:
+
+### Lightning Box
+There are currently no non-custodial mobile wallets that support [Lightning Address](https://lightningaddress.com/). The options are either to host your own infrastructure or use a custodial wallet (not advisable!).
+
+[Lightning Box](https://github.com/hsjoberg/lightning-box) is a trust-minimized Lightning Address solution for non-custodial wallets. The Lightning Box provider will take payments on behalf of the user and then notify them via a communication medium. The user can then open up their wallet in order to drain the cached funds via LNURL-withdraw. 
+
+
+### Desktop Support
+Since version 0.6.0, Blixt Wallet is also available on macOS, but Hampus also has plans to further establish the wallet in other desktop environments with Windows and Linux support.
+
+***
 
 
 ## Relevant Links
 
 **Download Blixt:**
 - [iOS (TestFlight only)](https://apps.apple.com/us/app/blixt-wallet/id1492822055)
+- [MacOS (TestFlight only)](https://apps.apple.com/us/app/blixt-wallet/id1492822055)
 - [Android](https://play.google.com/store/apps/details?id=com.blixtwallet&hl=en_US&gl=US)
 - [APK](https://github.com/hsjoberg/blixt-wallet/releases)
 

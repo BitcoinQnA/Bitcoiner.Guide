@@ -22,6 +22,7 @@ tags: [node, wallet, security, privacy, nokyc]
 
 | Name                             |  Description                                                     |  Published                             |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
+| [Blixt 101](/blixt)   |  Collaborative post with [Expatriotic](https://twitter.com/expatri0tic) on using Blixt wallet  |  05 Jul 2023            |
 | [Stack Duo 101](/stack-duo)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Stack Duo mobile wallet  |  16 May 2023            |
 | [Passport 101](/passport)   |  Basic explainer on setting up and using Passport HWW  | 07 Jul 2021                |
 | [Specter Desktop 101](/specter)   | Basic explainer on setting up and using Specter desktop wallet  | Updated 13 Apr 2021                |
