@@ -3,7 +3,7 @@ layout: page
 title: AgoraDesk
 subtitle: Peer-to-peer cryptocurrency marketplace
 #cover-img: /assets/img/path.jpg
-share-img: https://bitcoiner.guide/assets/img/QNA_SHARE_IMG.png
+share-img: https://bitcoiner.guide/assets/img/shareagora.png
 ---
 <p align="center">
   <a href="#what-is-agoradesk">Intro</a> |
