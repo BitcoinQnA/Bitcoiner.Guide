@@ -98,6 +98,14 @@ ATM's are another great option, but use with caution as some still require varyi
 
 ***
 
+### In-person cash payments for online exchanges
+
+Some online exchanges offer no-KYC in-person cash payments.
+* [**Azteco**](https://azte.co) 
+* [**Bull Bitcoin**](https://bullbitcoin.com)
+
+***
+
 ## Doesn't buying no-KYC bitcoin come with a hefty premium?
 
 It is absolutelty true that you will see some offers to purchase bitcoin on P2P exchanges for some **very** high premiums over the spot price. However if you are patient enough you can pick some up at spot or just marginally (1-4%) above. Both Bisq and Hodl Hodl allow you to create a 'Buy offer' which is essentially, you telling the market that you want to buy 'X' amount of bitcoin at 'X%' relative to the spot price. All you need to do then is wait for a seller to accept your offer and complete the trade.
