@@ -267,7 +267,7 @@ AgoraDesk is completely Open-Source. You can find the code source [here](https:/
 If you have any questions or feedback, get involved via these options:
 - [Open a support ticket](https://localmonero.freshworks.com/login/auth/1619175741220?client_id=451979510707337272&redirect_uri=https%3A%2F%2Fagoradesk.freshdesk.com%2Ffreshid%2Fcustomer_authorize_callback%3Fhd%3Dagoradesk.freshdesk.com)
 - Send them an email at [support@agoradesk.freshdesk.com](support@agoradesk.freshdesk.com)
-- [Telegram](support@agoradesk.freshdesk.com)
+- [Telegram](https://t.me/AgoraDesk)
 - [Matrix](https://matrix.to/#/#agoradesk:agoradesk.com)
 
 Remember - No AgoraDesk representative will ever contact you unannounced. If someone does, they are almost certainly a scammer and should be blocked!
