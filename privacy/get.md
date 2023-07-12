@@ -74,7 +74,7 @@ Given these risks it seems logical that step 1 of your Bitcoin privacy journey s
   
 - **Misc**
   - [Earn it](https://www.lopp.net/bitcoin-information/buying-earning.html#earning)
-  - [Buy in person at a meetup](https://bitcoin-only.com/#meetups)
+  - [Buy in person at a meetup](https://bitcoin-only.com/meetups)
   - [Mine it](https://diverter.hostyourown.tools/mining-for-the-streets/)
   
   
