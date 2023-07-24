@@ -9,7 +9,7 @@ share-img: https://bitcoiner.guide/assets/img/QNA_IMG.png
 <p align="center">
   <a href="#what-is-azteco">Intro</a> |
   <a href="#preparation">Preparation</a> |
-  <a href="#buy-your-voucher">Buy Sats</a> |
+  <a href="#buy-vouchers">Buy Sats</a> |
   <a href="#faq">FAQ</a> |
   <a href="#learn-more">Learn More</a> 
 </p>
@@ -35,15 +35,15 @@ You need a Bitcoin wallet where you will receive the funds. In this guide, we wi
 
 If you need a Bitcoin wallet, consider the following options (Avoid Azteco's recommendations):
 
-**On-chain:**
-- [Samourai Wallet](https://samouraiwallet.com/)
-- [Envoy](https://foundationdevices.com/envoy/)
-- [Sparrow Wallet](https://sparrowwallet.com/) 
+**On-chain wallets:**
+- [Envoy](https://foundationdevices.com/envoy/) – Android/iOS
+- [Samourai Wallet](https://samouraiwallet.com/) – Android Only
+- [Sparrow Wallet](https://sparrowwallet.com/) – Desktop
 
-**Lightning:**
-- [Zeus](https://zeusln.app/) (lightning node required)
-- [Phoenix](https://phoenix.acinq.co/)
-- [Blixt](https://blixtwallet.github.io/) 
+**Lightning wallets:**
+- [Zeus](https://zeusln.app/) – Android/iOS
+- [Phoenix](https://phoenix.acinq.co/) – Android/iOS
+- [Blixt](https://blixtwallet.github.io/) – Android/iOS
 
 ## Buy Vouchers
 
@@ -53,14 +53,14 @@ If you need a Bitcoin wallet, consider the following options (Avoid Azteco's rec
 The **best** way to acquire your Azteco voucher is through its network of vendors. Check Azteco [official resellers' map](https://azte.co/find_a_vendor) and see if you can trade cash for sats around you. This is the most private way to acquire vouchers as you can pay for cash and by-pass request for identification.
 
 ### Order online from Azteco
-In some countries, you can also buy online from Azteco and pay by cash, bank transfer, or QR code. Azteco has numerous [cash-in locations](https://azte.co/pay-in-person) in Brazil, Colombia, Mexico, Peru, Chile, Costa Rica, South Africa, Ghana, Uganda, Zambia and Ireland. 
+In some countries, you can also purchase online from Azteco and choose from a variety of payment methods such as cash, bank transfer, or credit card. Azteco has numerous [cash-in locations](https://azte.co/pay-in-person) in Brazil, Colombia, Mexico, Peru, Chile, Costa Rica, South Africa, Ghana, Uganda, Zambia and Ireland. 
 
-Navigate to the [Pay-in-person](https://azte.co/pay-in-person) page where you will find all the necessary instructions to order your voucher online. 
+Start by navigating to the [Pay-in-person](https://azte.co/pay-in-person) page. This page will provide you with all the necessary instructions to order your voucher online.
 
 Effectively, you order your voucher online but make the payment in a physical store (or through the local methods of payment, which could be less private or not private at all!). You then receive your voucher by email and redeem it.
 
 ### Online resellers
-Since Azteco is fairly new, you may not find any vendors around your location. Alternatively, you can buy your voucher online from [approved retailers](https://help.azte.co/article/8-buy-a-voucher-approved-retailers), such as G2A or Kinguin. Note that these online alternatives require you to provide an email address and to use methods of payment that are less private than cash.
+You may not find any vendors around your location. Alternatively, you can buy your voucher online from [approved retailers](https://help.azte.co/article/8-buy-a-voucher-approved-retailers), such as G2A or Kinguin. Note that these online alternatives require you to provide an email address and to use methods of payment that are less private than cash.
 
 Here are some tips you can use to improve your online privacy:
 - Use an [email alias](https://simplelogin.io/) to hide your real email address.
@@ -89,7 +89,9 @@ Scan the Azteco voucher, confirm the redemption and press continue. Congratulati
 
 ### Other wallets
 
-If you don't want to use Envoy or purchase a lightning voucher, navigate to [azte.co](https://azte.co/). Enter your 16-digit voucher code and paste your receiving Bitcoin address on the home page. Wait for the transaction to enter the mempool, and voila! 
+If you don't want to use Envoy or purchase a lightning voucher, navigate to [azte.co](https://azte.co/). 
+
+Enter your 16-digit voucher code and scan the QR code on the voucher by navigating to your "Receive" page in your wallet. Wait for the transaction to enter the mempool, and voila! 
 
 ## FAQ
 
@@ -108,7 +110,7 @@ Azteco vouchers might come with an additional "Processing fee" in certain countr
 If you order your voucher from Azteco through the pay-in-person option, you can read the following regarding fees: **7% commission + processing fee applies. Processing fees: Europe & Latin America $1.00 USD - Africa $0.00 USD**
 
 ### Can I sell vouchers?
-Yes! As a buisness owner you can offer Azteco vouchers to your customers. It opens up a new form of revenue for your business and attracts Bitcoiners in your area. 
+Yes! As a buisness owner you can offer Azteco vouchers to your customers. It opens up a new form of revenue for your business and attracts Bitcoiners in your area. You do not interact with bitcoin or have to worry about the exchange rate; instead, you simply print vouchers from your top-up balance.  
 
 You need to open an account with Azteco to become a vendor. This involves signing up and providing certain documents such as proof of residence, ID and selfie. 
 
