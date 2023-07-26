@@ -23,9 +23,10 @@ share-img: https://bitcoiner.guide/assets/img/QNA_IMG.png
 <br/>
 
 ## What is Azteco?
+
 Azteco is a service that offers a unique, easy, and private way to purchase Bitcoin. It allows users to buy Bitcoin using a voucher system, like purchasing a prepaid phone card, without sacrificing personal information.
 
-The process is simple - users buy a voucher with a unique code from a participating location or online and then redeem this code on the Azteco website. The equivalent Bitcoin value is transferred directly to the user's wallet upon redemption.
+The process is simple - users buy a voucher with a unique code from a participating location or online and then redeem this code on the Azteco website. The equivalent Bitcoin value is transferred directly to the user's wallet upon redemption. 
 
 ## Preparation
 
@@ -50,27 +51,38 @@ If you need a Bitcoin wallet, consider the following options (Avoid Azteco's rec
 *Note that Azteco offers lightning and on-chain vouchers. In this guide, we will buy an on-chain voucher.*
 
 ### Physical Vendors
-The **best** way to acquire your Azteco voucher is through its network of vendors. Check Azteco [official resellers' map](https://azte.co/find_a_vendor) and see if you can trade cash for sats around you. This is the most private way to acquire vouchers as you can pay for cash and by-pass request for identification.
+The **best** way to acquire your Azteco voucher is through its network of vendors. Check Azteco [official resellers' map](https://azte.co/find_a_vendor) and see if you can trade cash for sats around you. This is the most private way to acquire vouchers as you can pay with cash and bypass request for identification.
 
 ### Order online from Azteco
-In some countries, you can also purchase online from Azteco and choose from a variety of payment methods such as cash, bank transfer, or credit card. Azteco has numerous [cash-in locations](https://azte.co/pay-in-person) in Brazil, Colombia, Mexico, Peru, Chile, Costa Rica, South Africa, Ghana, Uganda, Zambia and Ireland. 
+Azteco offers a hybrid online and in-person service, available in a variety of countries, that allows you to purchase Bitcoin vouchers. The service provides numerous payment methods, including cash, bank transfer, and credit card. Azteco has [cash-in locations](https://azte.co/pay-in-person) across several countries including Brazil, Colombia, Mexico, Peru, Chile, Costa Rica, South Africa, Ghana, Uganda, Zambia, and Ireland.
 
-Start by navigating to the [Pay-in-person](https://azte.co/pay-in-person) page. This page will provide you with all the necessary instructions to order your voucher online.
-
-Effectively, you order your voucher online but make the payment in a physical store (or through the local methods of payment, which could be less private or not private at all!). You then receive your voucher by email and redeem it.
+Start by navigating to the [Pay-in-person](https://azte.co/pay-in-person) page. This page will provide you with all the necessary instructions to order your voucher online. You need to fill-up a form in order to get a bar code. Once you have this bar code you can go to any of the Azteco-affiliated physical locations. This physical vendor will scan your barcode and collect your payment. The vendor will communicate this transaction to Azteco. Once payment is confirmed, Azteco emails you the voucher.
 
 ### Online resellers
-You may not find any vendors around your location. Alternatively, you can buy your voucher online from [approved retailers](https://help.azte.co/article/8-buy-a-voucher-approved-retailers), such as G2A or Kinguin. Note that these online alternatives require you to provide an email address and to use methods of payment that are less private than cash.
+If there aren't any Azteco vendors in your area, you can purchase a voucher online from [approved retailers](https://help.azte.co/article/8-buy-a-voucher-approved-retailers) like G2A or Kinguin. However, it's important to remember that online purchases will require an email address and potentially less private payment methods compared to cash transactions.
 
-Here are some tips you can use to improve your online privacy:
-- Use an [email alias](https://simplelogin.io/) to hide your real email address.
-- Buy a [Paysafecard](www.paysafecard.com) at your local shop and use it as a payment method.  
-- Ask a friend/family member to buy the voucher for you and pay them with cash.
-- If online retailers ask for your address, consider using fake address generators such as [Prepostseo](https://www.prepostseo.com/tool/fake-address-generator).
+If you're keen on maintaining your privacy while shopping online, here are some strategies to consider:
 
-Once you have your voucher and the 16 digits code associated with it, it is time to redeem it. We can do this in two ways: with a receiving address or by scanning a QR code.
+- Consider using an [email alias](https://simplelogin.io/). This tool allows you to disguise your actual email address, adding an extra layer of privacy.
+- Purchase a [Paysafecard](www.paysafecard.com) at a local shop and use it for your online transactions. This way, you won't need to use your credit card information online.
+- If possible, ask a friend or family member to purchase the voucher on your behalf, and reimburse them in cash. This could help to preserve your anonymity.
+- Utilize a temporary phone number or "phone burner" if the retailer requires phone verification.
+- If an online retailer requires your address for the purchase, you might use a fake address generator like [Prepostseo](https://www.prepostseo.com/tool/fake-address-generator) to create a fictitious one.
+
+Once you have your voucher, it is time to redeem it. For reference, here is what the coupon looks like:
+
+<p align="center">
+  <img src="/assets/img/azteco-voucher-example.png" class="responsive" style="max-width: 80%; height: auto;" />
+</p>
+
+## Voucher acquisition opinion
+If you don't have a local vendor around you, you'd be better off using non-KYC services such as [Bisq](/bisq), [Robosats](/robosats), [HodlHodl](/hodlhodl), [Peach Bitcoin](/peach) or [AgoraDesk](/agora). These services offer greater privacy than online Azteco vouchers.
+
+Bitcoiner.guide has step-by-step guides for all of these alternatives. Don't hesitate to reach out if you have any questions!
 
 ## Redeem your Voucher
+
+*Note that Azteco is required to collect the IP address of the device redeeming a voucher. For improved privacy, use a VPN such as [iVPN](https://www.ivpn.net/) or [Mullvad](https://mullvad.net/en).*
 
 ### Envoy
 
@@ -81,17 +93,68 @@ Download [Envoy](https://foundationdevices.com/envoy/) from the following links 
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy)
 - [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818)
 
-Navigate to [azte.co](https://azte.co/) and enter your 16-digit voucher code. 
+Navigate to [azte.co](https://azte.co/) and enter your 16-digit voucher code to get your QR code.
+
+<p align="center">
+  <img src="/assets/img/azteco-home-page.png" class="responsive" style="max-width: 90%; height: auto;" />
+</p>
 
 Open Envoy, select the account you wish to send sats to and press the scan button. 
 
-Scan the Azteco voucher, confirm the redemption and press continue. Congratulations, you have stacked non-KYC sats!
+<p align="center">
+  <img src="/assets/img/azteco-envoy-01.png" class="responsive" style="max-width: 80%; height: auto;" />
+</p>
+
+Scan the Azteco voucher, confirm the redemption and press continue. You should see an Azteco pending UTXO. You simply need to wait for the network to confirm the transaction.
+
+<p align="center">
+  <img src="/assets/img/azteco-envoy-02.png" class="responsive" style="max-width: 80%; height: auto;" />
+</p>
 
 ### Other wallets
+If you don't want to use Envoy or purchase a lightning voucher, don't worry; the process is as easy as the on-chain.
 
-If you don't want to use Envoy or purchase a lightning voucher, navigate to [azte.co](https://azte.co/). 
+#### On Chain
+Navigate to [azte.co](https://azte.co/). Enter your 16-digit and your on-chain receiving address.
 
-Enter your 16-digit voucher code and scan the QR code on the voucher by navigating to your "Receive" page in your wallet. Wait for the transaction to enter the mempool, and voila! 
+<p align="center">
+  <img src="/assets/img/azteco-home-page-redeem.png" class="responsive" style="max-width: 90%; height: auto;" />
+</p>
+
+#### Lightning
+I'd recommend [Phoenix](https://phoenix.acinq.co/) for a more approachable yet non-custodial lightning wallet. 
+
+Download Phoenix for your relevant mobile operating system: 
+
+- [iOS](https://apps.apple.com/us/app/phoenix-wallet/id1544097028)
+- [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet)
+- [APK](https://github.com/ACINQ/phoenix/releases)
+
+Open the app, read the welcome pages, and create a new wallet. 
+
+<p align="center">
+  <img src="/assets/img/azteco-other-wallet-01.png" class="responsive" style="max-width: 80%; height: auto;" />
+</p>
+
+Once your wallet is created, navigate to the settings in the top left corner and go to "Recovery Phrase".
+
+<p align="center">
+  <img src="/assets/img/azteco-other-wallet-02.png" class="responsive" style="max-width: 80%; height: auto;" />
+</p>
+
+Read the warnings and the responsibilities that come with self-custody and click "Display Seed". Grab a piece of paper, and note down your recovery phrase. You must keep these offline and secure. Never share these with anyone.  
+
+<p align="center">
+  <img src="/assets/img/azteco-other-wallet-03.png" class="responsive" style="max-width: 80%; height: auto;" />
+</p>
+
+Finally, navigate to [azte.co](https://azte.co/). Enter your 16-digit voucher code to receive your QR code.
+
+<p align="center">
+  <img src="/assets/img/azteco-home-page.png" class="responsive" style="max-width: 90%; height: auto;" />
+</p>
+
+Open Phoenix, and click on "Send" to open the camera. Scan the QR code on the voucher and press "Redeem". Congrats!
 
 ## FAQ
 
@@ -110,9 +173,9 @@ Azteco vouchers might come with an additional "Processing fee" in certain countr
 If you order your voucher from Azteco through the pay-in-person option, you can read the following regarding fees: **7% commission + processing fee applies. Processing fees: Europe & Latin America $1.00 USD - Africa $0.00 USD**
 
 ### Can I sell vouchers?
-Yes! As a buisness owner you can offer Azteco vouchers to your customers. It opens up a new form of revenue for your business and attracts Bitcoiners in your area. You do not interact with bitcoin or have to worry about the exchange rate; instead, you simply print vouchers from your top-up balance.  
+Yes! As a business owner, you can offer Azteco vouchers to your customers. It opens up a new form of revenue for your business and attracts Bitcoiners in your area. You do not interact with Bitcoin or have to worry about the exchange rate; instead, you print vouchers from your top-up balance.  
 
-You need to open an account with Azteco to become a vendor. This involves signing up and providing certain documents such as proof of residence, ID and selfie. 
+You need to open an account with Azteco to become a vendor. This involves signing up and providing documents such as proof of residence, ID and selfie. 
 
 You can learn more and become a vendor [here](https://azte.co/vendor_application).
 
@@ -122,6 +185,7 @@ You can learn more and become a vendor [here](https://azte.co/vendor_application
 - Official [resellers' map](https://azte.co/find_a_vendor).
 - Official [resellers](https://help.azte.co/category/6-buy-a-voucher).
 - [Azteco Raises $6M In A Seed Funding Round Led By Jack Dorsey](https://www.nobsbitcoin.com/azteco-raises-6m/).
+- [Q&A with Akin Fernandez, Founder of Azteco](https://www.youtube.com/watch?v=tHxqroXSMqg).
 
 #### About the writer
 Hi, I'm Bitlevi! I crystallise what I learn on my journey to sovereignty by writing about Bitcoin and FOSS tools. Feel free to message me on [Twitter](https://twitter.com/Bit_levi). If you enjoyed this guide and want to donate, here is my [PayNym](https://paynym.is/+shinyfrost520)!
