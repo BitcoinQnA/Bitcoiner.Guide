@@ -26,7 +26,7 @@ share-img: https://bitcoiner.guide/assets/img/QNA_IMG.png
 
 Azteco is a service that offers a unique, easy, and private way to purchase Bitcoin. It allows users to buy Bitcoin using a voucher system, like purchasing a prepaid phone card, without sacrificing personal information.
 
-The process is simple - users buy a voucher with a unique code from a participating location or online and then redeem this code on the Azteco website. The equivalent Bitcoin value is transferred directly to the user's wallet upon redemption. 
+The process is simple - users buy a voucher with a unique code from a participating location or online store and then redeem this code on the Azteco website. The equivalent Bitcoin value is transferred directly to the user's wallet upon redemption. 
 
 ## Preparation
 
@@ -34,7 +34,7 @@ The process is simple - users buy a voucher with a unique code from a participat
 
 You need a Bitcoin wallet where you will receive the funds. In this guide, we will leverage a new feature from [Envoy](https://foundationdevices.com/envoy/) called "Azteco Voucher Redemption". This feature lets you scan Azteco's QR code and directly transfer sats to your Passport or Envoy wallet. Otherwise, you need a receiving Bitcoin address from any standard wallet.
 
-If you need a Bitcoin wallet, consider the following options (Avoid Azteco's recommendations):
+If you need a Bitcoin wallet, consider the following options:
 
 **On-chain wallets:**
 - [Envoy](https://foundationdevices.com/envoy/) – Android/iOS
@@ -51,23 +51,25 @@ If you need a Bitcoin wallet, consider the following options (Avoid Azteco's rec
 *Note that Azteco offers lightning and on-chain vouchers. In this guide, we will buy an on-chain voucher.*
 
 ### Physical Vendors
-The **best** way to acquire your Azteco voucher is through its network of vendors. Check Azteco [official resellers' map](https://azte.co/find_a_vendor) and see if you can trade cash for sats around you. This is the most private way to acquire vouchers as you can pay with cash and bypass request for identification.
+The **best** way to acquire your Azteco voucher is through its network of vendors. Check Azteco [official resellers' map](https://azte.co/find_a_vendor) and see if you can trade cash for sats in your local area. This is the most private way to acquire vouchers as you can pay with cash and bypass requests for identification.
 
 ### Order online from Azteco
 Azteco offers a hybrid online and in-person service, available in a variety of countries, that allows you to purchase Bitcoin vouchers. The service provides numerous payment methods, including cash, bank transfer, and credit card. Azteco has [cash-in locations](https://azte.co/pay-in-person) across several countries including Brazil, Colombia, Mexico, Peru, Chile, Costa Rica, South Africa, Ghana, Uganda, Zambia, and Ireland.
 
 Start by navigating to the [Pay-in-person](https://azte.co/pay-in-person) page. This page will provide you with all the necessary instructions to order your voucher online. You need to fill-up a form in order to get a bar code. Once you have this bar code you can go to any of the Azteco-affiliated physical locations. This physical vendor will scan your barcode and collect your payment. The vendor will communicate this transaction to Azteco. Once payment is confirmed, Azteco emails you the voucher.
 
+Choosing this alternative might require you to provide personal data, like your TaxID as used in Brazil, for instance. Ensure that you have thoroughly reviewed the requirements, as this service might closely resemble the Know Your Customer (KYC) exchanges.
+
 ### Online resellers
-If there aren't any Azteco vendors in your area, you can purchase a voucher online from [approved retailers](https://help.azte.co/article/8-buy-a-voucher-approved-retailers) like G2A or Kinguin. However, it's important to remember that online purchases will require an email address and potentially less private payment methods compared to cash transactions.
+If there aren't any Azteco vendors in your area, you can purchase a voucher online from [approved retailers](https://help.azte.co/article/97-buy-an-azteco-bitcoin-voucher-online-store) like G2A or Kinguin. However, it's important to remember that online purchases will require an email address/phone number and potentially less private payment methods compared to cash transactions. Providing such information like your phone number could potentially link your purchase to your personal identity.
 
 If you're keen on maintaining your privacy while shopping online, here are some strategies to consider:
 
-- Consider using an [email alias](https://simplelogin.io/). This tool allows you to disguise your actual email address, adding an extra layer of privacy.
+- Consider using an [email alias](https://simplelogin.io/). This tool allows you to disguise your actual email address, adding an extra layer of privacy. Note that some services may block or flag sign-ups from alias services.
+- If an online retailer requires your address for the purchase, you might use a fake address generator like [Prepostseo](https://www.prepostseo.com/tool/fake-address-generator) to create a fictitious one. Depending on the retailer's terms of service, providing false information could lead to issues or account termination. 
+- Utilize a temporary phone number or "phone burner" if the retailer requires phone verification. Similar to the email aliases, some services may flag or block these numbers. 
 - Purchase a [Paysafecard](www.paysafecard.com) at a local shop and use it for your online transactions. This way, you won't need to use your credit card information online.
-- If possible, ask a friend or family member to purchase the voucher on your behalf, and reimburse them in cash. This could help to preserve your anonymity.
-- Utilize a temporary phone number or "phone burner" if the retailer requires phone verification.
-- If an online retailer requires your address for the purchase, you might use a fake address generator like [Prepostseo](https://www.prepostseo.com/tool/fake-address-generator) to create a fictitious one.
+- If possible, ask a friend or family member to purchase the voucher on your behalf, and reimburse them in cash. This could help to preserve your anonymity. 
 
 Once you have your voucher, it is time to redeem it. For reference, here is what the coupon looks like:
 
@@ -92,8 +94,6 @@ Download [Envoy](https://foundationdevices.com/envoy/) from the following links 
 - [F-Droid](https://foundationdevices.com/fdroid/)
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy)
 - [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818)
-
-Navigate to [azte.co](https://azte.co/) and enter your 16-digit voucher code to get your QR code.
 
 <p align="center">
   <img src="/assets/img/azteco-home-page.png" class="responsive" style="max-width: 90%; height: auto;" />
@@ -164,7 +164,7 @@ When you buy an Azteco voucher, the amount of Bitcoin you will receive is calcul
 
 ### What are the fees? 
 
-Individual retailers selling Azteco vouchers establish the commission fees. You can view the commission amount on your voucher, and retailers are expected to disclose these costs beforehand. If they don't, feel free to inquire. 
+Individual retailers selling Azteco vouchers establish the commission fees. You can view the commission and network fee at the bottom of your voucher, and retailers are expected to disclose these costs beforehand. If they don't, feel free to inquire. 
 
 For instance, the approved retailer ENEBA discloses the following: *The bitcoin value of the voucher is calculated using the market price of bitcoin at the time of purchase. Azteco vouchers purchased from **Eneba include a 10% commission fee**. On-chain vouchers also include a "Network fee" to cover the cost of processing your voucher using the Main Bitcoin Network.*
 
