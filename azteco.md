@@ -58,7 +58,7 @@ Azteco offers a hybrid online and in-person service, available in a variety of c
 
 Start by navigating to the [Pay-in-person](https://azte.co/pay-in-person) page. This page will provide you with all the necessary instructions to order your voucher online. You need to fill-up a form in order to get a bar code. Once you have this bar code you can go to any of the Azteco-affiliated physical locations. This physical vendor will scan your barcode and collect your payment. The vendor will communicate this transaction to Azteco. Once payment is confirmed, Azteco emails you the voucher.
 
-Choosing this alternative might require you to provide personal data, like your TaxID as used in Brazil, for instance. Ensure that you have thoroughly reviewed the requirements, as this service might closely resemble the Know Your Customer (KYC) exchanges.
+This alternative might require you to provide personal data like your Tax ID in Brazil. Ensure you have thoroughly reviewed the requirements, as this service might closely resemble KYC exchanges!
 
 ### Online resellers
 If there aren't any Azteco vendors in your area, you can purchase a voucher online from [approved retailers](https://help.azte.co/article/97-buy-an-azteco-bitcoin-voucher-online-store) like G2A or Kinguin. However, it's important to remember that online purchases will require an email address/phone number and potentially less private payment methods compared to cash transactions. Providing such information like your phone number could potentially link your purchase to your personal identity.
