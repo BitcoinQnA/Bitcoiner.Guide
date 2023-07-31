@@ -67,9 +67,9 @@ If you're keen on maintaining your privacy while shopping online, here are some 
 
 - Consider using an [email alias](https://simplelogin.io/). This tool allows you to disguise your actual email address, adding an extra layer of privacy. Note that some services may block or flag sign-ups from alias services.
 - If an online retailer requires your address for the purchase, you might use a fake address generator like [Prepostseo](https://www.prepostseo.com/tool/fake-address-generator) to create a fictitious one. Depending on the retailer's terms of service, providing false information could lead to issues or account termination. 
-- Utilize a temporary phone number or "phone burner" if the retailer requires phone verification. Similar to the email aliases, some services may flag or block these numbers. 
+- Utilize a [temporary phone number](https://www.textverified.com/) or "phone burner" if the retailer requires phone verification. Similar to the email aliases, some services may flag or block these numbers. 
 - Purchase a [Paysafecard](www.paysafecard.com) at a local shop and use it for your online transactions. This way, you won't need to use your credit card information online.
-- If possible, ask a friend or family member to purchase the voucher on your behalf, and reimburse them in cash. This could help to preserve your anonymity. 
+- If possible, ask a friend or family member to purchase the voucher on your behalf, and reimburse them in cash. This could help to preserve your anonymity. Be sure to let them know that this purchase will be tied to their identity!
 
 Once you have your voucher, it is time to redeem it. For reference, here is what the coupon looks like:
 
@@ -94,10 +94,6 @@ Download [Envoy](https://foundationdevices.com/envoy/) from the following links 
 - [F-Droid](https://foundationdevices.com/fdroid/)
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy)
 - [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818)
-
-<p align="center">
-  <img src="/assets/img/azteco-home-page.png" class="responsive" style="max-width: 90%; height: auto;" />
-</p>
 
 Open Envoy, select the account you wish to send sats to and press the scan button. 
 
