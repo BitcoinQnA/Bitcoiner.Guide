@@ -75,6 +75,7 @@ tags: [node, wallet, security, privacy, nokyc]
 
 | Name                             |  Description                                                     |  Published                             |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
+| [Azteco Bitcoin Vouchers](/azteco)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Azteco Vouchers  |  31 Jul 2023         |
 | [AgoraDesk P2P Exchange](/agora)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using AgoraDesk  |  10 Jul 2023         |
 | [Peach Bitcoin Mobile P2P Exchange](/peach)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Peach Bitcoin  |  29 May 2023         |
 | [RoboSats Lightning P2P Exchange](/robosats)   |  Guide for purchasing P2P sats via Lightning using RoboSats  |  22 May 2023            |
