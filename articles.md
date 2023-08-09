@@ -23,7 +23,7 @@ tags: [node, wallet, security, privacy, nokyc]
 | Name                             |  Description                                                     |  Published                             |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
 | [Blixt 101](/blixt)   |  Collaborative post with [Expatriotic](https://twitter.com/expatri0tic) on using Blixt wallet  |  05 Jul 2023            |
-| [Stack Duo 101](/stack-duo)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Stack Duo mobile wallet  |  16 May 2023            |
+| [Stack Duo 101](/stack-duo)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Stack Duo mobile wallet  | Updated 09 August 2023            |
 | [Passport 101](/passport)   |  Basic explainer on setting up and using Passport HWW  | 07 Jul 2021                |
 | [Specter Desktop 101](/specter)   | Basic explainer on setting up and using Specter desktop wallet  | Updated 13 Apr 2021                |
 | [Sparrow Wallet 101](/sparrow)   |  Basic explainer on setting up and using Sparrow desktop wallet  | Updated 21 May 2021                     |
@@ -77,7 +77,7 @@ tags: [node, wallet, security, privacy, nokyc]
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
 | [Azteco Bitcoin Vouchers](/azteco)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Azteco Vouchers  |  31 Jul 2023         |
 | [AgoraDesk P2P Exchange](/agora)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using AgoraDesk  |  10 Jul 2023         |
-| [Peach Bitcoin Mobile P2P Exchange](/peach)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Peach Bitcoin  |  29 May 2023         |
+| [Peach Bitcoin Mobile P2P Exchange](/peach)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Peach Bitcoin  |  Updated 09 August 2023         |
 | [RoboSats Lightning P2P Exchange](/robosats)   |  Guide for purchasing P2P sats via Lightning using RoboSats  |  22 May 2023            |
 | [Creating A Buy Offer On  Hodl Hodl](/hodlhodloffer)  |   Guide for creating a buy offer using Hodl Hodl | 11 Sep 2020               |
 | [10 Steps To Your First no-KYC Bitcoin (Hodl Hodl)](/hodlhodl)    |  Guide for purchasing bitcoin on Hodl Hodl | 04 Aug 2020         |
