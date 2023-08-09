@@ -61,7 +61,7 @@ CoinGecko is a popular cryptocurrency market data platform that provides informa
   <img src="/assets/img/stack-duo-initial-setup-01.png" class="responsive" style="max-width: 85%; height: auto;" />
 </p>
 
-You will now create a pin code to access your Stack Duo. This password is specific to Stack Duo and has nothing to do with the underlying wallet seeds.
+To access your Stack Duo, you'll need to set up a PIN code. This PIN is exclusive to Stack Duo and is not related to the wallet seeds. Later, in the security settings, you'll have the option to customize the PIN length and shuffle the PIN pad layout.
 
 <p align="center">
   <img src="/assets/img/stack-duo-initial-setup-02.png" class="responsive" style="max-width: 40%; height: auto;" />
@@ -107,7 +107,7 @@ You are asked to name your wallet because Stack Duo allows more than one wallet 
   <img src="/assets/img/stack-duo-wallet-02.png" class="responsive" style="max-width: 40%; height: auto;" />
 </p>
 
-You will be shown a warning page before Stack Duo reveals your 24 recovery words. Tick the white box on the bottom left of your screen after reading the instructions.
+By default, Stack Duo generates a 12-word seed. However, if you prefer, you can opt for a 24-word seed instead. Before revealing your recovery words, Stack Duo will display a warning page. Once you've read the instructions on this page, check the box located at the bottom left of your screen.
 
 <p align="center">
   <img src="/assets/img/stack-duo-wallet-03.png" class="responsive" style="max-width: 40%; height: auto;" />
@@ -151,7 +151,7 @@ That's it! You have created a brand new Bitcoin wallet in Stack duo! You will no
 - You can paste the address, scan a QR code or select an address in your address book (more on that later).
 - Insert the amount of sats you wish to send.
 - Give the transaction a note.
-- Select the transaction fee.
+- Select the transaction fee or add a custom fee yourself.
 - Preview and confirm your transaction.
 
 <p align="center">

@@ -254,6 +254,21 @@ You have control over the fees you pay to the network when transferring your sat
 2. Press "Network Fees".
 3. Adjust the fee to your preference.
 
+### Increasing network fees in Peach wallet using RBF
+If you're using Peach wallet and your transaction is taking longer than expected to confirm, it's likely stuck in the Bitcoin network's mempool due to low fees. Starting from version 0.2.10, Peach wallet offers a solution to this using the Replace-By-Fee (RBF) feature.
+
+To increase the fee for a faster confirmation:
+
+1. Open your Peach wallet.
+2. Tap on the three horizontal lines icon.
+3. Select the transaction that is stuck in the mempool.
+4. Press “Increase Network Fee”.
+5. Adjust the fee based on the current mempool fees or your desired confirmation time.
+
+<p align="center">
+  <img src="/assets/img/peach-faq-rbf.png" class="responsive" style="max-width: 80%; height: auto;" />
+</p>
+
 ### Can my offers have multiple payment methods?
 You can add as many currencies and payment methods for your trades as you wish. 
 You can modify these before publishing offers or in your settings in "Payment Methods".
