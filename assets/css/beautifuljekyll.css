@@ -56,9 +56,12 @@ a:focus {
 blockquote {
   color: #808080;
   font-style: italic;
+  padding-bottom: 0.00rem;
+  border-left: .20em solid #a0a0a0;
+  padding-left: 1.3rem;
 }
 blockquote p:first-child {
-  margin-top: 0;
+  margin-top: 1;
 }
 hr.small {
   max-width: 6.25rem;
