@@ -77,7 +77,7 @@ All you need to hand is:
 
 - The Pixel
 - A USB cable to go from the phone to your computer
-- A web browser (Chrome, Edge or Brave will work fine)
+- A computer to run a web browser (Chrome, Edge or Brave will work fine)
 
 
 1. The first step is to go to **Settings** > **About phone** and repeatedly tap the build number until you see **'Developer Mode'** is activated.
@@ -268,14 +268,15 @@ Most people who have no interest in the privacy space are likely to be using Wha
 
 * [Signal](https://signal.org/) is one of the more popular end-to-end encrypted (E2EE) messengers that has a strong track record and rich feature set. Signal requires a phone number for sign up, so if you plan on chatting with people that you'd rather did not know your phone number, perhaps look into some of the alternatives. Signal must be downloaded via the Aurora Store.
 * [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) is a fairly new E2EE messenger. It has no user ID, requires no phone number or personal information. People find you by scanning your personal QR code or by visitng your unique link. Simplex also allows advanced users to run their own server to further reduce reliance on any centralized entity. Simplex does not have a desktop client, so may not be suitable if multi-device is on your priority list. Simplex for Android is available via F-Droid. 
-* [Threema](https://threema.ch/en/faq/libre_installation) offers a similar experience to Simplex, but has been around for longer and as a result, feels a little more polished. Threema is not free, a lifetime license costs $4.99 and can be bought with Bitcoin. Threema offers a web client and native desktop applications.The Android application is available via F-Droid. 
+* [Threema](https://threema.ch/en/faq/libre_installation) offers a similar experience to Simplex, but has been around for longer and as a result, feels a little more polished. Threema is not free, a lifetime license costs $4.99 and can be bought with Bitcoin. Threema offers a web client and native desktop applications. The Android application is available via F-Droid.
+* [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) is an unofficial FOSS fork of the official Telegram app for Android. Telegram has E2EE 'secret chats', but the default option is not private. Telegram FOSS can be downloaded from F-Droid. 
 
 <p align="center">
-  <img src="/assets/img/grapheneos8.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="/assets/img/grapheneos19.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
-  <b>Threema profile page</b>
+  Left: <b>Threema</b> &nbsp; &nbsp; &nbsp; Right: <b>Simplex</b>
 </p>
 
 
@@ -337,6 +338,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) is an E2EE notes application for syncing your thoughts and to-do lists across all of your devices. Their free plan should cover most personal use cases. Notesnook is available on F-Droid.
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) is very similar to Notesnook, but requires a paid plan to match the feature set. Standard Notes is available through F-Droid. 
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) is a keyboard app that allows you to customize pretty much anything you can think of when it comes to your phone typing experience. It can be downloaded via F-Droid.
+- [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) is the default Google keyboard app. In my experience it offers by far the best type and swipe experience. If you download this app, ensure you completely disable all network related permissions. It can be downloaded via Aurora.
 
 <p align="center">
   <img src="/assets/img/grapheneos12.png" class="responsive" style="max-width: 80%; height: auto;" />
@@ -427,6 +429,8 @@ If you do want to install them, simply tap the pre-installed 'Apps' application 
 GrapheneOS allows you to have a separate phone experience, within your phone. Additional profiles can install their own apps and services and cannot access any files or data from the owner account.
 If you only have one or two of those must have apps that require Play Services, but are only used very infrequently, installing those alongside Play Services in a separate profile might be a great idea to further bolster any minute privacy implications that are left by having them running in the owner profile.
 You can read more about this use case [here](https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
+
+If you decide to add a separate profile to suit your use case, the app [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) might be useful to you. Insular allows you to easily clone any of your existing apps across to the new profile without the need to go via any of the traditional install routes covered earlier in this guide. Insular also allows you to quickly 'freeze' any of those apps to completely disable all of that app's background services from running. 
 
 <p align="center">
   <img src="/assets/img/grapheneos17.png" class="responsive" style="max-width: 80%; height: auto;" />
