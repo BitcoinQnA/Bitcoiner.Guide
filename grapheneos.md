@@ -353,6 +353,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) is a beautifully designed Open Source weather app available via F-Droid. It also supports may different sizes of widgets so you can see the weather in your chosen location straight from your home screen.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) is an Open Source and privacy preserving translation app that supports more than 200 languages. Translate You is available via F-Droid.
 - [Proton Calendar](https://proton.me/calendar/download) is a simple to use E2EE that interacts seamlessly with your Proton email accounts. Proton Calendar can be downloaded as an APK or via the Aurora store.
+- [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) is an app for displaying and storing boarding passes, coupons, movie tickets and membership cards etc. Simply download the relevant `pkpass` or `espass` file and open with the app. PassAndroid is available via F-Droid. 
 
 <p align="center">
   <img src="/assets/img/grapheneos13-1.png" class="responsive" style="max-width: 80%; height: auto;" />
@@ -368,6 +369,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 * [Proton Pass](https://proton.me/pass/download) offers a similar free service to Bitwarden, but [Proton Unlimited](https://proton.me/pricing) customers  are able to access additional advanced features. Proton Pass is available via APK or Aurora.
 * [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) is a two-factor authentication application for systems utilizing one-time password protocols. Tokens can be added easily by scanning a QR code. FreeOTP is available via F-Droid.
 * [Ageis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) is a free, secure and Open Source app for Android to manage your 2-step verification tokens for your online services. Ageis is available via F-Droid.
+* [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) is a paid, cross platform service that encrypts your data locally so you can safely upload it to your favourite cloud service. Cryptomator can be downloaded via F-Droid.
 
 <p align="center">
   <img src="/assets/img/grapheneos14.png" class="responsive" style="max-width: 80%; height: auto;" />
