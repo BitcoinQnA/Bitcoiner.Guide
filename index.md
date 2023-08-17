@@ -37,6 +37,7 @@ share-img: https://bitcoiner.guide/assets/img/share.png
 | Resource                                                   | Description                                                                        |
 |------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [Bitcoin Seed Tool](/seed) | A tool to learn and experiment with seed creation |
+| [Bitcoin Converter](/convert) | Convert between sats/BTC and fiat currencies |
 | [Lightning Address Server](https://stacking.tips) | Use a Lightning Address with your own node |
 | [Sovereignty Toolkit](/toolkit) | A list of tools to regain your sovereignty                |                            
 | [Whirlpool Fee Calculator](/wpfees) | A tool for Whirlpool users calculate coinjoin fees |
