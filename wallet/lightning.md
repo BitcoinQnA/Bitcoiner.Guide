@@ -23,9 +23,10 @@ Lightning native wallets aren't that different from a 'normal' bitcoin wallet, i
 
 1.  [Alby](#alby)
 1.  [Breez](#breez)
-2.  [Phoenix](#phoenix)
-3.  [Zap](#zap)
-4.  [Zeus](#zeus)
+2.  [Mash](#mash)
+3.  [Phoenix](#phoenix)
+4.  [Zap](#zap)
+5.  [Zeus](#zeus)
 
 ***
 
@@ -82,6 +83,38 @@ Lightning native wallets aren't that different from a 'normal' bitcoin wallet, i
 * [Documentation](https://github.com/breez/breezmobile)
 * [Telegram](https://t.me/breez_lightning)
 * [Video](https://youtu.be/lcBsn8e-oQ4)
+
+***
+
+## Mash
+[Mash](https://mash.com/consumer-experience) has a simple and easy to use [lightning bitcoin wallet](https://app.mash.com/wallet) for anyone to get onboarded to lightning quickly – in a few minutes. It is recommended for small amounts to use interoperability with other lightning products, or experiences that inegrate Mash as a payment experience. 
+
+### Notable Features
+* No app store required. Download it right from your home-screen and use it how you want without needing big-techs approvals
+* Easy UI: Smart QR scanner to pay and receive funds with a single scan
+* Bolt 11 Invoices
+* LN-URL send/recieve
+* HOLD invoices
+* Lightning address to easily receive bitcoin from across the internet – without being tied to one app. Interoperability first!
+* Personalize your experiences with a custom name and avatar in your mash experiences 👩‍🎤
+
+### Notable Limitations
+* Cannot connect to own node atm
+
+### Available on
+* iOS as PWA
+* Android as PWA
+* Other Mobile OSes as PWA (untested)
+* Desktop Web
+* Mobile Web
+
+### Other resources
+* [Wallet Blog Post Overview](https://mash.com/blog/announcing-the-mash-bitcoin-lightning-wallet-app-for-android-and-ios/)
+* [Documentation](https://guides.mash.com/)
+* [Discord](https://discord.com/invite/KKBTDDw4cN)
+* [Earn with Mash](https://mash.com)
+* [Codebase](https://github.com/getmash/)
+
 
 ***
 
