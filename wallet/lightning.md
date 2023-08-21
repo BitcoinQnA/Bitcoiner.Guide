@@ -89,6 +89,10 @@ Lightning native wallets aren't that different from a 'normal' bitcoin wallet, i
 ## Mash
 [Mash](https://mash.com/consumer-experience) has a simple and easy to use [lightning bitcoin wallet](https://app.mash.com/wallet) for anyone to get onboarded to lightning quickly – in a few minutes. It is recommended for small amounts to use interoperability with other lightning products, or experiences that inegrate Mash as a payment experience. 
 
+<p align="left">
+<img src="/assets/img/Mash%20PWA%20Chip%20Consumer%20x2.png" class=responsive width="612" height="417" maxheight="417">
+</p>
+
 ### Notable Features
 * No app store required. Download it right from your home-screen and use it how you want without needing big-techs approvals
 * Easy UI: Smart QR scanner to pay and receive funds with a single scan
