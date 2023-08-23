@@ -30,7 +30,7 @@ I'm a firm believer that a lot of people shy away from decentralised exchanges b
 
 Hopefully this brief walkthrough of a Bisq trade will show you that it's not as scary as you might have first thought! I have blanked out any sensitive information to preserve my privacy. This whole trade took me 10 minutes which includes taking screenshots along the way for this article. Depending on your chosen payment method your trade time may vary.
 
-**1.** [Download](https://bisq.network/downloads/) the software for your OS, verify it's legitimate using the Verfication section in the [release notes](https://github.com/bisq-network/bisq/releases) area and install it. Afterwards you'll be met with the home screen
+**1.** [Download](https://bisq.network/downloads/) the software for your OS, verify it's legitimate using the Verfication section in the [release notes](https://github.com/bisq-network/bisq/releases) area and install it. If you'd like a great step by step guide on how to do this very impoortant verification process, check out Athena Alpha's guide [for Ubuntu here](https://www.athena-alpha.com/install-bisq-on-ubuntu/) and [for Windows here](https://www.athena-alpha.com/install-bisq-on-windows/). Afterwards you'll be met with the home screen
 
 <p align="center">
 <img src="/assets/img/bisq1.png" class=responsive width="600" height="400" maxheight="300" />
