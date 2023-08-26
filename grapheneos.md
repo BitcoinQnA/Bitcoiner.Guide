@@ -77,7 +77,7 @@ All you need to hand is:
 
 - The Pixel
 - A USB cable to go from the phone to your computer
-- A computer to run a web browser (Chrome, Edge or Brave will work fine)
+- A computer to run a web browser (any Chromium-based browser: Chrome, Edge, Brave, etc.)
 
 
 1. The first step is to go to **Settings** > **About phone** and repeatedly tap the build number until you see **'Developer Mode'** is activated.
