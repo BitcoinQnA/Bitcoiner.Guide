@@ -123,7 +123,7 @@ This type of set-up does come with additional hurdles that may be more difficult
 ### Notable Limitations
 * Less convenient for those transacting more often (due to stateless nature)
 * SD card should be removed after startup
-* SD card should be stored safely
+* SD card should be stored in a secure location
 
 ### Other Resources
 * [Codebase](https://github.com/SeedSigner/seedsigner)
