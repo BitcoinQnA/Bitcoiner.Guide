@@ -119,11 +119,13 @@ This type of set-up does come with additional hurdles that may be more difficult
 * Completely airgapped operation
 * Minimises supply chain attack vector
 * Can be built for little cost
+* Stateless per default
 
 ### Notable Limitations
-* Less convenient for those transacting more often (due to stateless nature)
-* SD card should be removed after startup
+* Less convenient for those transacting more often (*due to stateless nature*)
+* SD card should be removed after startup (*GUI notification since v0.7.0*)
 * SD card should be stored in a secure location
+* Less approachable for beginners (*due to stateless nature*)
 
 ### Other Resources
 * [Codebase](https://github.com/SeedSigner/seedsigner)
