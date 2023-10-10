@@ -121,7 +121,6 @@ This type of set-up does come with additional hurdles that may be more difficult
 * Can be built for little cost
 
 ### Notable Limitations
-* Less approachable for beginners
 * Less convenient for those transacting more often (due to stateless nature)
 
 ### Other Resources
