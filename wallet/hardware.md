@@ -104,6 +104,7 @@ This type of set-up does come with additional hurdles that may be more difficult
 * [Documentation](https://docs.foundationdevices.com/)
 * [Telegram](https://t.me/foundationdevices)
 * [Video](https://www.youtube.com/watch?v=rUGTWWUlCgU&list=PLacNs-EplMhZ7PCqpzUmX3oNxJwjaL0Kn&index=1)
+* [Athena Alpha Passsport Review](https://www.athena-alpha.com/foundation-passport-review/)
 
 ***
 
@@ -181,5 +182,5 @@ This type of set-up does come with additional hurdles that may be more difficult
 
 ***
 
-Finished looking for a hardware wallet? Check out the available [Lightning native](/wallet/lightning) wallets.
+For many, many more options, check out Athena Alpha's huge [Crypto Wallet](https://www.athena-alpha.com/crypto-wallets/) database to find and compare other good (and terrible) hardware wallets. Finished looking for a hardware wallet? Check out the available [Lightning native](/wallet/lightning) wallets.
 

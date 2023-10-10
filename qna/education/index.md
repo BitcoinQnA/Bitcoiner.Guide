@@ -53,6 +53,7 @@ tags: [books, test]
 | Name                                                                         | Description                                                        | 
 |------------------------------------------------------------------------------|--------------------------------------------------------------------|  
 | [Bitcoin.org](https://bitcoin.org/)     |     The 'Bitcoin homepage'                                                |
+| [Athena Alpha](https://www.athena-alpha.com/)     |    Trusted resources to help you buy, use and invest with Bitcoin     |
 | [Bitcoin Intro](https://bitcoin-intro.com/) |  Newcomer introduction guide   |
 | [Bitcoin Only](https://bitcoin-only.com/) |  Your hub for all things Bitcoin    |
 | [Ministry of Nodes](https://www.ministryofnodes.com.au/) |  Articles + Videos on setting up your own node  |
