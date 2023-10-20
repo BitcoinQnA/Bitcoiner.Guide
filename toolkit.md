@@ -100,6 +100,7 @@ This page is a collection of the tools I use to remain as in control of my data 
 | ---------------------------- | -----------------------------|----------------------------|
 | 2 Factor Authentication  | [andOTP](https://f-droid.org/en/packages/org.shadowice.flocke.andotp/)   | Time-based One-time Passwords (TOTP)  |
 | Password Manager         | [Bitwarden](https://bitwarden.com/)   | Cross device password generation and storage  |
+| BIP39-XOR encryption     | [BIP39-XOR](https://github.com/GregTonoski/BIP39-XOR) | Key encryption |
 
 ***
 
