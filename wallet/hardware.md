@@ -98,7 +98,7 @@ The Blockstream [Jade](https://blockstream.com/jade/) is one of the smallest har
 
 
 ### Notable Limitations
-* No physical secure element but the possibility to save your seed on the device in combination with a virtual secure element *(not mandatory)*
+* No physical secure element but the possibility to save your seed on the device in combination with a [virtual secure element](https://help.blockstream.com/hc/en-us/articles/9639949755673-How-does-Blockstream-Jade-s-oracle-enforced-PIN-protection-work-) *(not mandatory)*
 * Screen for air-gapped operations is very small compared to competitors
 
 ### Other Resources
