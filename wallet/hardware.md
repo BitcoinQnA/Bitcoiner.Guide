@@ -25,7 +25,7 @@ This type of set-up does come with additional hurdles that may be more difficult
 
 1.  [BitBox02](#bitbox02)
 2.  [Coldcard](#coldcard)
-3.  [Jade](#Jade)
+3.  [Jade](#jade)
 4.  [Passport](#passport)
 5.  [Seed Signer](#seed-signer)
 6.  [Specter DIY](#specter-diy)
@@ -88,7 +88,7 @@ This type of set-up does come with additional hurdles that may be more difficult
 The Blockstream [Jade](https://blockstream.com/jade/) is one of the smallest hardware wallets on the market but offers a lot of features like the support of SeedQR and a built-in battery. Beginners or people who are not interested in the use of stateless devices have the option to use USB, Bluetooth or SeedQR with a stored seed in combination with a virtual secure element (pin server). There is also the option to use the Jade as a stateless signing device only. 
 
 <p align="center">
-<img src="/assets/img/jade.png" class=responsive width="350" height="350" maxheight="350">
+<img src="/assets/img/jade.png" class=responsive height="350" maxheight="350">
 </p>
 
 ### Notable Features
