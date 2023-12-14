@@ -26,7 +26,7 @@ This type of set-up does come with additional hurdles that may be more difficult
 1.  [BitBox02](#bitbox02)
 2.  [Coldcard](#coldcard)
 3.  [Passport](#passport)
-4.  [Seed Signer](#seed-signer)
+4.  [SeedSigner](#seedsigner)
 5.  [Specter DIY](#specter-diy)
 6.  [Trezor](#trezor)
 
@@ -108,22 +108,25 @@ This type of set-up does come with additional hurdles that may be more difficult
 
 ***
 
-## Seed Signer
+## SeedSigner
 
-[Seed Signer](https://seedsigner.com/) is an offline, air-gapped Bitcoin transaction signing device that can be built from off-the-shelf [components](https://github.com/SeedSigner/seedsigner/blob/main/README.md#shopping-list) for around $50. After gathering and assembling the hardware, users flash the open source [software](https://github.com/SeedSigner/seedsigner/releases) onto a microSD card, insert to the device and power on. Seed Signer is a 'stateless' device, meaning that once powered off, it does not store any private keys. SeedSigner helps users save with Bitcoin by assisting with trustless private key generation and multi-signature wallet setup, and helps users transact with Bitcoin via a secure, air-gapped QR-exchange signing model.
+[SeedSigner](https://seedsigner.com/) is an offline, air-gapped Bitcoin transaction signing device that can be built from off-the-shelf [components](https://github.com/SeedSigner/seedsigner/blob/main/README.md#shopping-list) for around $70. After gathering and assembling the hardware, users flash the open source [software](https://github.com/SeedSigner/seedsigner/releases) onto a microSD card, insert to the device and power on. SeedSigner is a 'stateless' device, meaning that once powered off, it does not store any private keys. SeedSigner helps users save with Bitcoin by assisting with trustless private key generation and multi-signature wallet setup, and helps users transact with Bitcoin via a secure, air-gapped QR-exchange signing model ([SeedQR](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/README.md)).
 
 <p align="center">
-<img src="/assets/img/seedsigner(1).png" class=responsive width="410" height="300" maxheight="390">
+<img src="/assets/img/SeedSigner.png" class=responsive height="200" maxheight="390">
 </p>
 
 ### Notable Features
 * Completely airgapped operation
 * Minimises supply chain attack vector
 * Can be built for little cost
+* Stateless per default
 
 ### Notable Limitations
-* Less approachable for beginners
-* Less convenient for those transacting more often (due to stateless nature)
+* Less convenient for those transacting more often (*due to stateless nature*)
+* SD card should be removed after startup (*GUI notification since v0.7.0*)
+* SD card should be stored in a secure location
+* Less approachable for beginners (*due to stateless nature*)
 
 ### Other Resources
 * [Codebase](https://github.com/SeedSigner/seedsigner)
