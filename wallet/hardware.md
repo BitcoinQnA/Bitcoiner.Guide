@@ -25,10 +25,11 @@ This type of set-up does come with additional hurdles that may be more difficult
 
 1.  [BitBox02](#bitbox02)
 2.  [Coldcard](#coldcard)
-3.  [Passport](#passport)
-4.  [SeedSigner](#seedsigner)
-5.  [Specter DIY](#specter-diy)
-6.  [Trezor](#trezor)
+3.  [Jade](#jade)
+4.  [Passport](#passport)
+5.  [Seed Signer](#seed-signer)
+6.  [Specter DIY](#specter-diy)
+7.  [Trezor](#trezor)
 
 ***
 
@@ -79,6 +80,31 @@ This type of set-up does come with additional hurdles that may be more difficult
 * [Documentation](https://coldcardwallet.com/docs/)
 * [Telegram](https://t.me/coldcard)
 * [Video](https://www.youtube.com/playlist?list=PLZKkuPrgFw0axLoDDzxAIYzpZeC_T1i7W)
+
+***
+
+## Jade
+
+The Blockstream [Jade](https://blockstream.com/jade/) is one of the smallest hardware wallets on the market but offers a lot of features like the support of SeedQR and a built-in battery. Beginners or people who are not interested in the use of stateless devices have the option to use USB, Bluetooth or SeedQR with a stored seed in combination with a virtual secure element (pin server). There is also the option to use the Jade as a stateless signing device only. 
+
+<p align="center">
+<img src="/assets/img/jade.png" class=responsive height="350" maxheight="350">
+</p>
+
+### Notable Features
+* Fully air-gapped operation possible
+* Stateless operation possible
+* Fully open source
+
+
+### Notable Limitations
+* No physical secure element but the possibility to save your seed on the device in combination with a [virtual secure element](https://help.blockstream.com/hc/en-us/articles/9639949755673-How-does-Blockstream-Jade-s-oracle-enforced-PIN-protection-work-) *(not mandatory)*
+* Screen for air-gapped operations is very small compared to competitors
+
+### Other Resources
+* [Codebase](https://github.com/Blockstream/Jade)
+* [Documentation](https://help.blockstream.com/hc/en-us/categories/900000061906-Blockstream-Jade)
+* [Video](https://www.youtube.com/watch?v=d_9Dtcc1nlY)
 
 ***
 
