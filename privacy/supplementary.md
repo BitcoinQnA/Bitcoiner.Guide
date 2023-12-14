@@ -34,6 +34,7 @@ A VPN provides privacy by 'tunneling' your web traffic to a different server whi
 Communication services that use encryption to avoid spying.
 
 * [Signal](https://signal.org/en/)
+* [SimpleX](https://simplex.chat/) (*without user IDs*)
 * [Keybase](https://keybase.io/)
 * [Session](https://getsession.org/)
 * [Telegram](https://telegram.org/) (*Use secret chats*)

@@ -37,26 +37,25 @@ Find many more wallet options [here](https://bitcoiner.guide/wallet).
 |-----------------------------------------------------------|--------------------------------------------------------------------|   
 | [Blue Wallet](https://bluewallet.io/)                     | Feature packed mobile wallet with a simple UI (Android + iOS)      |
 | [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)       | The original Bitcoin node software, comes with a built in desktop wallet   |
-| [Breez](https://breez.technology/)                        | The easiest way to onboard into Lightning                          |               
-| [Coldcard](https://coldcardwallet.com/)                   | The most secure hardware wallet on the market                      |
+| [Phoenix](https://phoenix.acinq.co/)                        | The best way to onboard into Lightning without your own node             |               
+| [Passport](https://foundationdevices.com/passport)                   | The best Bitcoin-only hardware wallet                      |
 | [Samourai Wallet](https://samouraiwallet.com/)            | The best privacy focused mobile wallet on the market (Android only)|
-| [Specter Desktop](https://github.com/cryptoadvance/specter-desktop)    | Feature rich desktop wallet with a simple UI                       |
+| [Sarrow Wallet](https://sparrowwallet.com)    | Feature rich desktop wallet with a simple UI                       |
 
 
 <br/>
 
 ### Buy Bitcoin
 
-KYC services offer the easiest way to buy Bitcoin, but you should understand the [risks](https://bitcoiner.guide/nokyconly) in doing so first.
+KYC services offer the easiest way to buy Bitcoin, but you should understand the [risks](https://bitcoiner.guide/nokyconly) in doing so first. None of the following enforce such draconian regulations. 
 
 
 | Name                                                      | Description                                                        | 
 |-----------------------------------------------------------|--------------------------------------------------------------------|   
-| [Hodl Hodl](https://hodlhodl.com/)                        | Global peer to peer trading platform (noKYC)                       |
-| [Bisq](https://bisq.network/)                              | Global peer to peer trading platform (noKYC)                       |
-| [Cash App](https://cash.app/)                             | Mobile app that makes it easy to buy bitcoin (US only + requires KYC)    |               
-| [Swan Bitcoin](https://swanbitcoin.com/)                  | Offers recurring buys. US only. (US only + requires KYC)           |
-| [Coin Floor](https://coinfloor.co.uk/)                    | Offers recurring buys (UK/EU + requires KYC)                       |
+| [Hodl Hodl](https://hodlhodl.com/)                        | Global peer to peer trading platform                     |
+| [Bisq](https://bisq.network/)                              | Global peer to peer trading platform                     |
+| [RoboSats](https://learn.robosats.com/)                    | Lightning Network based global peer to peer trading platform   |               
+| [Peach Bitcoin](https://peachbitcoin.com/)                  | Peer to peer trading platform           |
 
 
 

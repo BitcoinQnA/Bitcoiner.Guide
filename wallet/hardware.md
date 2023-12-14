@@ -130,25 +130,29 @@ The Blockstream [Jade](https://blockstream.com/jade/) is one of the smallest har
 * [Documentation](https://docs.foundationdevices.com/)
 * [Telegram](https://t.me/foundationdevices)
 * [Video](https://www.youtube.com/watch?v=rUGTWWUlCgU&list=PLacNs-EplMhZ7PCqpzUmX3oNxJwjaL0Kn&index=1)
+* [Athena Alpha Passsport Review](https://www.athena-alpha.com/foundation-passport-review/)
 
 ***
 
-## Seed Signer
+## SeedSigner
 
-[Seed Signer](https://seedsigner.com/) is an offline, air-gapped Bitcoin transaction signing device that can be built from off-the-shelf [components](https://github.com/SeedSigner/seedsigner/blob/main/README.md#shopping-list) for around $50. After gathering and assembling the hardware, users flash the open source [software](https://github.com/SeedSigner/seedsigner/releases) onto a microSD card, insert to the device and power on. Seed Signer is a 'stateless' device, meaning that once powered off, it does not store any private keys. SeedSigner helps users save with Bitcoin by assisting with trustless private key generation and multi-signature wallet setup, and helps users transact with Bitcoin via a secure, air-gapped QR-exchange signing model.
+[SeedSigner](https://seedsigner.com/) is an offline, air-gapped Bitcoin transaction signing device that can be built from off-the-shelf [components](https://github.com/SeedSigner/seedsigner/blob/main/README.md#shopping-list) for around $70. After gathering and assembling the hardware, users flash the open source [software](https://github.com/SeedSigner/seedsigner/releases) onto a microSD card, insert to the device and power on. SeedSigner is a 'stateless' device, meaning that once powered off, it does not store any private keys. SeedSigner helps users save with Bitcoin by assisting with trustless private key generation and multi-signature wallet setup, and helps users transact with Bitcoin via a secure, air-gapped QR-exchange signing model ([SeedQR](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/README.md)).
 
 <p align="center">
-<img src="/assets/img/seedsigner(1).png" class=responsive width="410" height="300" maxheight="390">
+<img src="/assets/img/SeedSigner.png" class=responsive height="200" maxheight="390">
 </p>
 
 ### Notable Features
 * Completely airgapped operation
 * Minimises supply chain attack vector
 * Can be built for little cost
+* Stateless per default
 
 ### Notable Limitations
-* Less approachable for beginners
-* Less convenient for those transacting more often (due to stateless nature)
+* Less convenient for those transacting more often (*due to stateless nature*)
+* SD card should be removed after startup (*GUI notification since v0.7.0*)
+* SD card should be stored in a secure location
+* Less approachable for beginners (*due to stateless nature*)
 
 ### Other Resources
 * [Codebase](https://github.com/SeedSigner/seedsigner)
@@ -207,5 +211,5 @@ The Blockstream [Jade](https://blockstream.com/jade/) is one of the smallest har
 
 ***
 
-Finished looking for a hardware wallet? Check out the available [Lightning native](/wallet/lightning) wallets.
+For many, many more options, check out Athena Alpha's huge [Crypto Wallet](https://www.athena-alpha.com/crypto-wallets/) database to find and compare other good (and terrible) hardware wallets. Finished looking for a hardware wallet? Check out the available [Lightning native](/wallet/lightning) wallets.
 
