@@ -40,7 +40,7 @@ Find many more wallet options [here](https://bitcoiner.guide/wallet).
 | [Phoenix](https://phoenix.acinq.co/)                        | The best way to onboard into Lightning without your own node             |               
 | [Passport](https://foundationdevices.com/passport)                   | The best Bitcoin-only hardware wallet                      |
 | [Samourai Wallet](https://samouraiwallet.com/)            | The best privacy focused mobile wallet on the market (Android only)|
-| [Sarrow Wallet](https://sparrowwallet.com)    | Feature rich desktop wallet with a simple UI                       |
+| [Sparrow Wallet](https://sparrowwallet.com)    | Feature rich desktop wallet with a simple UI                       |
 
 
 <br/>
