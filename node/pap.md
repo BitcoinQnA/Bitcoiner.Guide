@@ -30,6 +30,7 @@ Plug and Play node boxes offer a convenient way to run your own node. Most run o
 1.  [Build-A-Node](#build-a-node)
 1.  [The Bitcoin Machine](#the-bitcoin-machine)
 1.  [BTC Cube](#btc-cube)
+1.  [MoN Nodebox](#mon-nodebox)
 
 ***
 
@@ -54,6 +55,7 @@ Plug and Play node boxes offer a convenient way to run your own node. Most run o
 | [Build-A-Node](#build-a-node)               | From $410                         |
 | [The Bitcoin Machine](#the-bitcoin-machine) | From $199                         |
 | [BTC Cube](#btc-cube)                       | From $679.95                      |
+| [MoN Nodebox](#mon-nodebox)                 | From $350                         |
 
 ***
 
@@ -425,6 +427,30 @@ Comes packaged with this base hardware but upgrades are available.
 * 1TB SSD
 * Pimoroni fan shim cooler
 * Unique case design
+
+***
+
+
+## MoN Nodebox
+
+[The Ministry of Nodes Nodebox](https://shop.ministryofnodes.com/shop/bitcoin-nodebox/) offers a plug and play node on a refurbished Dell Optiplex MicroPC or lenovo ThinkCentre MiniPC. Using such hardware might not look as pretty as other offerings, but you can be sure this node will handle anything you can throw at it. This node is designed to excel at the basics. It comes pre-installed Ubuntu 22.04 LTS, Bitcoin Core, Electrs and mempool.space. 
+
+<p align="center">
+<img src="/assets/img/monnode.png" class=responsive width="500" height="280" maxheight="350">
+</p>
+
+### Cost
+
+* From $350
+
+### Recommended Hardware
+
+Come ready built with:
+
+* A refurbished Dell Optiplex MicroPC or Lenovo ThinkCentre MiniPC
+* i5 processor
+* 8GB RAM
+* Brand new 2TB SSD (SATA connection)
 
 ***
 
