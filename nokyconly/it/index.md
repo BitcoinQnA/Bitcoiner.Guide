@@ -84,6 +84,7 @@ Fortunatamente esistono alcune opzioni per poter comprare bitcoin senza KYC. Son
 * [**Bisq**](https://bisq.network)
 * [**LocalCryptos**](https://localcryptos.com/)
 * [**Local Coin Swap**](https://localcoinswap.com/)
+* [**p2p lightning bot**](https://lnp2pbot.com/)
 
 
 Puoi trovare maggiori informazioni su [KYC, not me!](http://kycnot.me) e [qui](https://github.com/cointastical/P2P-Trading-Exchanges/)
