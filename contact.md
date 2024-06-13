@@ -10,8 +10,8 @@ tags: [books, test]
 
 Feel free to reach out about anything, I am by no means an expert but I will always support those who are keen to learn.
 
-*   [Nostr](https://iris.to/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx)
-*   [Twitter](https://twitter.com/BitcoinQ_A)
+*   [Nostr](primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx)
+*   [Twitter](https://x.com/btcqna)
 *   [Telegram](https://t.me/BitcoinQnA)
 *   [Threema](https://threema.id/ZJK77ZCS)
 *   [Simplex](https://simplex.chat/contact#/?v=1-2&smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2F9V5H9LVJL96f04Shuopkg3TpblouawFI%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAqKqH0vVUZsvJM0zbltRWQTAeGNOaIsJqIaSdm6M7dHo%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion)
