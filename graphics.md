@@ -43,16 +43,16 @@ share-img: https://bitcoiner.guide/assets/img/sharegraphics.png
 
 
 <p align="center">
-<img src="/assets/img/Stonewall.png" class=responsive width="650" height="350" maxheight="300" />
+<img src="/assets/img/stonewall_diagram.png" class=responsive width="650" height="350" maxheight="300" />
 </p>
 
 <p align="center">
-<img src="/assets/img/STONEWALL%20X2(3).png" class=responsive width="650" height="350" maxheight="300" />
+<img src="/assets/img/stonewallx2_diagram.png" class=responsive width="650" height="350" maxheight="300" />
 </p>
 
 
 <p align="center">
-<img src="/assets/img/STOWAWAY.png" class=responsive width="650" height="350" maxheight="300" />
+<img src="/assets/img/stowaway_diagram.png" class=responsive width="650" height="350" maxheight="300" />
 </p>
 
 
