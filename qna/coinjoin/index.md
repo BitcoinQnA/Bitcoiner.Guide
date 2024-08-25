@@ -12,6 +12,7 @@ tags: [books, test]
 ***
 
 
+
 | Question                                                   | Answer                                                                             |
 |------------------------------------------------------------|------------------------------------------------------------------------------------|  
 | [What is Coinjoin?]() | Coinjoin (sometimes called mixing) is an on chain privacy solution for Bitcoin that was first proposed in 2013 by Gregory Maxwell. It is designed to break the 'common ownership heuristic' which assumes that all inputs to a transaction belong to the same entity. Bitcoin addresses aren't directly tied to real identities but anyone with enough time and resources (like chain analysis firms) can start to make these links by watching Bitcoin's public ledger. Coinjoin helps prevent this. |
