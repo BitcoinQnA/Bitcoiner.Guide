@@ -120,7 +120,7 @@ Are you confident then when you come to spend from your HWW that you will know h
 - Spend the remaining UTXOs one by one to a new address each time. Ensure you use varying fee rates and timing to obfuscate against anyone watching on chain. Remember, by spending and paying miner fees you lose the equal amounts created by the Whirlpool protocol. So instead of an equal output of 0.01, when it reaches your HWW it will look something like 0.00995 depending on miner fees.
 
 <p align="center">
-<img src="/assets/img/stowaway.png" class=responsive width="500" height="200" maxheight="300" />
+<img src="/assets/img/singletx_diagram.png" class=responsive width="500" height="200" maxheight="300" />
 </p>
 
 
