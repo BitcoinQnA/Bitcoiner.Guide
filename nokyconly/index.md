@@ -85,7 +85,6 @@ Thankfully there are some options out there to purchase Bitcoin via no KYC sourc
 * [**Bisq**](https://bisq.network)
 * [**RoboSats**](https://github.com/Reckless-Satoshi/robosats#bitcoin-mainnet)
 * [**Local Coin Swap**](https://localcoinswap.com/)
-* [**Agora Desk**](https://agoradesk.com)
 * [**Peach Bitcoin**](https://peachbitcoin.com/)
 
 
