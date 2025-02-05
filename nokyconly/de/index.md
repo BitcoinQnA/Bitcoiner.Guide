@@ -85,6 +85,7 @@ Glücklicherweise gibt es einige Optionen, um Bitcoin über KYC-freie Quellen zu
 * [**Bisq**](https://bisq.network)
 * [**LocalCryptos**](https://localcryptos.com/)
 * [**Local Coin Swap**](https://localcoinswap.com/)
+* [**p2p lightning bot**](https://lnp2pbot.com/)
 
 
 Hierzu findest du mehr Informationen unter [KYC, not me!](http://kycnot.me) und [hier](https://github.com/cointastical/P2P-Trading-Exchanges/)

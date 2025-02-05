@@ -87,6 +87,7 @@ Thankfully there are some options out there to purchase Bitcoin via no KYC sourc
 * [**Local Coin Swap**](https://localcoinswap.com/)
 * [**Agora Desk**](https://agoradesk.com)
 * [**Peach Bitcoin**](https://peachbitcoin.com/)
+* [**p2p lightning bot**](https://lnp2pbot.com/)
 
 
 You can find more at [KYC, not me!](http://kycnot.me) and [here](https://github.com/cointastical/P2P-Trading-Exchanges/)
