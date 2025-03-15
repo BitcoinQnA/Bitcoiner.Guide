@@ -29,6 +29,7 @@ Desktop wallets can sometimes offer more usability and often, a greater feature 
 5.  [Lily Wallet](#lily-wallet)
 6.  [Specter Desktop](#specter-desktop)
 7.  [Sparrow Wallet](#sparrow-wallet)
+8.  [Bitcoin Safe](#bitcoin-safe)
 
 
 ***
@@ -269,6 +270,38 @@ Desktop wallets can sometimes offer more usability and often, a greater feature 
 * [Documentation](https://www.sparrowwallet.com/docs/)
 * [Telegram](https://t.me/sparrowwallet)
 * [Contact](https://twitter.com/SparrowWallet)
+
+
+***
+
+## Bitcoin Safe
+
+[Bitcoin Safe](https://bitcoin-safe.org/) is a feature-rich desktop wallet focused on making long-term savings safer and easier. It includes a step-by-step wizard to help users set up a single or 2-of-3 multisignature wallet.
+Bitcoin Safe organizes addresses into categories and allows users to synchronize and back up these categories and labels across multiple computers.
+For power users, it offers Multi-party Multisig collaboration with an integrated chat and one-click PSBT sharing.
+
+<p align="center">
+<img src="/assets/img/bitcoin-safe.png" class=responsive width="630" height="400" maxheight="450">
+</p>
+
+### Notable Features
+* Wizard for secure step-by-step wallet creation
+* Label Synchronization and Backup
+* Coin categories for similified labeling
+* Multi-party Multisig collaboration
+
+### Notable Limitations
+* Requires hardware signer(s)
+
+### Available on
+* Mac OS
+* Windows
+* Linux
+
+### Other resources
+* [Codebase](https://github.com/andreasgriffin/bitcoin-safe)
+* [Documentation](https://bitcoin-safe.org/en/features/)
+* [Contact](https://bitcoin-safe.org/en/contact/)
 
 
 ***
