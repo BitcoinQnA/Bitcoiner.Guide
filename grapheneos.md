@@ -382,7 +382,6 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 ### Cloud Solutions
 
 - [Proton Drive](https://proton.me/drive/download) is a paid E2EE cloud solution for backing up and storing all of your files. At the time of writing, they have just announced a Windows desktop client, but Mac and Linux users must continue to use the web version to sync from their computers (for now). The Android client is available as an APK or via Aurora. 
-- [Skiff](https://skiff.com/download) also offers paid E2EE cloud storage and file collaboration tools. They offer a Mac and Windows desktop client (as well as a web app) and their Android clients must be downloaded from Aurora.
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) offers a fully featured cloud based solution for collaboration, cross device sync and file storage. More advanced users can choose to self-host their Free and Open Source software on any hardware they like. The Android clients can be downloaded via F-Droid. 
 - [Cryptpad](https://cryptpad.fr/) offers a free, web based, E2EE alternative to Google Docs. 
 
