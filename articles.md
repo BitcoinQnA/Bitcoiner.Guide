@@ -17,77 +17,81 @@ tags: [node, wallet, security, privacy, nokyc]
   <br><br>
 </p>
 
-
 # Wallets
 
-| Name                             |  Description                                                     |  Published                             |
+| Name | Description | Published |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
-| [Blixt 101](/blixt)   |  Collaborative post with [Expatriotic](https://twitter.com/expatri0tic) on using Blixt wallet  |  05 Jul 2023            |
-| [Stack Duo 101](/stack-duo)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Stack Duo mobile wallet  | Updated 09 Aug 2023            |
-| [Passport 101](/passport)   |  Basic explainer on setting up and using Passport HWW  | 07 Jul 2021                |
-| [Specter Desktop 101](/specter)   | Basic explainer on setting up and using Specter desktop wallet  | Updated 13 Apr 2021                |
-| [Sparrow Wallet 101](/sparrow)   |  Basic explainer on setting up and using Sparrow desktop wallet  | Updated 21 May 2021                     |
-| [Sentinel 101](/sentinel)        | Basic explainer on setting up and using Sentinel 'watch only' wallet | 01 Sep 2020                      |
-| [Blue Wallet 101](/blue)         |  Basic explainer on setting up and using Blue Wallet             | 11 Jul 2020                            |
-| [Zap 101](/zap)                  |  Basic explainer on setting up and using Zap                     | 06 Jul 2020                            |
-| [Coldcard 101](/coldcard)        |  Basic explainer on setting up and using a Coldcard              | 03 Jul 2020                            |
-| [Zeus 101](/zeus)                |  Basic explainer on setting up and using Zeus                    | 12 Jun 2020                            |
-| [OpenDime 101](/opendime)         |  Basic explainer on setting up and using an an Opendime          | 11 Jun 2020                            |
-| [Samourai Wallet 101](/samourai) |  Basic explainer of Samourai Wallet                              | 01 May 2020                            |
+| [Blixt 101](/blixt) | Collaborative post with [Expatriotic](https://twitter.com/expatri0tic) on using Blixt wallet | 05 Jul 2023 |
+| [Stack Duo 101](/stack-duo) | Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Stack Duo mobile wallet | Updated 09 Aug 2023 |
+| [Passport 101](/passport) | Basic explainer on setting up and using Passport HWW | 07 Jul 2021 |
+| [Specter Desktop 101](/specter) | Basic explainer on setting up and using Specter desktop wallet | Updated 13 Apr 2021 |
+| [Sparrow Wallet 101](/sparrow) | Basic explainer on setting up and using Sparrow desktop wallet | Updated 21 May 2021 |
+| [Sentinel 101](/sentinel) | Basic explainer on setting up and using Sentinel 'watch only' wallet | 01 Sep 2020 |
+| [Blue Wallet 101](/blue) | Basic explainer on setting up and using Blue Wallet | 11 Jul 2020 |
+| [Zap 101](/zap) | Basic explainer on setting up and using Zap | 06 Jul 2020 |
+| [Coldcard 101](/coldcard) | Basic explainer on setting up and using a Coldcard | 03 Jul 2020 |
+| [Zeus 101](/zeus) | Basic explainer on setting up and using Zeus | 12 Jun 2020 |
+| [OpenDime 101](/opendime) | Basic explainer on setting up and using an an Opendime | 11 Jun 2020 |
+| [Samourai Wallet 101](/samourai) | Basic explainer of Samourai Wallet | 01 May 2020 |
+| [Ashigaru Mobile](/ashigaru-mobile) | Detailed guide on Ashigaru Mobile wallet and all postmix spending tools | 29 Nov 2025 |
+| [Passport Core Advanced](/passport-core-advanced) | How to seup Passport Core manually with Sparrow | 29 Nov 2025 |
+| [Passport Core](/passport-core) | How to setup Passport Core easily with Envoy | 29 Nov 2025 |
 
 <br/>
 
 # Nodes
 
-| Name                             | Description                                                     |  Published                             |
+| Name | Description | Published |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
-| [Migrating your Samourai Wallet to RoninDojo](/rdmigrate) |  Connect or migrating Samourai Wallet to RoninDojo guide | 30 Jul 2020              |
-| [RoninDojo 101](/ronindojo)      |  Feature breakdown of RoninDojo                                  | 07 Jun 2020                            |
-| [Rescanning XPUBs using DMT](/dojo) |   Guide to restore balances using Dojo Maintenance Tool          | 24 May 2020                            |
-| [myNode 101](/mynode)            |  Feature breakdown of myNode                                     | 16 May 2020                            |
+| [Migrating your Samourai Wallet to RoninDojo](/rdmigrate) | Connect or migrating Samourai Wallet to RoninDojo guide | 30 Jul 2020 |
+| [RoninDojo 101](/ronindojo) | Feature breakdown of RoninDojo | 07 Jun 2020 |
+| [Rescanning XPUBs using DMT](/dojo) | Guide to restore balances using Dojo Maintenance Tool | 24 May 2020 |
+| [myNode 101](/mynode) | Feature breakdown of myNode | 16 May 2020 |
+| [Vanilla Dojo](/vanilla-dojo) | Guide to verify and setup vanilla Dojo | 29 Nov 2025 |
 
 <br/>
 
 # Security
 
-| Name                             |  Description                                                     |  Published                             |
+| Name | Description | Published |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
-| [Verifying Software 101](/verifysoftware) |   Guide to help users verify the software they download | 10 Jan 2021                            |
-| [10 ways to lose your bitcoin](/lostbitcoin) |  Tips for newcomers to avoid losing their bitcoin    | 12 Dec 2020                            |
+| [Verifying Software 101](/verifysoftware) | Guide to help users verify the software they download | 10 Jan 2021 |
+| [10 ways to lose your bitcoin](/lostbitcoin) | Tips for newcomers to avoid losing their bitcoin | 12 Dec 2020 |
 
 <br/>
 
 # Privacy
 
-| Name                             | Description                                                     |  Published                             |
+| Name | Description | Published |
 |----------------------------------|----------|------------------------------------------------------|----------------------------------------|
-| [GrapheneOS 101](/grapheneos) | The ultimate guide to phone privacy with GrapheneOS               | 10 Aug 2023                            |
-| [CalyxOS 101](/calyxos) | CalyxOS installation guide               | 11 Mar 2021                            |
-| [PayNyms 101](/paynym) |  Explainer on BIP47 PayNyms          | 02 Mar 2021                            |
-| [Whirlpool + Postmix FAQ](/whirlpool) |  Whirlpool explainer and FAQ          | 08 Aug 2020                            |
-| [Bitcoin Privacy Tips](/privacytips) |  Privacy tips for interacting with Bitcoin | 26 Jun 2020         |
-| [Your First Mobile Coinjoin](/mobilecoinjoin) |  Learn to use Whirlpool on mobile             | 20 Jun 2020                            |
-| [Deal With Coinjoin Change Outputs](/doxxic) |  Dealing with toxic change | 15 Jun 2020                   |
-| [Coinjoin to Cold Implications](/csimplications) |  Considerations when spending to cold storage | 03 May 2020 |
+| [GrapheneOS 101](/grapheneos) | The ultimate guide to phone privacy with GrapheneOS | 10 Aug 2023 |
+| [CalyxOS 101](/calyxos) | CalyxOS installation guide | 11 Mar 2021 |
+| [PayNyms 101](/paynym) | Explainer on BIP47 PayNyms | 02 Mar 2021 |
+| [Whirlpool + Postmix FAQ](/whirlpool) | Whirlpool explainer and FAQ | 08 Aug 2020 |
+| [Bitcoin Privacy Tips](/privacytips) | Privacy tips for interacting with Bitcoin | 26 Jun 2020 |
+| [Your First Mobile Coinjoin](/mobilecoinjoin) | Learn to use Whirlpool on mobile | 20 Jun 2020 |
+| [Deal With Coinjoin Change Outputs](/doxxic) | Dealing with toxic change | 15 Jun 2020 |
+| [Coinjoin to Cold Implications](/csimplications) | Considerations when spending to cold storage | 03 May 2020 |
+| [Ashigaru Whirlpool](/ashigaru-terminal-whirlpool) | How to whirlpool with Ashigaru Terminal | 29 Nov 2025 |
 
 <br/>
 
-# no-KYC 
+# no-KYC
 
-| Name                             |  Description                                                     |  Published                             |
+| Name | Description | Published |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
-| [Azteco Bitcoin Vouchers](/azteco)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Azteco Vouchers  |  31 Jul 2023         |
-| [AgoraDesk P2P Exchange](/agora)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using AgoraDesk  |  10 Jul 2023         |
-| [Peach Bitcoin Mobile P2P Exchange](/peach)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Peach Bitcoin  |  Updated 09 Aug 2023         |
-| [RoboSats Lightning P2P Exchange](/robosats)   |  Guide for purchasing P2P sats via Lightning using RoboSats  |  22 May 2023            |
-| [Creating A Buy Offer On  Hodl Hodl](/hodlhodloffer)  |   Guide for creating a buy offer using Hodl Hodl | 11 Sep 2020               |
-| [10 Steps To Your First no-KYC Bitcoin (Hodl Hodl)](/hodlhodl)    |  Guide for purchasing bitcoin on Hodl Hodl | 04 Aug 2020         |
-| [10 Steps To Your First no-KYC Bitcoin](/bisq) |  Guide for purchasing bitcoin on Bisq      | 08 Jun 2020                            |
+| [Azteco Bitcoin Vouchers](/azteco) | Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Azteco Vouchers | 31 Jul 2023 |
+| [AgoraDesk P2P Exchange](/agora) | Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using AgoraDesk | 10 Jul 2023 |
+| [Peach Bitcoin Mobile P2P Exchange](/peach) | Guest post by [Bitlevi](https://twitter.com/Bit_levi) on using Peach Bitcoin | Updated 09 Aug 2023 |
+| [RoboSats Lightning P2P Exchange](/robosats) | Guide for purchasing P2P sats via Lightning using RoboSats | 22 May 2023 |
+| [Creating A Buy Offer On  Hodl Hodl](/hodlhodloffer) | Guide for creating a buy offer using Hodl Hodl | 11 Sep 2020 |
+| [10 Steps To Your First no-KYC Bitcoin (Hodl Hodl)](/hodlhodl) | Guide for purchasing bitcoin on Hodl Hodl | 04 Aug 2020 |
+| [10 Steps To Your First no-KYC Bitcoin](/bisq) | Guide for purchasing bitcoin on Bisq | 08 Jun 2020 |
 
 <br/>
 
-# Misc 
+# Misc
 
-| Name                             |  Description                                                     |  Published                             |
+| Name | Description | Published |
 |----------------------------------|----------|-----------------------------------------------------------------|----------------------------------------|
-| [How To Fork an Open Source Project](/fork)   |  Guest post by [Bitlevi](https://twitter.com/Bit_levi) on contributing to FOSS projects  | 23 May 2023 |
+| [How To Fork an Open Source Project](/fork) | Guest post by [Bitlevi](https://twitter.com/Bit_levi) on contributing to FOSS projects | 23 May 2023 |
