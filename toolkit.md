@@ -100,6 +100,7 @@ This page is a collection of the tools I use to remain as in control of my data 
 | ---------------------------- | -----------------------------|----------------------------|
 | 2 Factor Authentication  | [andOTP](https://f-droid.org/en/packages/org.shadowice.flocke.andotp/)   | Time-based One-time Passwords (TOTP)  |
 | Password Manager         | [Bitwarden](https://bitwarden.com/)   | Cross device password generation and storage  |
+| Password Manager         | [Proton Password Manager](https://proton.me/pass)   | Ultra-secure password management tool  |
 
 ***
 
@@ -109,7 +110,8 @@ This page is a collection of the tools I use to remain as in control of my data 
 | Sub Category                 | Name                         |  Description                          |
 | ---------------------------- | -----------------------------|----------------------------|
 | VPN           | [Mullvad](https://mullvad.net/en/)    | VPN payable in bitcoin and requiring no personal info   |
-| Web Broswer   | [Tor](https://www.torproject.org/download/) | Browser for accessing onion links   |
+| VPN           | [Proton VPN](https://protonvpn.com/)    | Highly popular European based VPN   |
+| Web Browser   | [Tor](https://www.torproject.org/download/) | Browser for accessing onion links   |
 
 ***
 
