@@ -58,6 +58,7 @@ tags: [books, test]
 | [Bitcoin Only](https://bitcoin-only.com/) |  Your hub for all things Bitcoin    |
 | [Ministry of Nodes](https://www.ministryofnodes.com.au/) |  Articles + Videos on setting up your own node  |
 | [Keep it Simple Bitcoin](https://www.keepitsimplebitcoin.com/) |  Video guides on learning to interact with Bitcoin  |
+| [Bitcoin Basics](https://btcbasicsforeveryone.com/) |  Free plain-language lessons for total beginners  |
 | [Learn Me a Bitcoin](https://learnmeabitcoin.com/ ) |  How Bitcoin works  |
 | [Clark Moody Dashboard](https://bitcoin.clarkmoody.com/dashboard/) | If theres a Bitcoin stat you need, look no further   |
 | [BTC Sessions Video Tutorials](https://www.youtube.com/channel/UChzLnWVsl3puKQwc5PoO6Zg/playlists) | Video guides on all things Bitcoin   |
