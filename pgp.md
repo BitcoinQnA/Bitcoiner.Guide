@@ -1,55 +1,45 @@
 ---
 layout: page
-title: PGP  
-subtitle: Encrypted communications
+title: PGP
+subtitle: Encrypted communications & signed attestations
 #thumbnail-img: /assets/img/thumb.png
-share-img: https://bitcoiner.guide/assets/img/share.png
 tags: [books, test]
 ---
 
+Use the public key below to send me encrypted email at [qna@bitcoiner.guide](mailto:qna@bitcoiner.guide), or to verify any signed attestation, software release, or signed post that claims to come from me. Attach your own public key on the first email if you want a private reply.
 
-Send an encrypted [email](mailto:qna@bitcoiner.guide) using my public key below. Be sure to attach your own to the first email so I can respond privately.
+**Fingerprint** (primary, signing):
 
+```
+EB3D 738B EC6A 873A C274  5292 CF4F E215 EA66 63AC
+```
+
+Also discoverable on [keys.openpgp.org](https://keys.openpgp.org/search?q=qna@bitcoiner.guide).
+
+### Key rotation (May 2026)
+
+The previous key (`4A3762B5 01BA3B89 48CA0FD0 39EED3B0 80D10556`) has been retired. Backup access was lost in a system migration; no further attestations will be signed with it, and **anything encrypted to it can no longer be read**. If you sent me an encrypted message using that key, please re-send it encrypted to the current key below. The full signed rotation announcement is pinned on [X (@btcqna)](https://x.com/btcqna).
+
+### Current public key
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-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
-PIONVZGmlYt/UAE=
-=IV1M
+mDMEagtljRYJKwYBBAHaRw8BAQdAFnvKwpeKN4qoytnSUbAzRnfxkHW1RxTypIDi
+5CoO4t20H1FuQSA8cW5hQGZvdW5kYXRpb25kZXZpY2VzLmNvbT6IrwQTFgoAVxYh
+BOs9c4vsaoc6wnRSks9P4hXqZmOsBQJqkFyrGxSAAAAAAAQADm1hbnUyLDIuNSsx
+LjEyLDAsMwIbAwULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIXgAAKCRDPT+IV6mZj
+rE3FAQC6MyN0pjatq7PP2T3h8dqk7pDfWZjMayL53arjyI7AtgEA6znphmGi+bSH
+gjeQPFaVxlnOIRzxgIaS2MOaUkzB5w+0GVFuQSA8cW5hQGJpdGNvaW5lci5ndWlk
+ZT6IrwQTFgoAVxYhBOs9c4vsaoc6wnRSks9P4hXqZmOsBQJqC2WNGxSAAAAAAAQA
+Dm1hbnUyLDIuNSsxLjEyLDAsMwIbAwULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIX
+gAAKCRDPT+IV6mZjrB3vAP9UIbSaQeUJmlMfpgA7hsbE1uCwGrTGn6xYwdgMtaKZ
+9AD/Ze2NxAG/F0tYXb6HK5OYRVpnOlpmQ847WTejb8VoyQC4OARq2kYAEgorBgEE
+AZdVAQUBAQdAsE6OLtghcGyADnqB+fXyipdLDJI8BY+kLBwcFzzoH2IDAQgHiJoE
+GBYKAEIWIQTrPXOL7GqHOsJ0UpLPT+IV6mZjrAUCatpGABsUgAAAAAAEAA5tYW51
+MiwyLjUrMS4xMiwwLDMCGwwFCQPCZwAACgkQz0/iFepmY6yPHwEAqqP9PncZMqcz
+y34u/MgzwAR4S34KVzvXkTQJAKEI9woA/14mtWcKJTqKyMZlmfzyDcgRkTE4NqyJ
+OZgmA4/x6QwL
+=wVJO
 -----END PGP PUBLIC KEY BLOCK-----
 ```
